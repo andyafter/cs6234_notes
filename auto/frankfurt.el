@@ -19,8 +19,7 @@
     "beamer10"
     "lmodern"
     "amsmath"
-    "graphicx"
-    "mathptmx")
+    "graphicx")
    (TeX-add-symbols
     "mynew")))
 

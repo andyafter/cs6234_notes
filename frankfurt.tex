@@ -2,12 +2,21 @@
 \usepackage{lmodern}
 \usepackage{amsmath}
 \usepackage{graphicx}
-\usepackage{mathptmx} % seems something to do with the font
+%\usepackage{mathptmx} % seems something to do with the font
+
+
+\renewcommand{\familydefault}{\ptm}
+
 
 \usetheme{Frankfurt}
 \setbeamercolor{section in head/foot}{fg=white, bg=blue!30!black!90}
 
+
+%% commands definitions for
 \newcommand\mynew{andyandyandy}
+
+%% end of the definition of commands
+
 
 %% configuration for the slids style
 \makeatletter
@@ -15,15 +24,17 @@
 {
   \leavevmode%
   \hbox{%
-    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=2ex,center]{author in head/foot}%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1.6ex,center]{author in head/foot}%
       \usebeamerfont{author in
         head/foot}%
-      \insertshortauthor\hspace{1em}\beamer@ifempty{\insertshortinstitute}{}{(\insertshortinstitute)}
+      \insertshortauthor\hspace{1em}\beamer@ifempty{Advanced
+        Algorithms}{}{Advanced
+        Algorithms}
     \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=2ex,center]{title in head/foot}%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1.6ex,center]{title in head/foot}%
       \usebeamerfont{title in head/foot}\insertshorttitle
     \end{beamercolorbox}%
-    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=2ex,right]{date in head/foot}%
+    \begin{beamercolorbox}[wd=.333333\paperwidth,ht=2.25ex,dp=1.6ex,right]{date in head/foot}%
       \usebeamerfont{date in head/foot}\insertshortdate{}\hspace*{2em}
       \insertframenumber{} / \inserttotalframenumber\hspace*{2ex}
     \end{beamercolorbox}}%
@@ -36,7 +47,6 @@
 \title{Convex Optimization}
 
 %% end of configuration
-
 
 
 
