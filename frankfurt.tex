@@ -3,13 +3,17 @@
 \usepackage{amsmath}
 \usepackage{graphicx}
 %\usepackage{mathptmx} % seems something to do with the font
+\usepackage{helvet}
+\usepackage{tcolorbox}
+\usepackage{lipsum}
+\usepackage{textpos}
+\usepackage{tikz}
 
-
-\renewcommand{\familydefault}{\ptm}
+\renewcommand{\familydefault}{helvetica}
 
 
 \usetheme{Frankfurt}
-\setbeamercolor{section in head/foot}{fg=white, bg=blue!30!black!90}
+\setbeamercolor{section in head/foot}{fg=white, bg=blue!20!black!90}
 
 
 %% commands definitions for
@@ -71,118 +75,121 @@
 \section{Linear Regression}
 \input{linear.tex}
 
-
-\section{Section no. 2}
-\subsection{Lists I}
-\begin{frame}
-  \frametitle{unnumbered lists}
-  \begin{itemize}
-  \item Introduction to  \LaTeX{}
-  \item Course 2
-  \item Termpapers and presentations with \LaTeX{}
-  \item Beamer class
-  \end{itemize}
-\end{frame}
-
-\begin{frame}\frametitle{lists with single pauses}
-  \begin{itemize}
-  \item Introduction to  \LaTeX{}  \pause
-  \item Course 2 \pause
-  \item Termpapers and presentations with \LaTeX{}  \pause
-  \item Beamer class
-  \end{itemize}
-\end{frame}
-
-\begin{frame}\frametitle{lists with pause}
-  \begin{itemize}[<+->]
-  \item Introduction to  \LaTeX{}
-  \item Course 2
-  \item Termpapers and presentations with \LaTeX{}
-  \item Beamer class
-  \end{itemize}
-\end{frame}
+\section{Applications}
+\input{app.tex}
 
 
+% \section{Section no. 2}
+% \subsection{Lists I}
+% \begin{frame}
+%   \frametitle{unnumbered lists}
+%   \begin{itemize}
+%   \item Introduction to  \LaTeX{}
+%   \item Course 2
+%   \item Termpapers and presentations with \LaTeX{}
+%   \item Beamer class
+%   \end{itemize}
+% \end{frame}
 
-\subsection{Lists II}
-\begin{frame}\frametitle{numbered lists}
-  \begin{enumerate}
-  \item Introduction to  \LaTeX{}
-  \item Course 2
-  \item Termpapers and presentations with \LaTeX{}
-  \item Beamer class
-  \end{enumerate}
-\end{frame}
+% \begin{frame}\frametitle{lists with single pauses}
+%   \begin{itemize}
+%   \item Introduction to  \LaTeX{}  \pause
+%   \item Course 2 \pause
+%   \item Termpapers and presentations with \LaTeX{}  \pause
+%   \item Beamer class
+%   \end{itemize}
+% \end{frame}
 
-\begin{frame}
-  \frametitle{numbered lists with single pauses}
-  \begin{enumerate}
-  \item Introduction to  \LaTeX{}  \pause
-  \item Course 2 \pause
-  \item Termpapers and presentations with \LaTeX{}  \pause
-  \item Beamer class
-  \end{enumerate}
-\end{frame}
-
-\begin{frame}
-  \frametitle{numbered lists with pause}
-  \begin{enumerate}[<+->]
-  \item Introduction to  \LaTeX{}
-  \item Course 2
-  \item Termpapers and presentations with \LaTeX{}
-  \item Beamer class
-  \end{enumerate}
-\end{frame}
+% \begin{frame}\frametitle{lists with pause}
+%   \begin{itemize}[<+->]
+%   \item Introduction to  \LaTeX{}
+%   \item Course 2
+%   \item Termpapers and presentations with \LaTeX{}
+%   \item Beamer class
+%   \end{itemize}
+% \end{frame}
 
 
 
+% \subsection{Lists II}
+% \begin{frame}\frametitle{numbered lists}
+%   \begin{enumerate}
+%   \item Introduction to  \LaTeX{}
+%   \item Course 2
+%   \item Termpapers and presentations with \LaTeX{}
+%   \item Beamer class
+%   \end{enumerate}
+% \end{frame}
 
-\section{Section no.3}
-\subsection{Tables}
-\begin{frame}
-  \frametitle{Tables}
-  \begin{tabular}{|c|c|c|}
-    \hline
-    \textbf{Date} & \textbf{Instructor} & \textbf{Title} \\
-    \hline
-    WS 04/05 & Sascha Frank & First steps with  \LaTeX  \\
-    \hline
-    SS 05 & Sascha Frank & \LaTeX \ Course serial \\
-    \hline
-  \end{tabular}
-\end{frame}
+% \begin{frame}
+%   \frametitle{numbered lists with single pauses}
+%   \begin{enumerate}
+%   \item Introduction to  \LaTeX{}  \pause
+%   \item Course 2 \pause
+%   \item Termpapers and presentations with \LaTeX{}  \pause
+%   \item Beamer class
+%   \end{enumerate}
+% \end{frame}
 
-
-\begin{frame}
-  \frametitle{Tables with pause}
-  \begin{tabular}{c c c}
-    A & B & C \\
-    \pause
-    1 & 2 & 3 \\
-    \pause
-    A & B & C \\
-  \end{tabular}
-\end{frame}
-
-
-\section{Section no. 4}
-\subsection{blocs}
-\begin{frame}
-  \frametitle{blocs}
-
-  \begin{block}{title of the bloc}
-    bloc text
-  \end{block}
-
-  \begin{exampleblock}{title of the bloc}
-    bloc text
-  \end{exampleblock}
+% \begin{frame}
+%   \frametitle{numbered lists with pause}
+%   \begin{enumerate}[<+->]
+%   \item Introduction to  \LaTeX{}
+%   \item Course 2
+%   \item Termpapers and presentations with \LaTeX{}
+%   \item Beamer class
+%   \end{enumerate}
+% \end{frame}
 
 
-  \begin{alertblock}{title of the bloc}
-    bloc text
-  \end{alertblock}
-\end{frame}
+
+
+% \section{Section no.3}
+% \subsection{Tables}
+% \begin{frame}
+%   \frametitle{Tables}
+%   \begin{tabular}{|c|c|c|}
+%     \hline
+%     \textbf{Date} & \textbf{Instructor} & \textbf{Title} \\
+%     \hline
+%     WS 04/05 & Sascha Frank & First steps with  \LaTeX  \\
+%     \hline
+%     SS 05 & Sascha Frank & \LaTeX \ Course serial \\
+%     \hline
+%   \end{tabular}
+% \end{frame}
+
+
+% \begin{frame}
+%   \frametitle{Tables with pause}
+%   \begin{tabular}{c c c}
+%     A & B & C \\
+%     \pause
+%     1 & 2 & 3 \\
+%     \pause
+%     A & B & C \\
+%   \end{tabular}
+% \end{frame}
+
+
+% \section{Section no. 4}
+% \subsection{blocs}
+% \begin{frame}
+%   \frametitle{blocs}
+
+%   \begin{block}{title of the bloc}
+%     bloc text
+%   \end{block}
+
+%   \begin{exampleblock}{title of the bloc}
+%     bloc text
+%   \end{exampleblock}
+
+
+%   \begin{alertblock}{title of the bloc}
+%     bloc text
+%   \end{alertblock}
+% \end{frame}
 
 \end{document}
 

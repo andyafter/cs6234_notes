@@ -15,11 +15,17 @@
    (TeX-run-style-hooks
     "latex2e"
     "linear"
+    "app"
     "beamer"
     "beamer10"
     "lmodern"
     "amsmath"
-    "graphicx")
+    "graphicx"
+    "helvet"
+    "tcolorbox"
+    "lipsum"
+    "textpos"
+    "tikz")
    (TeX-add-symbols
     "mynew")))
 

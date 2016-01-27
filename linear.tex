@@ -5,17 +5,39 @@
 
 %%  commands definition and some other definitions about stuffs
 \newcommand\here{lalala}
+%\newcommand\x{x_i}
+%\newcommand\y{y_i
 
 
 \subsection{}
 \begin{frame}
   \frametitle{Linear Regression Example}
-  Each frame should have a title.
+  There should be a picture here.
 
 \end{frame}
 
 
 
-\begin{frame}{Test for Frame name}
+\begin{frame}
+\frametitle{Ordinary Least Squares}
 
+% 2 columns examples
+\begin{columns}
+  \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item[] Input: points $(x_i, y_i)$
+      \item[] Regression line: $y = mx + b$
+\item[] Objective: $\min_{m, b}\Sigma_{i}(y_i - mx_i -b)^2$
+    \end{itemize}
+  \end{column}
+
+  \begin{column}{0.5\textwidth}
+    \begin{itemize}
+    \item[] $(\vec{x_i}, y_i)$
+    \item[] $y = \vec{w}\dot\vec{x} + b$
+    \item[] $\min_{\vec{w}}\Sigma_{i}(y_i - \vec{w}\dot\vec{x_i} -b)^2$
+    \end{itemize}
+
+  \end{column}
+\end{columns}
 \end{frame}
