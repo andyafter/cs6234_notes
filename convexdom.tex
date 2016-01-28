@@ -2,3 +2,33 @@
 %%% mode: latex
 %%% TeX-master: t
 %%% End:
+
+\begin{frame}
+  \frametitle{Convex Domain}
+Linear Regression method is applicable only if nonlinear function is
+linear in terms of function parameters:
+$$\dis f(x; a) = \sum_{k=1}^m a_kh_k(x)$$
+
+Many nonlinear functions are not like that, for example:
+\begin{equation*}
+  \begin{split}
+f_1(x) & = \frac{x^2}{a_1 + (x - a_2)}\\
+f_2(x, y, z) & = \frac{x^2}{a_1 + x^2} + \frac{y^2}{a_2 + y^2} + \frac{z^2}{a_3 + z^2}
+  \end{split}
+\end{equation*}
+\end{frame}
+
+\begin{frame}
+\frametitle{Condition Number}
+\begin{itemize}
+\item The condition number of C gives a measure of its anisotropy or
+  eccentricity.
+\item If the condition number of a set C is small (say, near one) it
+  means that the set has approximately the same width in all
+  directions, i.e., it is nearly spherical.
+\item If the condition number is large, it means that the set is far
+  wider in some directions than in others.
+\item $cond(f) = \frac{\lambda_{max}(f)}{\lambda_{min}(f)}$
+\item $\lambda_{max}$ and $\lambda_{min}$ describes minimum and maximum eigenvalues in 2D.
+\end{itemize}
+\end{frame}

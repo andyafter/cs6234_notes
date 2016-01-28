@@ -31,8 +31,10 @@
     "amssymb"
     "algorithm2e"
     "pxfonts"
-    "eulervm")
+    "eulervm"
+    "mathtools")
    (TeX-add-symbols
+    '("norm" 1)
     "localtextbulletone"
     "mynew"
     "gdw")))

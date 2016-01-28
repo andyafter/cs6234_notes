@@ -4,8 +4,10 @@
    (TeX-add-symbols
     '("xk" 1)
     "desmeth"
-    "satis")
+    "satis"
+    "bx")
    (LaTeX-add-labels
     "equation: descent"
-    "eq:xconv")))
+    "eq:xconv"
+    "eq:some")))
 

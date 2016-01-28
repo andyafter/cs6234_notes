@@ -16,10 +16,15 @@
 %\usepackage[pdftex,dvipsnames]{xcolor}
 %\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
 
+\usepackage{mathtools}
+\DeclareMathOperator*{\argmin}{argmin}
+\DeclareMathOperator*{\argmax}{argmax}
+
 \renewcommand{\familydefault}{helvetica}
 %\renewcommand{\labelitemi}{$\bluesquare$}
 \newcommand{\labelitemi}{\textbf{\ding{192}}}
 \newcommand{\localtextbulletone}{\textcolor{gray}{\raisebox{.45ex}{\rule{.6ex}{.6ex}}}}
+\newcommand\norm[1]{\left\lVert#1\right\rVert}
 \renewcommand{\labelitemi}{\localtextbulletone}
 %\renewcommand\mathfamilydefault{\mathnormal}
 %\renewcommand{\theequation}{\thechapter--\arabic{equation}} % for
@@ -125,7 +130,7 @@
 \section{Unconstrained Optimization}
 \input{unconstrained.tex}
 
-\section{Applications}
+\section{Convex Domain}
 \input{convexdom.tex}
 
 \section{Applications}
