@@ -1,561 +1,10 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  27 JAN 2016 17:27
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  28 JAN 2016 21:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **\input app.tex
 (./app.tex
-
-./app.tex:6: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.6 \newenvironment<>{redblock}[
-                                1]{%
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-./app.tex:7: Undefined control sequence.
-l.7   \setbeamercolor
-                     {block title}{fg=white,bg=red!75!black!65}%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-./app.tex:8: Undefined control sequence.
-l.8   \setbeamercolor
-                     {block body}{fg=red!40!black!70,bg=red!60!black!20}%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 6--9
-[]
- []
-
-
-./app.tex:10: LaTeX Error: Environment block undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10   \begin{block}
-                    #2{#1}}{\end{block}}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./app.tex:10: You can't use `macro parameter character #' in vertical mode.
-l.10   \begin{block}#
-                     2{#1}}{\end{block}}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-
-./app.tex:10: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10   \begin{block}#2
-                      {#1}}{\end{block}}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no 2 in font nullfont!
-./app.tex:10: You can't use `macro parameter character #' in horizontal mode.
-l.10   \begin{block}#2{#
-                        1}}{\end{block}}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no 1 in font nullfont!
-./app.tex:10: Extra }, or forgotten \endgroup.
-l.10   \begin{block}#2{#1}}
-                           {\end{block}}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-./app.tex:10: LaTeX Error: \begin{document} ended by \end{block}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.10   \begin{block}#2{#1}}{\end{block}
-                                       }
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./app.tex:10: Missing } inserted.
-<inserted text> 
-                }
-l.10   \begin{block}#2{#1}}{\end{block}
-                                       }
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-./app.tex:11: LaTeX Error: Command \< already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.11 \newenvironment<>{blueblock}
-                                 [1]{%
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-./app.tex:12: Undefined control sequence.
-l.12   \setbeamercolor
-                      {block title}{fg=white,bg=blue!75!black!65}%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-./app.tex:13: Undefined control sequence.
-l.13   \setbeamercolor
-                      {block body}{fg=black,bg=blue!60!black!20}%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no u in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 6 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-
-./app.tex:14: LaTeX Error: Environment block undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14   \begin{block}
-                    #2{#1}}{\end{block}}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./app.tex:14: You can't use `macro parameter character #' in horizontal mode.
-l.14   \begin{block}#
-                     2{#1}}{\end{block}}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no 2 in font nullfont!
-./app.tex:14: You can't use `macro parameter character #' in horizontal mode.
-l.14   \begin{block}#2{#
-                        1}}{\end{block}}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no 1 in font nullfont!
-./app.tex:14: Extra }, or forgotten \endgroup.
-l.14   \begin{block}#2{#1}}
-                           {\end{block}}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-./app.tex:14: LaTeX Error: \begin{document} ended by \end{block}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.14   \begin{block}#2{#1}}{\end{block}
-                                       }
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./app.tex:14: Missing } inserted.
-<inserted text> 
-                }
-l.14   \begin{block}#2{#1}}{\end{block}
-                                       }
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 10--15
-[]
- []
-
-
-./app.tex:16: LaTeX Error: Command \< already defined.
-               Or name \end... illegal, see p.192 of the manual.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \newenvironment<>{greyblock}
-                                 [1]{%
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./app.tex:16: LaTeX Error: Missing \begin{document}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.16 \newenvironment<>{greyblock}[
-                                  1]{%
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-Missing character: There is no [ in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no ] in font nullfont!
-./app.tex:17: Undefined control sequence.
-l.17   \setbeamercolor
-                      {block title}{fg=white,bg=black!75}%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no w in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 7 in font nullfont!
-Missing character: There is no 5 in font nullfont!
-./app.tex:18: Undefined control sequence.
-l.18   \setbeamercolor
-                      {block body}{fg=black,bg=black!40}%
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no d in font nullfont!
-Missing character: There is no y in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no , in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no = in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no a in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no ! in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 0 in font nullfont!
-
-./app.tex:19: LaTeX Error: Environment block undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19   \begin{block}
-                    #2{#1}}{\end{block}}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./app.tex:19: You can't use `macro parameter character #' in horizontal mode.
-l.19   \begin{block}#
-                     2{#1}}{\end{block}}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no 2 in font nullfont!
-./app.tex:19: You can't use `macro parameter character #' in horizontal mode.
-l.19   \begin{block}#2{#
-                        1}}{\end{block}}
-Sorry, but I'm not programmed to handle this case;
-I'll just pretend that you didn't ask for it.
-If you're in the wrong mode, you might be able to
-return to the right one by typing `I}' or `I$' or `I\par'.
-
-Missing character: There is no 1 in font nullfont!
-./app.tex:19: Extra }, or forgotten \endgroup.
-l.19   \begin{block}#2{#1}}
-                           {\end{block}}
-I've deleted a group-closing symbol because it seems to be
-spurious, as in `$x}$'. But perhaps the } is legitimate and
-you forgot something else, as in `\hbox{$x}'. In such cases
-the way to recover is to insert both the forgotten and the
-deleted material, e.g., by typing `I$}'.
-
-
-./app.tex:19: LaTeX Error: \begin{document} ended by \end{block}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.19   \begin{block}#2{#1}}{\end{block}
-                                       }
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-./app.tex:19: Missing } inserted.
-<inserted text> 
-                }
-l.19   \begin{block}#2{#1}}{\end{block}
-                                       }
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
-
-
-Overfull \hbox (20.0pt too wide) in paragraph at lines 16--20
-[]
- []
-
 ./app.tex:22: Undefined control sequence.
 l.22 \section
              {Applications}
@@ -636,58 +85,20 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 24--25
  []
 
 
-./app.tex:26: LaTeX Error: Missing \begin{document}.
+./app.tex:27: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.26 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+l.27 \frametitle
+                {Image Processing --- Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:26: Undefined control sequence.
-<argument>  \LARGE 
-                   APPLICATIONS -- IMAGE PROCESSING
-l.26 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-Missing character: There is no A in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no G in font nullfont!
 ./app.tex:27: Undefined control sequence.
+<argument> \frametitle 
+                       
 l.27 \frametitle
                 {Image Processing --- Lucas-Kanade}
 The control sequence at the end of the top line
@@ -727,7 +138,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 26--28
+Overfull \hbox (20.0pt too wide) in paragraph at lines 27--28
 [][]
  []
 
@@ -852,83 +263,66 @@ Overfull \hbox (20.0pt too wide) in paragraph at lines 35--37
  []
 
 
-./app.tex:38: LaTeX Error: Missing \begin{document}.
+./app.tex:39: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+l.39 \frametitle
+                {Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:38: Undefined control sequence.
-<argument>  \LARGE 
-                   APPLICATIONS -- IMAGE PROCESSING
-l.38 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+./app.tex:39: Undefined control sequence.
+<argument> \frametitle 
+                       
+l.39 \frametitle
+                {Lucas-Kanade}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no G in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 38--39
+Overfull \hbox (20.0pt too wide) in paragraph at lines 39--40
 [][] 
  []
 
 
-./app.tex:40: LaTeX Error: Environment blueblock undefined.
+./app.tex:41: LaTeX Error: Environment blueblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \begin{blueblock}
+l.41 \begin{blueblock}
                       {Goal of Lucas-Kanade}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:40: LaTeX Error: Missing \begin{document}.
+./app.tex:41: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.40 \begin{blueblock}{G
+l.41 \begin{blueblock}{G
                         oal of Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -997,45 +391,45 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./app.tex:42: LaTeX Error: \begin{frame} on input line 38 ended by \end{blueblo
+./app.tex:43: LaTeX Error: \begin{frame} on input line 38 ended by \end{blueblo
 ck}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.42 \end{blueblock}
+l.43 \end{blueblock}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 40--43
+Overfull \hbox (20.0pt too wide) in paragraph at lines 41--44
 []
  []
 
 
-./app.tex:44: LaTeX Error: Environment redblock undefined.
+./app.tex:45: LaTeX Error: Environment redblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \begin{redblock}
+l.45 \begin{redblock}
                      {Assumption}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:44: LaTeX Error: Missing \begin{document}.
+./app.tex:45: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.44 \begin{redblock}{A
+l.45 \begin{redblock}{A
                        ssumption}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1176,9 +570,9 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 47.
+(Font)              <7> on input line 48.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 47.
+(Font)              <5> on input line 48.
 Missing character: There is no u in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
@@ -1199,89 +593,72 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./app.tex:48: LaTeX Error: \begin{frame} on input line 38 ended by \end{redbloc
+./app.tex:49: LaTeX Error: \begin{frame} on input line 38 ended by \end{redbloc
 k}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.48 \end{redblock}
+l.49 \end{redblock}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 44--49
+Overfull \hbox (20.0pt too wide) in paragraph at lines 45--50
 []
  []
 
 
-Overfull \hbox (5.03125pt too wide) in paragraph at lines 44--49
+Overfull \hbox (5.03125pt too wide) in paragraph at lines 45--50
 \OML/cmm/m/it/10 p$
  []
 
 
-./app.tex:52: LaTeX Error: Missing \begin{document}.
+./app.tex:54: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.52 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+l.54 \frametitle
+                {Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:52: Undefined control sequence.
-<argument>  \LARGE 
-                   APPLICATIONS -- IMAGE PROCESSING
-l.52 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+./app.tex:54: Undefined control sequence.
+<argument> \frametitle 
+                       
+l.54 \frametitle
+                {Lucas-Kanade}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no G in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 
-./app.tex:53: LaTeX Error: Environment blueblock undefined.
+./app.tex:55: LaTeX Error: Environment blueblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.53   \begin{blueblock}
+l.55   \begin{blueblock}
                         {Optical Flow Equation (2 Dementional)}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1399,23 +776,23 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 52--56
+Overfull \hbox (20.0pt too wide) in paragraph at lines 54--58
 [][]
  []
 
 
-Overfull \hbox (31.25461pt too wide) in paragraph at lines 52--56
+Overfull \hbox (31.25461pt too wide) in paragraph at lines 54--58
 \OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; t\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (48.47688pt too wide) in paragraph at lines 52--56
+Overfull \hbox (48.47688pt too wide) in paragraph at lines 54--58
 \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 x; \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 y; \
 OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 t$
  []
 
 
-Overfull \hbox (149.12498pt too wide) detected at line 56
+Overfull \hbox (149.12498pt too wide) detected at line 58
 \OML/cmm/m/it/10 I\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y; t\OT1/cmr/m/n/10 ) = 
 \OML/cmm/m/it/10 I\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + ^^A\OML
 /cmm/m/it/10 x; y \OT1/cmr/m/n/10 + ^^A\OML/cmm/m/it/10 y; t \OT1/cmr/m/n/10 + 
@@ -1423,79 +800,62 @@ Overfull \hbox (149.12498pt too wide) detected at line 56
  []
 
 
-./app.tex:58: LaTeX Error: \begin{frame} on input line 52 ended by \end{blueblo
+./app.tex:60: LaTeX Error: \begin{frame} on input line 53 ended by \end{blueblo
 ck}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.58   \end{blueblock}
+l.60   \end{blueblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:61: LaTeX Error: Missing \begin{document}.
+./app.tex:64: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.61 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+l.64 \frametitle
+                {Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:61: Undefined control sequence.
-<argument>  \LARGE 
-                   APPLICATIONS -- IMAGE PROCESSING
-l.61 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+./app.tex:64: Undefined control sequence.
+<argument> \frametitle 
+                       
+l.64 \frametitle
+                {Lucas-Kanade}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no G in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 
-./app.tex:62: LaTeX Error: Environment blueblock undefined.
+./app.tex:65: LaTeX Error: Environment blueblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.62   \begin{blueblock}
+l.65   \begin{blueblock}
                         {Optical Flow Effect:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1557,12 +917,12 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 61--64
+Overfull \hbox (20.0pt too wide) in paragraph at lines 64--67
 [][]
  []
 
 
-Overfull \hbox (123.66045pt too wide) detected at line 64
+Overfull \hbox (123.66045pt too wide) detected at line 67
 \OML/cmm/m/it/10 I[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )\OML/
 cmm/m/it/10 V[] \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 I[]\OT1/cmr/m/n/10 (\OML/cmm
 /m/it/10 q[]\OT1/cmr/m/n/10 )\OML/cmm/m/it/10 V[] \OT1/cmr/m/n/10 = \OMS/cmsy/m
@@ -1577,51 +937,51 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (14.00064pt too wide) in paragraph at lines 64--66
+Overfull \hbox (14.00064pt too wide) in paragraph at lines 67--69
  $\OML/cmm/m/it/10 i \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (38.22458pt too wide) in paragraph at lines 64--66
+Overfull \hbox (38.22458pt too wide) in paragraph at lines 67--69
 \OT1/cmr/m/n/10 1\OML/cmm/m/it/10 ; \OT1/cmr/m/n/10 2\OML/cmm/m/it/10 ; \OT1/cm
 r/m/n/10 3\OML/cmm/m/it/10 :::n$ 
  []
 
 
-./app.tex:67: LaTeX Error: \begin{frame} on input line 61 ended by \end{blueblo
+./app.tex:70: LaTeX Error: \begin{frame} on input line 63 ended by \end{blueblo
 ck}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.67   \end{blueblock}
+l.70   \end{blueblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:69: LaTeX Error: Environment greyblock undefined.
+./app.tex:72: LaTeX Error: Environment greyblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69   \begin{greyblock}
+l.72   \begin{greyblock}
                         {Abbreviations:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:69: LaTeX Error: Missing \begin{document}.
+./app.tex:72: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.69   \begin{greyblock}{A
+l.72   \begin{greyblock}{A
                           bbreviations:}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1641,103 +1001,86 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 69--70
+Overfull \hbox (20.0pt too wide) in paragraph at lines 72--73
 [] 
  []
 
 
-Overfull \hbox (93.68274pt too wide) detected at line 70
+Overfull \hbox (93.68274pt too wide) detected at line 73
 \OML/cmm/m/it/10 A \OT1/cmr/m/n/10 = [\OML/cmm/m/it/10 I[]\OT1/cmr/m/n/10 (\OML
 /cmm/m/it/10 q[]\OT1/cmr/m/n/10 )[]\OML/cmm/m/it/10 ; I[]\OT1/cmr/m/n/10 (\OML/
 cmm/m/it/10 qi\OT1/cmr/m/n/10 )[]]
  []
 
 
-Overfull \hbox (57.22435pt too wide) detected at line 71
+Overfull \hbox (57.22435pt too wide) detected at line 74
 \OML/cmm/m/it/10 V \OT1/cmr/m/n/10 = [\OML/cmm/m/it/10 v[]; v[]\OT1/cmr/m/n/10 
 ][]
  []
 
 
-Overfull \hbox (60.7458pt too wide) detected at line 72
+Overfull \hbox (60.7458pt too wide) detected at line 75
 \OML/cmm/m/it/10 b \OT1/cmr/m/n/10 = [\OMS/cmsy/m/n/10 ^^@\OML/cmm/m/it/10 I[]\
 OT1/cmr/m/n/10 (\OML/cmm/m/it/10 q[]\OT1/cmr/m/n/10 )][]
  []
 
 
-./app.tex:73: LaTeX Error: \begin{frame} on input line 61 ended by \end{greyblo
+./app.tex:76: LaTeX Error: \begin{frame} on input line 63 ended by \end{greyblo
 ck}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.73   \end{greyblock}
+l.76   \end{greyblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:76: LaTeX Error: Missing \begin{document}.
+./app.tex:80: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.76 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+l.80 \frametitle
+                {Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:76: Undefined control sequence.
-<argument>  \LARGE 
-                   APPLICATIONS -- IMAGE PROCESSING
-l.76 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+./app.tex:80: Undefined control sequence.
+<argument> \frametitle 
+                       
+l.80 \frametitle
+                {Lucas-Kanade}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no G in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 
-./app.tex:77: LaTeX Error: Environment blueblock undefined.
+./app.tex:81: LaTeX Error: Environment blueblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.77   \begin{blueblock}
+l.81   \begin{blueblock}
                         {Lucas-Kanade Method Abstraction:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1801,33 +1144,33 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 76--79
+Overfull \hbox (20.0pt too wide) in paragraph at lines 80--83
 [][]
  []
 
 
-Overfull \hbox (12.77782pt too wide) in paragraph at lines 76--79
+Overfull \hbox (12.77782pt too wide) in paragraph at lines 80--83
 \OT1/cmr/m/n/10 2 \OMS/cmsy/m/n/10 ^^B
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 76--79
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 80--83
 \OT1/cmr/m/n/10 2$
  []
 
 
-Overfull \hbox (60.77979pt too wide) detected at line 79
+Overfull \hbox (60.77979pt too wide) detected at line 83
 \OML/cmm/m/it/10 A[]AV \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 A[]b
  []
 
 
-./app.tex:81: LaTeX Error: Missing \begin{document}.
+./app.tex:85: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.81 A
+l.85 A
       .K.A:
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1839,68 +1182,68 @@ Missing character: There is no . in font nullfont!
 Missing character: There is no A in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 81--82
+Overfull \hbox (20.0pt too wide) in paragraph at lines 85--86
 [] 
  []
 
 
-./app.tex:83: LaTeX Error: Missing \begin{document}.
+./app.tex:87: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.83 $
+l.87 $
       $V = (A^TA)^{-1}A^Tb$$
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 83--83
+Overfull \hbox (20.0pt too wide) in paragraph at lines 87--87
 [] 
  []
 
 
-Overfull \hbox (79.29373pt too wide) detected at line 83
+Overfull \hbox (79.29373pt too wide) detected at line 87
 \OML/cmm/m/it/10 V \OT1/cmr/m/n/10 = (\OML/cmm/m/it/10 A[]A\OT1/cmr/m/n/10 )[]\
 OML/cmm/m/it/10 A[]b
  []
 
 
-./app.tex:84: LaTeX Error: \begin{frame} on input line 76 ended by \end{blueblo
+./app.tex:88: LaTeX Error: \begin{frame} on input line 79 ended by \end{blueblo
 ck}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.84   \end{blueblock}
+l.88   \end{blueblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:86: LaTeX Error: Environment greyblock undefined.
+./app.tex:90: LaTeX Error: Environment greyblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86   \begin{greyblock}
+l.90   \begin{greyblock}
                         {Notice:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:86: LaTeX Error: Missing \begin{document}.
+./app.tex:90: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.86   \begin{greyblock}{N
+l.90   \begin{greyblock}{N
                           otice:}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
@@ -1987,94 +1330,77 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./app.tex:89: LaTeX Error: \begin{frame} on input line 76 ended by \end{greyblo
+./app.tex:93: LaTeX Error: \begin{frame} on input line 79 ended by \end{greyblo
 ck}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.89   \end{greyblock}
+l.93   \end{greyblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 86--91
+Overfull \hbox (20.0pt too wide) in paragraph at lines 90--95
 []
  []
 
 
-Overfull \hbox (18.61107pt too wide) in paragraph at lines 86--91
+Overfull \hbox (18.61107pt too wide) in paragraph at lines 90--95
 \OML/cmm/m/it/10 V \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (35.83557pt too wide) in paragraph at lines 86--91
+Overfull \hbox (35.83557pt too wide) in paragraph at lines 90--95
 \OT1/cmr/m/n/10 [\OML/cmm/m/it/10 v[]; v[]\OT1/cmr/m/n/10 ][]$
  []
 
 
-./app.tex:93: LaTeX Error: Missing \begin{document}.
+./app.tex:98: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.93 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+l.98 \frametitle
+                {Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:93: Undefined control sequence.
-<argument>  \LARGE 
-                   APPLICATIONS -- IMAGE PROCESSING
-l.93 ...{ \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+./app.tex:98: Undefined control sequence.
+<argument> \frametitle 
+                       
+l.98 \frametitle
+                {Lucas-Kanade}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no G in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 
-./app.tex:94: LaTeX Error: Environment blueblock undefined.
+./app.tex:99: LaTeX Error: Environment blueblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.94   \begin{blueblock}
+l.99   \begin{blueblock}
                         {Goal of Lucas-Kanade Method:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2117,15 +1443,15 @@ Missing character: There is no z in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./app.tex:96: LaTeX Error: \begin{frame} on input line 93 ended by \end{blueblo
-ck}.
+./app.tex:101: LaTeX Error: \begin{frame} on input line 97 ended by \end{bluebl
+ock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.96   \end{blueblock}
-                      
+l.101   \end{blueblock}
+                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -2176,22 +1502,22 @@ Missing character: There is no d in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 93--98
+Overfull \hbox (20.0pt too wide) in paragraph at lines 98--103
 [][]
  []
 
 
-Overfull \hbox (35.1886pt too wide) in paragraph at lines 93--98
+Overfull \hbox (35.1886pt too wide) in paragraph at lines 98--103
 \OMS/cmsy/m/n/10 jj\OML/cmm/m/it/10 A[]V \OMS/cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (14.33336pt too wide) in paragraph at lines 93--98
+Overfull \hbox (14.33336pt too wide) in paragraph at lines 98--103
 \OML/cmm/m/it/10 b\OMS/cmsy/m/n/10 jj[]$
  []
 
 
-Overfull \hbox (169.77208pt too wide) detected at line 98
+Overfull \hbox (169.77208pt too wide) detected at line 103
 \OML/cmm/m/it/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 v[]; v[]\OT1/cmr/m/n/10 ] =
  ^^F[\OML/cmm/m/it/10 I\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x \OT1/cmr/m/n/10 + \O
 ML/cmm/m/it/10 v[]; y \OT1/cmr/m/n/10 + \OML/cmm/m/it/10 v[]\OT1/cmr/m/n/10 ) \
@@ -2264,31 +1590,31 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (23.98035pt too wide) in paragraph at lines 98--102
+Overfull \hbox (23.98035pt too wide) in paragraph at lines 103--107
  $\OML/cmm/m/it/10 v[]; v[]$
  []
 
 
-Overfull \hbox (30.43173pt too wide) in paragraph at lines 98--102
+Overfull \hbox (30.43173pt too wide) in paragraph at lines 103--107
 \OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 )$
  []
 
 
-./app.tex:103: LaTeX Error: Missing \begin{document}.
+./app.tex:108: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.103 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
+l.108 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
                                                   
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:103: Undefined control sequence.
+./app.tex:108: Undefined control sequence.
 <argument>  \LARGE 
                    APPLICATIONS -- IMAGE PROCESSING
-l.103 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
+l.108 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2325,14 +1651,35 @@ Missing character: There is no S in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no G in font nullfont!
+./app.tex:109: Undefined control sequence.
+l.109 \frametitle
+                 {Lucas-Kanade}
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
 
-./app.tex:104: LaTeX Error: Environment redblock undefined.
+Missing character: There is no L in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no - in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
+
+./app.tex:110: LaTeX Error: Environment redblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.104   \begin{redblock}
+l.110   \begin{redblock}
                         {Key Step for Implementation of GD (Step 1):}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2424,12 +1771,12 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no W in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 103--106
+Overfull \hbox (20.0pt too wide) in paragraph at lines 108--112
 [][]
  []
 
 
-Overfull \hbox (165.54514pt too wide) detected at line 106
+Overfull \hbox (165.54514pt too wide) detected at line 112
 \OML/cmm/m/it/10 E\OT1/cmr/m/n/10 [\OML/cmm/m/it/10 v[]; v[]\OT1/cmr/m/n/10 ] =
  ^^F[\OML/cmm/m/it/10 I\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 W\OT1/cmr/m/n/10 (\OML
 /cmm/m/it/10 x; y\OT1/cmr/m/n/10 ); \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 ) \OMS/cm
@@ -2580,8 +1927,8 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-./app.tex:109: Undefined control sequence.
-l.109 ...on power. Warp function examples are {\bf
+./app.tex:115: Undefined control sequence.
+l.115 ...on power. Warp function examples are {\bf
                                                    Affine}  and
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2598,8 +1945,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no a in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no d in font nullfont!
-./app.tex:110: Undefined control sequence.
-l.110     {\bf
+./app.tex:116: Undefined control sequence.
+l.116     {\bf
                Projective}. \\
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2642,8 +1989,8 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no h in font nullfont!
 Missing character: There is no e in font nullfont!
-./app.tex:111: Undefined control sequence.
-l.111 The warping function are the {\bf
+./app.tex:117: Undefined control sequence.
+l.117 The warping function are the {\bf
                                         convergence factor} for steepest des...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -2697,79 +2044,62 @@ Missing character: There is no h in font nullfont!
 Missing character: There is no m in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./app.tex:113: LaTeX Error: \begin{frame} on input line 103 ended by \end{redbl
+./app.tex:119: LaTeX Error: \begin{frame} on input line 108 ended by \end{redbl
 ock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.113   \end{redblock}
+l.119   \end{redblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:117: LaTeX Error: Missing \begin{document}.
+./app.tex:124: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.117 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+l.124 \frametitle
+                 {Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:117: Undefined control sequence.
-<argument>  \LARGE 
-                   APPLICATIONS -- IMAGE PROCESSING
-l.117 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+./app.tex:124: Undefined control sequence.
+<argument> \frametitle 
+                       
+l.124 \frametitle
+                 {Lucas-Kanade}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no G in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 
-./app.tex:118: LaTeX Error: Environment redblock undefined.
+./app.tex:125: LaTeX Error: Environment redblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.118   \begin{redblock}
+l.125   \begin{redblock}
                         {Key Step for Implementation of GD (Step 2):}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -2861,12 +2191,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 117--120
+Overfull \hbox (20.0pt too wide) in paragraph at lines 124--127
 [][]
  []
 
 
-Overfull \hbox (217.82944pt too wide) detected at line 121
+Overfull \hbox (217.82944pt too wide) detected at line 128
 \OML/cmm/m/it/10 I\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 W\OT1/cmr/m/n/10 (\OML/cmm/
 m/it/10 x; y\OT1/cmr/m/n/10 ); \OML/cmm/m/it/10 P \OT1/cmr/m/n/10 + ^^A\OML/cmm
 /m/it/10 P\OT1/cmr/m/n/10 ) \OMS/cmsy/m/n/10 ^^Y \OML/cmm/m/it/10 I\OT1/cmr/m/n
@@ -2876,33 +2206,33 @@ m/it/10 x; y\OT1/cmr/m/n/10 ); \OML/cmm/m/it/10 P \OT1/cmr/m/n/10 + ^^A\OML/cmm
  []
 
 
-./app.tex:122: LaTeX Error: \begin{frame} on input line 117 ended by \end{redbl
+./app.tex:129: LaTeX Error: \begin{frame} on input line 123 ended by \end{redbl
 ock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.122   \end{redblock}
+l.129   \end{redblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:124: LaTeX Error: Missing \begin{document}.
+./app.tex:131: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.124 \begin{itemize}
+l.131 \begin{itemize}
                      
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 124--124
+Overfull \hbox (20.0pt too wide) in paragraph at lines 131--131
 [] 
  []
 
@@ -3076,65 +2406,48 @@ Missing character: There is no s in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./app.tex:137: LaTeX Error: Missing \begin{document}.
+./app.tex:145: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.137 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+l.145 \frametitle
+                 {Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:137: Undefined control sequence.
-<argument>  \LARGE 
-                   APPLICATIONS -- IMAGE PROCESSING
-l.137 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+./app.tex:145: Undefined control sequence.
+<argument> \frametitle 
+                       
+l.145 \frametitle
+                 {Lucas-Kanade}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no G in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 
-./app.tex:138: LaTeX Error: Environment blueblock undefined.
+./app.tex:146: LaTeX Error: Environment blueblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.138   \begin{blueblock}
+l.146   \begin{blueblock}
                          {Some Explainations:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3159,7 +2472,7 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 137--139
+Overfull \hbox (20.0pt too wide) in paragraph at lines 145--147
 [][]
  []
 
@@ -3177,7 +2490,7 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (13.5139pt too wide) in paragraph at lines 140--141
+Overfull \hbox (13.5139pt too wide) in paragraph at lines 148--149
 \OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 I$ 
  []
 
@@ -3192,18 +2505,18 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 
-Overfull \hbox (21.70692pt too wide) in paragraph at lines 141--142
+Overfull \hbox (21.70692pt too wide) in paragraph at lines 149--150
 \OML/cmm/m/it/10 I[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (38.20953pt too wide) in paragraph at lines 141--142
+Overfull \hbox (38.20953pt too wide) in paragraph at lines 149--150
 \OML/cmm/m/it/10 T\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x; y\OT1/cmr/m/n/10 ) \OMS/
 cmsy/m/n/10 ^^@
  []
 
 
-Overfull \hbox (57.02199pt too wide) in paragraph at lines 141--142
+Overfull \hbox (57.02199pt too wide) in paragraph at lines 149--150
 \OML/cmm/m/it/10 I\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 W\OT1/cmr/m/n/10 [\OML/cmm/
 m/it/10 x; y\OT1/cmr/m/n/10 ]; \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 )$ 
  []
@@ -3223,7 +2536,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no x in font nullfont!
 
-Overfull \hbox (15.69827pt too wide) in paragraph at lines 142--143
+Overfull \hbox (15.69827pt too wide) in paragraph at lines 150--151
 []$ 
  []
 
@@ -3241,12 +2554,12 @@ Missing character: There is no a in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (20.74443pt too wide) in paragraph at lines 143--144
+Overfull \hbox (20.74443pt too wide) in paragraph at lines 151--152
 \OML/cmm/m/it/10 I[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (29.21217pt too wide) in paragraph at lines 143--144
+Overfull \hbox (29.21217pt too wide) in paragraph at lines 151--152
 \OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 I[]$ 
  []
 
@@ -3264,7 +2577,7 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no i in font nullfont!
 Missing character: There is no x in font nullfont!
 
-Overfull \hbox (87.50183pt too wide) in paragraph at lines 144--146
+Overfull \hbox (87.50183pt too wide) in paragraph at lines 152--154
 \OT1/cmr/m/n/10 ^^F(\OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 I[]\OT1/cmr/m/n/10 )[](\
 OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 I[]\OT1/cmr/m/n/10 )$ 
  []
@@ -3283,89 +2596,72 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no p in font nullfont!
 
-Overfull \hbox (26.6979pt too wide) in paragraph at lines 146--147
+Overfull \hbox (26.6979pt too wide) in paragraph at lines 154--155
 \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (29.85384pt too wide) in paragraph at lines 146--147
+Overfull \hbox (29.85384pt too wide) in paragraph at lines 154--155
 \OT1/cmr/m/n/10 ^^F\OML/cmm/m/it/10 I[]I[]$ 
  []
 
 
-./app.tex:149: LaTeX Error: \begin{frame} on input line 137 ended by \end{blueb
+./app.tex:157: LaTeX Error: \begin{frame} on input line 144 ended by \end{blueb
 lock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.149 \end{blueblock}
+l.157 \end{blueblock}
                      
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:153: LaTeX Error: Missing \begin{document}.
+./app.tex:162: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.153 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+l.162 \frametitle
+                 {Lucas-Kanade}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./app.tex:153: Undefined control sequence.
-<argument>  \LARGE 
-                   APPLICATIONS -- IMAGE PROCESSING
-l.153 ... \LARGE APPLICATIONS -- IMAGE PROCESSING}
-                                                  
+./app.tex:162: Undefined control sequence.
+<argument> \frametitle 
+                       
+l.162 \frametitle
+                 {Lucas-Kanade}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-Missing character: There is no A in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no P in font nullfont!
 Missing character: There is no L in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no T in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no S in font nullfont!
+Missing character: There is no u in font nullfont!
+Missing character: There is no c in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no s in font nullfont!
 Missing character: There is no - in font nullfont!
-Missing character: There is no - in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no M in font nullfont!
-Missing character: There is no A in font nullfont!
-Missing character: There is no G in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no P in font nullfont!
-Missing character: There is no R in font nullfont!
-Missing character: There is no O in font nullfont!
-Missing character: There is no C in font nullfont!
-Missing character: There is no E in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no S in font nullfont!
-Missing character: There is no I in font nullfont!
-Missing character: There is no N in font nullfont!
-Missing character: There is no G in font nullfont!
+Missing character: There is no K in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no a in font nullfont!
+Missing character: There is no d in font nullfont!
+Missing character: There is no e in font nullfont!
 
-./app.tex:154: LaTeX Error: Environment greyblock undefined.
+./app.tex:163: LaTeX Error: Environment greyblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.154   \begin{greyblock}
+l.163   \begin{greyblock}
                          {Algorithms: }
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3383,7 +2679,7 @@ Missing character: There is no m in font nullfont!
 Missing character: There is no s in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 153--155
+Overfull \hbox (20.0pt too wide) in paragraph at lines 162--164
 [][]
  []
 
@@ -3404,7 +2700,7 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (57.02199pt too wide) in paragraph at lines 156--157
+Overfull \hbox (57.02199pt too wide) in paragraph at lines 165--166
 \OML/cmm/m/it/10 I\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 W\OT1/cmr/m/n/10 [\OML/cmm/
 m/it/10 x; y\OT1/cmr/m/n/10 ]; \OML/cmm/m/it/10 P\OT1/cmr/m/n/10 )$ 
  []
@@ -3424,7 +2720,7 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (11.15141pt too wide) in paragraph at lines 157--158
+Overfull \hbox (11.15141pt too wide) in paragraph at lines 166--167
 \OML/cmm/m/it/10 I[]$ 
  []
 
@@ -3447,7 +2743,7 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (13.5139pt too wide) in paragraph at lines 158--159
+Overfull \hbox (13.5139pt too wide) in paragraph at lines 167--168
 \OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 I$ 
  []
 
@@ -3497,12 +2793,12 @@ Missing character: There is no g in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (20.74443pt too wide) in paragraph at lines 160--162
+Overfull \hbox (20.74443pt too wide) in paragraph at lines 169--171
 \OML/cmm/m/it/10 I[] \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (29.21217pt too wide) in paragraph at lines 160--162
+Overfull \hbox (29.21217pt too wide) in paragraph at lines 169--171
 \OMS/cmsy/m/n/10 r\OML/cmm/m/it/10 I[]$ 
  []
 
@@ -3528,7 +2824,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no x in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (28.89134pt too wide) in paragraph at lines 162--163
+Overfull \hbox (28.89134pt too wide) in paragraph at lines 171--172
 \OT1/cmr/m/n/10 ^^F\OML/cmm/m/it/10 I[]I[]$ 
  []
 
@@ -3548,12 +2844,12 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no p in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (26.6979pt too wide) in paragraph at lines 163--164
+Overfull \hbox (26.6979pt too wide) in paragraph at lines 172--173
 \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 P \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (21.34033pt too wide) in paragraph at lines 163--164
+Overfull \hbox (21.34033pt too wide) in paragraph at lines 172--173
 \OML/cmm/m/it/10 I[]I[]$ 
  []
 
@@ -3581,17 +2877,17 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no r in font nullfont!
 Missing character: There is no ; in font nullfont!
 
-Overfull \hbox (18.36455pt too wide) in paragraph at lines 164--165
+Overfull \hbox (18.36455pt too wide) in paragraph at lines 173--174
 \OML/cmm/m/it/10 P \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (15.58684pt too wide) in paragraph at lines 164--165
+Overfull \hbox (15.58684pt too wide) in paragraph at lines 173--174
 \OML/cmm/m/it/10 P \OT1/cmr/m/n/10 +
  []
 
 
-Overfull \hbox (16.1424pt too wide) in paragraph at lines 164--165
+Overfull \hbox (16.1424pt too wide) in paragraph at lines 173--174
 \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 P$ 
  []
 
@@ -3620,26 +2916,26 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (16.1424pt too wide) in paragraph at lines 165--166
+Overfull \hbox (16.1424pt too wide) in paragraph at lines 174--175
 \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 P$
  []
 
 
-./app.tex:167: LaTeX Error: \begin{frame} on input line 153 ended by \end{greyb
+./app.tex:176: LaTeX Error: \begin{frame} on input line 161 ended by \end{greyb
 lock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.167   \end{greyblock}
+l.176   \end{greyblock}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./app.tex:171: Undefined control sequence.
-l.171 \subsection
+./app.tex:180: Undefined control sequence.
+l.180 \subsection
                  {MACHINE LEARNING}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3663,14 +2959,14 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no G in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 171--172
+Overfull \hbox (20.0pt too wide) in paragraph at lines 180--181
 []
  []
 
-./app.tex:174: Undefined control sequence.
+./app.tex:183: Undefined control sequence.
 <argument>  \LARGE 
                    APPLICATIONS -- MACHINE LEARNING
-l.174 ... \LARGE APPLICATIONS -- MACHINE LEARNING}
+l.183 ... \LARGE APPLICATIONS -- MACHINE LEARNING}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -3708,13 +3004,13 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no G in font nullfont!
 
-./app.tex:175: LaTeX Error: Environment blueblock undefined.
+./app.tex:184: LaTeX Error: Environment blueblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.175   \begin{blueblock}
+l.184   \begin{blueblock}
                          {Generalized Utilization of Convex: Delta Rule}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -3761,7 +3057,7 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 174--176
+Overfull \hbox (20.0pt too wide) in paragraph at lines 183--185
 [][]
  []
 
@@ -4039,23 +3335,23 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no d in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./app.tex:182: LaTeX Error: \begin{frame} on input line 174 ended by \end{blueb
+./app.tex:191: LaTeX Error: \begin{frame} on input line 183 ended by \end{blueb
 lock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.182   \end{blueblock}
+l.191   \end{blueblock}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./app.tex:186: Undefined control sequence.
+./app.tex:195: Undefined control sequence.
 <argument>  \LARGE 
                    APPLICATIONS -- MACHINE LEARNING
-l.186 ... \LARGE APPLICATIONS -- MACHINE LEARNING}
+l.195 ... \LARGE APPLICATIONS -- MACHINE LEARNING}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4093,13 +3389,13 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no N in font nullfont!
 Missing character: There is no G in font nullfont!
 
-./app.tex:187: LaTeX Error: Environment redblock undefined.
+./app.tex:196: LaTeX Error: Environment redblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.187   \begin{redblock}
+l.196   \begin{redblock}
                         {Delta Rule:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4116,12 +3412,12 @@ Missing character: There is no l in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 186--188
+Overfull \hbox (20.0pt too wide) in paragraph at lines 195--197
 [][]
  []
 
 
-Overfull \hbox (110.41508pt too wide) detected at line 188
+Overfull \hbox (110.41508pt too wide) detected at line 197
 \OT1/cmr/m/n/10 ^^A\OML/cmm/m/it/10 w[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 \OT
 1/cmr/m/n/10 (\OML/cmm/m/it/10 t[] \OMS/cmsy/m/n/10 ^^@ \OML/cmm/m/it/10 y[]\OT
 1/cmr/m/n/10 )\OML/cmm/m/it/10 g[]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 h[]\OT1/cmr
@@ -4275,62 +3571,62 @@ Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./app.tex:193: LaTeX Error: \begin{frame} on input line 186 ended by \end{redbl
+./app.tex:202: LaTeX Error: \begin{frame} on input line 195 ended by \end{redbl
 ock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.193   \end{redblock}
+l.202   \end{redblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 188--194
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 197--203
  $\OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (18.62154pt too wide) in paragraph at lines 188--194
+Overfull \hbox (18.62154pt too wide) in paragraph at lines 197--203
 \OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x\OT1/cmr/m/n/10 )$
  []
 
 
-Overfull \hbox (7.82468pt too wide) in paragraph at lines 188--194
+Overfull \hbox (7.82468pt too wide) in paragraph at lines 197--203
 \OML/cmm/m/it/10 t[]$
  []
 
 
-Overfull \hbox (9.11638pt too wide) in paragraph at lines 188--194
+Overfull \hbox (9.11638pt too wide) in paragraph at lines 197--203
 \OML/cmm/m/it/10 y[]$
  []
 
 
-Overfull \hbox (9.97514pt too wide) in paragraph at lines 188--194
+Overfull \hbox (9.97514pt too wide) in paragraph at lines 197--203
 \OML/cmm/m/it/10 h[]$
  []
 
 
-Overfull \hbox (9.04456pt too wide) in paragraph at lines 188--194
+Overfull \hbox (9.04456pt too wide) in paragraph at lines 197--203
 \OML/cmm/m/it/10 x[]$
  []
 
 
-Overfull \hbox (11.64772pt too wide) in paragraph at lines 188--194
+Overfull \hbox (11.64772pt too wide) in paragraph at lines 197--203
 \OML/cmm/m/it/10 i[]$
  []
 
 
-./app.tex:195: LaTeX Error: Environment greyblock undefined.
+./app.tex:204: LaTeX Error: Environment greyblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.195   \begin{greyblock}
+l.204   \begin{greyblock}
                          {The above equation holds the following:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4371,37 +3667,37 @@ Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 195--196
+Overfull \hbox (20.0pt too wide) in paragraph at lines 204--205
 []
  []
 
 
-Overfull \hbox (53.77716pt too wide) detected at line 196
+Overfull \hbox (53.77716pt too wide) detected at line 205
 \OML/cmm/m/it/10 h[] \OT1/cmr/m/n/10 = ^^F\OML/cmm/m/it/10 x[]w[]
  []
 
 
-Overfull \hbox (45.33101pt too wide) detected at line 197
+Overfull \hbox (45.33101pt too wide) detected at line 206
 \OML/cmm/m/it/10 y[] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 g\OT1/cmr/m/n/10 (\OML/
 cmm/m/it/10 h[]\OT1/cmr/m/n/10 )
  []
 
 
-./app.tex:199: LaTeX Error: \begin{frame} on input line 186 ended by \end{greyb
+./app.tex:208: LaTeX Error: \begin{frame} on input line 195 ended by \end{greyb
 lock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.199   \end{greyblock}
+l.208   \end{greyblock}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./app.tex:203: Undefined control sequence.
-l.203 \subsection
+./app.tex:212: Undefined control sequence.
+l.212 \subsection
                  {ROBOTICS}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4417,10 +3713,10 @@ Missing character: There is no T in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no S in font nullfont!
-./app.tex:204: Undefined control sequence.
+./app.tex:213: Undefined control sequence.
 <argument>  \LARGE 
                    APPLICATIONS -- INVERSE KINEMATICS
-l.204 ...LARGE APPLICATIONS -- INVERSE KINEMATICS}
+l.213 ...LARGE APPLICATIONS -- INVERSE KINEMATICS}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4459,8 +3755,8 @@ Missing character: There is no T in font nullfont!
 Missing character: There is no I in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no S in font nullfont!
-./app.tex:205: Undefined control sequence.
-l.205 \includegraphics
+./app.tex:214: Undefined control sequence.
+l.214 \includegraphics
                       [scale=0.6]{jcob.png}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4488,14 +3784,14 @@ Missing character: There is no p in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no g in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 203--206
+Overfull \hbox (20.0pt too wide) in paragraph at lines 212--215
 []
  []
 
-./app.tex:209: Undefined control sequence.
+./app.tex:218: Undefined control sequence.
 <argument>  \LARGE 
                    APPLICATIONS -- INVERSE KINEMATICS
-l.209 ...LARGE APPLICATIONS -- INVERSE KINEMATICS}
+l.218 ...LARGE APPLICATIONS -- INVERSE KINEMATICS}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4535,13 +3831,13 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no S in font nullfont!
 
-./app.tex:210: LaTeX Error: Environment blueblock undefined.
+./app.tex:219: LaTeX Error: Environment blueblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.210   \begin{blueblock}
+l.219   \begin{blueblock}
                          {Goal of Inverse Kinematics}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4636,32 +3932,32 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 209--212
+Overfull \hbox (20.0pt too wide) in paragraph at lines 218--221
 [][]
  []
 
 
-./app.tex:213: LaTeX Error: \begin{frame} on input line 209 ended by \end{blueb
+./app.tex:222: LaTeX Error: \begin{frame} on input line 218 ended by \end{blueb
 lock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.213   \end{blueblock}
+l.222   \end{blueblock}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./app.tex:214: LaTeX Error: Environment redblock undefined.
+./app.tex:223: LaTeX Error: Environment redblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.214   \begin{redblock}
+l.223   \begin{redblock}
                         {Problem Abstract:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4684,12 +3980,12 @@ Missing character: There is no c in font nullfont!
 Missing character: There is no t in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 214--215
+Overfull \hbox (20.0pt too wide) in paragraph at lines 223--224
 []
  []
 
 
-Overfull \hbox (116.7675pt too wide) detected at line 215
+Overfull \hbox (116.7675pt too wide) detected at line 224
 [] \OT1/cmr/m/n/10 = \OML/cmm/m/it/10 R[]T[]R[]T[]R[]T[]R[]T[][]
  []
 
@@ -4769,33 +4065,33 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (9.17303pt too wide) in paragraph at lines 215--218
+Overfull \hbox (9.17303pt too wide) in paragraph at lines 224--227
  $\OML/cmm/m/it/10 T[]$
  []
 
 
-Overfull \hbox (10.92218pt too wide) in paragraph at lines 215--218
+Overfull \hbox (10.92218pt too wide) in paragraph at lines 224--227
 \OML/cmm/m/it/10 R[]$
  []
 
 
-./app.tex:219: LaTeX Error: \begin{frame} on input line 209 ended by \end{redbl
+./app.tex:228: LaTeX Error: \begin{frame} on input line 218 ended by \end{redbl
 ock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.219   \end{redblock}
+l.228   \end{redblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./app.tex:223: Undefined control sequence.
+./app.tex:232: Undefined control sequence.
 <argument>  \LARGE 
                    APPLICATIONS -- INVERSE KINEMATICS
-l.223 ...LARGE APPLICATIONS -- INVERSE KINEMATICS}
+l.232 ...LARGE APPLICATIONS -- INVERSE KINEMATICS}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -4835,13 +4131,13 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no S in font nullfont!
 
-./app.tex:224: LaTeX Error: Environment redblock undefined.
+./app.tex:233: LaTeX Error: Environment redblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.224   \begin{redblock}
+l.233   \begin{redblock}
                         {Abstraction for Convex Optimization:}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -4881,12 +4177,12 @@ Missing character: There is no o in font nullfont!
 Missing character: There is no n in font nullfont!
 Missing character: There is no : in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 223--225
+Overfull \hbox (20.0pt too wide) in paragraph at lines 232--234
 [][]
  []
 
 
-Overfull \hbox (50.5357pt too wide) detected at line 225
+Overfull \hbox (50.5357pt too wide) detected at line 234
 \OT1/cmr/m/n/10 ^^A[] = \OML/cmm/m/it/10 J[][]
  []
 
@@ -5137,73 +4433,73 @@ Missing character: There is no e in font nullfont!
 Missing character: There is no ) in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 227--233
+Overfull \hbox (20.0pt too wide) in paragraph at lines 236--242
 []
  []
 
 
-Overfull \hbox (19.8342pt too wide) in paragraph at lines 227--233
+Overfull \hbox (19.8342pt too wide) in paragraph at lines 236--242
 \OMS/cmsy/m/n/10 j[] ^^@
  []
 
 
-Overfull \hbox (21.5104pt too wide) in paragraph at lines 227--233
+Overfull \hbox (21.5104pt too wide) in paragraph at lines 236--242
 []\OMS/cmsy/m/n/10 j \OT1/cmr/m/n/10 =
  []
 
 
-Overfull \hbox (5.00002pt too wide) in paragraph at lines 227--233
+Overfull \hbox (5.00002pt too wide) in paragraph at lines 236--242
 \OT1/cmr/m/n/10 0$
  []
 
 
-Overfull \hbox (9.27861pt too wide) in paragraph at lines 227--233
+Overfull \hbox (9.27861pt too wide) in paragraph at lines 236--242
 []$
  []
 
 
-Overfull \hbox (8.17711pt too wide) in paragraph at lines 227--233
+Overfull \hbox (8.17711pt too wide) in paragraph at lines 236--242
 []$
  []
 
 
-Overfull \hbox (6.50694pt too wide) in paragraph at lines 227--233
+Overfull \hbox (6.50694pt too wide) in paragraph at lines 236--242
 \OML/cmm/m/it/10 J$
  []
 
 
-Overfull \hbox (4.97223pt too wide) in paragraph at lines 227--233
+Overfull \hbox (4.97223pt too wide) in paragraph at lines 236--242
 []$
  []
 
 
-Overfull \hbox (6.43404pt too wide) in paragraph at lines 227--233
+Overfull \hbox (6.43404pt too wide) in paragraph at lines 236--242
 \OML/cmm/m/it/10 $
  []
 
 
-Overfull \hbox (4.65627pt too wide) in paragraph at lines 227--233
+Overfull \hbox (4.65627pt too wide) in paragraph at lines 236--242
 []$
  []
 
 
-./app.tex:234: LaTeX Error: \begin{frame} on input line 223 ended by \end{redbl
+./app.tex:243: LaTeX Error: \begin{frame} on input line 232 ended by \end{redbl
 ock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.234   \end{redblock}
+l.243   \end{redblock}
                       
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-./app.tex:238: Undefined control sequence.
+./app.tex:247: Undefined control sequence.
 <argument>  \LARGE 
                    APPLICATIONS -- INVERSE KINEMATICS
-l.238 ...LARGE APPLICATIONS -- INVERSE KINEMATICS}
+l.247 ...LARGE APPLICATIONS -- INVERSE KINEMATICS}
                                                   
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5243,13 +4539,13 @@ Missing character: There is no I in font nullfont!
 Missing character: There is no C in font nullfont!
 Missing character: There is no S in font nullfont!
 
-./app.tex:239: LaTeX Error: Environment greyblock undefined.
+./app.tex:248: LaTeX Error: Environment greyblock undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.239   \begin{greyblock}
+l.248   \begin{greyblock}
                          {About Inverse Kinematics}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5278,7 +4574,7 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no c in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 238--240
+Overfull \hbox (20.0pt too wide) in paragraph at lines 247--249
 [][]
  []
 
@@ -5378,8 +4674,8 @@ Missing character: There is no i in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no v in font nullfont!
 Missing character: There is no e in font nullfont!
-./app.tex:243: Undefined control sequence.
-l.243     \item It can actually achieve {\bf
+./app.tex:252: Undefined control sequence.
+l.252     \item It can actually achieve {\bf
                                              near linear} solution for
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -5445,14 +4741,14 @@ Missing character: There is no t in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-./app.tex:246: LaTeX Error: \begin{frame} on input line 238 ended by \end{greyb
+./app.tex:255: LaTeX Error: \begin{frame} on input line 247 ended by \end{greyb
 lock}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.246   \end{greyblock}
+l.255   \end{greyblock}
                        
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -5466,11 +4762,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 20 strings out of 493089
- 246 string characters out of 6134841
- 65199 words of memory out of 5000000
- 3605 multiletter control sequences out of 15000+600000
+ 18 strings out of 493089
+ 239 string characters out of 6134841
+ 64199 words of memory out of 5000000
+ 3603 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 18i,3n,12p,146b,74s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,3n,12p,146b,76s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

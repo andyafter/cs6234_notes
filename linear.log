@@ -1,12 +1,26 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  27 JAN 2016 17:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  28 JAN 2016 16:28
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
 **\input linear.tex
 (./linear.tex
-./linear.tex:10: Undefined control sequence.
-l.10 \subsection
+
+./linear.tex:10: LaTeX Error: Command \d already defined.
+               Or name \end... illegal, see p.192 of the manual.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.10 \newcommand\d{\displaystyle }
+                                  
+Your command was ignored.
+Type  I <command> <return>  to replace it with another command,
+or  <return>  to continue without it.
+
+./linear.tex:13: Undefined control sequence.
+l.13 \subsection
                 {}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -15,21 +29,21 @@ spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
 
-./linear.tex:12: LaTeX Error: Missing \begin{document}.
+./linear.tex:15: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.12   \frametitle
+l.15   \frametitle
                   {Linear Regression Example}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./linear.tex:12: Undefined control sequence.
+./linear.tex:15: Undefined control sequence.
 <argument> \frametitle 
                        
-l.12   \frametitle
+l.15   \frametitle
                   {Linear Regression Example}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -87,26 +101,26 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no . in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 12--14
+Overfull \hbox (20.0pt too wide) in paragraph at lines 15--17
 [][]
  []
 
 
-./linear.tex:20: LaTeX Error: Missing \begin{document}.
+./linear.tex:23: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.20 \frametitle
+l.23 \frametitle
                 {Ordinary Least Squares}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
-./linear.tex:20: Undefined control sequence.
+./linear.tex:23: Undefined control sequence.
 <argument> \frametitle 
                        
-l.20 \frametitle
+l.23 \frametitle
                 {Ordinary Least Squares}
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
@@ -135,66 +149,65 @@ Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
 Missing character: There is no s in font nullfont!
 
-Overfull \hbox (20.0pt too wide) in paragraph at lines 20--21
+Overfull \hbox (20.0pt too wide) in paragraph at lines 23--24
 [][]
  []
 
 
-./linear.tex:22: LaTeX Error: Environment columns undefined.
+./linear.tex:26: LaTeX Error: Environment columns undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.22 \begin{columns}
+l.26 \begin{columns}
                     
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./linear.tex:23: LaTeX Error: Environment column undefined.
+./linear.tex:27: LaTeX Error: Environment column undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23   \begin{column}
-                     {0.48\textwidth}
+l.27   \begin{column}
+                     {0.7\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./linear.tex:23: LaTeX Error: Missing \begin{document}.
+./linear.tex:27: LaTeX Error: Missing \begin{document}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.23   \begin{column}{0
-                       .48\textwidth}
+l.27   \begin{column}{0
+                       .7\textwidth}
 You're in trouble here.  Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-./linear.tex:23: Missing number, treated as zero.
+Missing character: There is no 7 in font nullfont!
+./linear.tex:27: Missing number, treated as zero.
 <to be read again> 
                    }
-l.23   \begin{column}{0.48\textwidth}
-                                     
+l.27   \begin{column}{0.7\textwidth}
+                                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./linear.tex:23: Illegal unit of measure (pt inserted).
+./linear.tex:27: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.23   \begin{column}{0.48\textwidth}
-                                     
+l.27   \begin{column}{0.7\textwidth}
+                                    
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -203,147 +216,130 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-./linear.tex:24: LaTeX Error: Environment block undefined.
+Overfull \hbox (20.0pt too wide) in paragraph at lines 27--28
+[] 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.24     \begin{block}
-                      {left block 1}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no I in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no p in font nullfont!
+Missing character: There is no u in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no : in font nullfont!
+Missing character: There is no p in font nullfont!
 Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
 Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 1 in font nullfont!
+Missing character: There is no s in font nullfont!
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <7> on input line 29.
+LaTeX Font Info:    External font `cmex10' loaded for size
+(Font)              <5> on input line 29.
 
-./linear.tex:26: LaTeX Error: \begin{frame} on input line 19 ended by \end{bloc
-k}.
+Overfull \hbox (29.49887pt too wide) in paragraph at lines 29--30
+\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 x[]; y[]\OT1/cmr/m/n/10 )$ 
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.26     \end{block}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-
-./linear.tex:27: LaTeX Error: Environment block undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.27     \begin{block}
-                      <2>{left block 2}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no < in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no > in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no R in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no g in font nullfont!
+Missing character: There is no r in font nullfont!
 Missing character: There is no e in font nullfont!
-Missing character: There is no f in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no s in font nullfont!
+Missing character: There is no i in font nullfont!
 Missing character: There is no o in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no l in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no n in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
+
+Overfull \hbox (15.81711pt too wide) in paragraph at lines 30--31
+\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (22.27321pt too wide) in paragraph at lines 30--31
+\OML/cmm/m/it/10 mx \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (4.29166pt too wide) in paragraph at lines 30--31
+\OML/cmm/m/it/10 b$ 
+ []
+
+Missing character: There is no O in font nullfont!
+Missing character: There is no b in font nullfont!
+Missing character: There is no j in font nullfont!
+Missing character: There is no e in font nullfont!
 Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 2 in font nullfont!
+Missing character: There is no t in font nullfont!
+Missing character: There is no i in font nullfont!
+Missing character: There is no v in font nullfont!
+Missing character: There is no e in font nullfont!
+Missing character: There is no : in font nullfont!
 
-./linear.tex:29: LaTeX Error: \begin{frame} on input line 19 ended by \end{bloc
-k}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.29     \end{block}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (52.67662pt too wide) in paragraph at lines 31--32
+[] []\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y[] \OMS/cmsy/m/n/10 ^^@
+ []
 
 
-./linear.tex:30: LaTeX Error: \begin{frame} on input line 19 ended by \end{colu
+Overfull \hbox (25.6025pt too wide) in paragraph at lines 31--32
+\OML/cmm/m/it/10 mx[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.66669pt too wide) in paragraph at lines 31--32
+\OML/cmm/m/it/10 b\OT1/cmr/m/n/10 )[]$ 
+ []
+
+
+./linear.tex:33: LaTeX Error: \begin{frame} on input line 22 ended by \end{colu
 mn}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.30   \end{column}
+l.33   \end{column}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./linear.tex:31: LaTeX Error: Environment column undefined.
+./linear.tex:35: LaTeX Error: Environment column undefined.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.31   \begin{column}
-                     {0.48\textwidth}
+l.35   \begin{column}
+                     {0.5\textwidth}
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 Missing character: There is no 0 in font nullfont!
 Missing character: There is no . in font nullfont!
-Missing character: There is no 4 in font nullfont!
-Missing character: There is no 8 in font nullfont!
-./linear.tex:31: Missing number, treated as zero.
+Missing character: There is no 5 in font nullfont!
+./linear.tex:35: Missing number, treated as zero.
 <to be read again> 
                    }
-l.31   \begin{column}{0.48\textwidth}
-                                     
+l.35   \begin{column}{0.5\textwidth}
+                                    
 A number should have been here; I inserted `0'.
 (If you can't figure out why I needed to see a number,
 look up `weird error' in the index to The TeXbook.)
 
-./linear.tex:31: Illegal unit of measure (pt inserted).
+./linear.tex:35: Illegal unit of measure (pt inserted).
 <to be read again> 
                    }
-l.31   \begin{column}{0.48\textwidth}
-                                     
+l.35   \begin{column}{0.5\textwidth}
+                                    
 Dimensions can be in units of em, ex, in, pt, pc,
 cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
 I'll assume that you meant to say pt, for printer's points.
@@ -352,129 +348,120 @@ delete the erroneous units; e.g., type `2' to delete
 two letters. (See Chapter 27 of The TeXbook.)
 
 
-./linear.tex:32: LaTeX Error: Environment block undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.32     \begin{block}
-                      {right block 1}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 1 in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 1 in font nullfont!
-
-./linear.tex:34: LaTeX Error: \begin{frame} on input line 19 ended by \end{bloc
-k}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.34     \end{block}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (20.0pt too wide) in paragraph at lines 35--36
+[] 
+ []
 
 
-./linear.tex:35: LaTeX Error: Environment block undefined.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.35     \begin{block}
-                      <2>{right block 2}
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-Missing character: There is no < in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no > in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 2 in font nullfont!
-Missing character: There is no r in font nullfont!
-Missing character: There is no i in font nullfont!
-Missing character: There is no g in font nullfont!
-Missing character: There is no h in font nullfont!
-Missing character: There is no t in font nullfont!
-Missing character: There is no b in font nullfont!
-Missing character: There is no l in font nullfont!
-Missing character: There is no o in font nullfont!
-Missing character: There is no c in font nullfont!
-Missing character: There is no k in font nullfont!
-Missing character: There is no 2 in font nullfont!
-
-./linear.tex:37: LaTeX Error: \begin{frame} on input line 19 ended by \end{bloc
-k}.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.37     \end{block}
-                    
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
+Overfull \hbox (29.49887pt too wide) in paragraph at lines 37--38
+\OT1/cmr/m/n/10 ([]\OML/cmm/m/it/10 ; y[]\OT1/cmr/m/n/10 )$ 
+ []
 
 
-./linear.tex:38: LaTeX Error: \begin{frame} on input line 19 ended by \end{colu
+Overfull \hbox (15.81711pt too wide) in paragraph at lines 38--39
+\OML/cmm/m/it/10 y \OT1/cmr/m/n/10 =
+ []
+
+
+Overfull \hbox (10.20604pt too wide) in paragraph at lines 38--39
+[] \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (13.49307pt too wide) in paragraph at lines 38--39
+[] \OT1/cmr/m/n/10 +
+ []
+
+
+Overfull \hbox (4.29166pt too wide) in paragraph at lines 38--39
+\OML/cmm/m/it/10 b$ 
+ []
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 39.
+
+
+LaTeX Warning: Command \d invalid in math mode on input line 39.
+
+LaTeX Font Info:    Try loading font information for +cmr on input line 39.
+LaTeX Font Info:    No file cmr.fd. on input line 39.
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `/cmr/m/n' instead on input line 39.
+
+./linear.tex:39: Corrupted NFSS tables.
+wrong@fontshape ...message {Corrupted NFSS tables}
+                                                  error@fontshape else let f...
+l.39     \item[] $\d \min
+                         _{\vec{w}}\sum_{i}(y_i - \vec{w} \cdot \vec{x_i} -b...
+This error message was generated by an \errmessage
+command, so I can't give any explicit help.
+Pretend that you're Hercule Poirot: Examine all clues,
+and deduce the truth by order and method.
+
+
+LaTeX Font Warning: Font shape `/cmr/m/n' undefined
+(Font)              using `OT1/cmr/m/n' instead on input line 39.
+
+./linear.tex:39: Missing $ inserted.
+<inserted text> 
+                $
+l.39     \item[] $\d \min
+                         _{\vec{w}}\sum_{i}(y_i - \vec{w} \cdot \vec{x_i} -b...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+./linear.tex:39: Missing $ inserted.
+<inserted text> 
+                $
+l.39     \item[] $\d \min
+                         _{\vec{w}}\sum_{i}(y_i - \vec{w} \cdot \vec{x_i} -b...
+I've inserted a begin-math/end-math symbol since I think
+you left one out. Proceed, with fingers crossed.
+
+
+Overfull \hbox (58.59042pt too wide) in paragraph at lines 39--40
+[][] [][]\OT1/cmr/m/n/10 (\OML/cmm/m/it/10 y[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (10.20604pt too wide) in paragraph at lines 39--40
+[] \OMS/cmsy/m/n/10 ^^A
+ []
+
+
+Overfull \hbox (16.82236pt too wide) in paragraph at lines 39--40
+[] \OMS/cmsy/m/n/10 ^^@
+ []
+
+
+Overfull \hbox (12.66669pt too wide) in paragraph at lines 39--40
+\OML/cmm/m/it/10 b\OT1/cmr/m/n/10 )[]$ 
+ []
+
+
+./linear.tex:42: LaTeX Error: \begin{frame} on input line 22 ended by \end{colu
 mn}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.38   \end{column}
+l.42   \end{column}
                    
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
 
-./linear.tex:39: LaTeX Error: \begin{frame} on input line 19 ended by \end{colu
+./linear.tex:43: LaTeX Error: \begin{frame} on input line 22 ended by \end{colu
 mns}.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.39 \end{columns}
+l.43 \end{columns}
                   
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -488,11 +475,11 @@ or  <return>  to continue without it.
 
  
 Here is how much of TeX's memory you used:
- 14 strings out of 493089
- 190 string characters out of 6134841
- 53199 words of memory out of 5000000
- 3599 multiletter control sequences out of 15000+600000
+ 24 strings out of 493089
+ 257 string characters out of 6134841
+ 55199 words of memory out of 5000000
+ 3608 multiletter control sequences out of 15000+600000
  3640 words of font info for 14 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 7i,3n,6p,83b,38s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 18i,9n,12p,110b,174s stack positions out of 5000i,500n,10000p,200000b,80000s
 !  ==> Fatal error occurred, no output PDF file produced!

@@ -1,0 +1,111 @@
+%%% Local Variables:
+%%% mode: latex
+%%% TeX-master: t
+%%% End:
+
+
+\newcommand\desmeth{x^{(k+1)} = x^{(k)} + t^{(k)}\Delta x^{(k)}}
+\newcommand\satis{{\bf \small s.t}.   f(x^{(k+1)} < f(x^{(k)})}
+\newcommand\xk[1]{x^{(#1)}}
+\begin{frame}
+  \frametitle{Unconstrained Optimization}
+  \begin{itemize}
+  \item Minimize $f(x)$;
+    \item Where $f : \mathbb{R}^n \rightarrow \mathbb{R}$ is convex
+      and twice differentiable;
+    \item No additional constraints;
+    \item Assume that unique minimum $x^*$ exists.
+  \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{General Principle}
+  \begin{itemize}
+  \item Objective: minimize $f(x)$
+  \item Necessary and sufficient condition: $\nabla f(x^*) = 0$
+    \begin{itemize}
+    \item Solve analytically
+    \item Iterative algorithms
+    \end{itemize}
+  \end{itemize}
+
+  \begin{block}{ Iterative Algorithm:}
+    $$\xk{0}, \xk{1}, ... \in \dom f$$
+    $$k \rightarrow \infty, f(\xk{k}) < f(x^*) $$
+  \end{block}
+
+  \begin{block}{Descent Method:}
+$$\desmeth,  \satis$$
+  \end{block}
+
+\end{frame}
+
+
+\begin{frame}
+\frametitle{General Descent Method}
+  \begin{block}{Descent Method:}
+    \begin{equation}
+      \desmeth,  \satis
+\label{equation: descent}
+\end{equation}
+  \end{block}
+
+\only<1>{
+  \begin{greenblock}{Algorithm:}
+    \begin{algorithm}[H]
+      \small
+      Given $\xk{0} \in \dom f$\;
+      \Repeat{$\Delta x$ is within an acceptable range and is stable;}{
+      Determine a descent direction $\Delta x$\;
+      Choose a step size $t > 0$\;
+      Update $\desmeth$\;
+      }
+      %\caption{Descent Method Algorithm}
+    \end{algorithm}
+  \end{greenblock}
+}
+
+\only<2>{
+  \begin{greenblock}{Theorem}
+\footnotesize
+      For a continuously differentiable function $f$:
+      $$f~ is~ convex \gdw f(x) \le f(y) + f'(y)(x - y)$$
+  \end{greenblock}
+  \vspace{-8pt}
+  \begin{greyblock}{Proof}
+    \footnotesize
+    $$f(\xk{k+1}) \ge f(\xk{k}) + f'(\xk{k})\Delta \xk{k} $$
+    $$\nabla f(\xk{k}) \le f(\xk(k+1)) - f(\xk{k}) < 0$$
+
+  \end{greyblock}
+}
+
+\only<3>{
+  \begin{greenblock}{Algorithm:}
+    \begin{algorithm}[H]
+      \small
+      Given $\xk{0} \in \dom f$\;
+      \Repeat{$\Delta x$ is within an acceptable range and is stable;}{
+      Determine a descent direction $\Delta x$ $\Rightarrow$
+      {$\footnotesize Gradient/Steepest Descent$}\;
+      Choose a step size $t > 0$ $\Rightarrow$~~~~~~~~~~~~ $Line Search Algo$ \;
+      Update $\desmeth$\;
+      }
+      %\caption{Descent Method Algorithm}
+    \end{algorithm}
+  \end{greenblock}
+}
+
+
+  \begin{block}{Noticing that $f$ is convex:}
+    \begin{equation}
+      \label{eq:xconv}
+      \nabla f(\xk{k})^T\Delta \xk{k} < 0
+    \end{equation}
+  \end{block}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{}
+\end{frame}

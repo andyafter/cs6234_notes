@@ -7,6 +7,7 @@
 \newcommand\here{lalala}
 %\newcommand\x{x_i}
 %\newcommand\y{y_i
+\newcommand\dis{\displaystyle }
 
 
 \subsection{}
@@ -17,27 +18,78 @@
 \end{frame}
 
 
-
+\subsection{}
 \begin{frame}
 \frametitle{Ordinary Least Squares}
 
 % 2 columns examples
 \begin{columns}
-  \begin{column}{0.5\textwidth}
+  \begin{column}{0.6\textwidth}
     \begin{itemize}
     \item[] Input: points $(x_i, y_i)$
       \item[] Regression line: $y = mx + b$
-\item[] Objective: $\min_{m, b}\Sigma_{i}(y_i - mx_i -b)^2$
+\item[] Objective: $\displaystyle \min_{m, b} \sum_{i}(y_i - mx_i -b)^2$
     \end{itemize}
   \end{column}
 
   \begin{column}{0.5\textwidth}
     \begin{itemize}
     \item[] $(\vec{x_i}, y_i)$
-    \item[] $y = \vec{w}\dot\vec{x} + b$
-    \item[] $\min_{\vec{w}}\Sigma_{i}(y_i - \vec{w}\dot\vec{x_i} -b)^2$
+    \item[] $y = \vec{w} \cdot \vec{x} + b$
+    \item[] $\dis \min_{\vec{w}}\sum_{i}(y_i - \vec{w} \cdot \vec{x_i} -b)^2$
     \end{itemize}
 
   \end{column}
 \end{columns}
+
+\begin{itemize}
+\item Easily Solved: $\vec{w}^*(X^TX)-1X^T\vec{y}$
+\item But what if $\dim\vec{x} $ is large?
+\item What about other similar regressions?
+\end{itemize}
+
+\end{frame}
+
+\subsection{}
+\begin{frame}
+\frametitle{Convex Optimization Problems}
+\begin{itemize}
+\item OrdinaryLinearRegression: $\dis \min_{\vec{w}}\sum_i(y_i -
+  \vec{w} \cdot \vec{x_i})^2$
+\item General: $\dis \min_xf(x)$ where $f(x)$ is convex
+\item Set $C$ is convex $\Longleftrightarrow \exists x, y\in C, 0\le t
+  \le 1: tx +(1 - t)y \in C$
+\item Function $f : \mathbb{R}^n \rightarrow \mathbb{R}$ is convex if
+  $\dom f$ is convex and $\exists x, y \in \dom f, 0\le t \le 1:$
+$$f(tx + (1 - t)y) \le tf(x) + (1 - t)f(y)$$
+\end{itemize}
+
+\begin{itemize}
+\item Unconstrained.
+\end{itemize}
+
+\end{frame}
+
+\subsection{}
+
+\begin{frame}
+  \frametitle{Outliers}
+
+Supposed to be a picture here.
+\end{frame}
+
+\subsection{}
+\begin{frame}
+  \frametitle{Outlier Penalty}
+pic
+\end{frame}
+
+\begin{frame}
+  \frametitle{Capped Penalty}
+pic
+\end{frame}
+
+\begin{frame}
+Huber Penalty Function
+pic
 \end{frame}

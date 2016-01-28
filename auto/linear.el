@@ -2,5 +2,6 @@
  "linear"
  (lambda ()
    (TeX-add-symbols
-    "here")))
+    "here"
+    "dis")))
 
