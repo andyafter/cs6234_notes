@@ -1,8 +1,10 @@
 \BOOKMARK [2][]{Outline0.1}{Linear Regression}{}% 1
 \BOOKMARK [2][]{Outline0.2}{Unconstrained Optimization}{}% 2
 \BOOKMARK [2][]{Outline0.3}{Convex Domain}{}% 3
-\BOOKMARK [2][]{Outline0.4}{Applications}{}% 4
-\BOOKMARK [2][]{Outline0.5}{Applications}{}% 5
-\BOOKMARK [3][]{Outline0.5.1.27}{Image Processing}{Outline0.5}% 6
-\BOOKMARK [3][]{Outline0.5.2.37}{MACHINE LEARNING}{Outline0.5}% 7
-\BOOKMARK [3][]{Outline0.5.3.39}{ROBOTICS}{Outline0.5}% 8
+\BOOKMARK [3][]{Outline0.3.1.25}{convex domain}{Outline0.3}% 4
+\BOOKMARK [3][]{Outline0.3.2.27}{limitations}{Outline0.3}% 5
+\BOOKMARK [2][]{Outline0.4}{Applications}{}% 6
+\BOOKMARK [2][]{Outline0.5}{Applications}{}% 7
+\BOOKMARK [3][]{Outline0.5.1.39}{Image Processing}{Outline0.5}% 8
+\BOOKMARK [3][]{Outline0.5.2.49}{MACHINE LEARNING}{Outline0.5}% 9
+\BOOKMARK [3][]{Outline0.5.3.51}{ROBOTICS}{Outline0.5}% 10

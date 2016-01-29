@@ -3,8 +3,12 @@
 %%% TeX-master: t
 %%% End:
 
+\newcommand\xkk[1]{x_{(#1)}}
+
+\subsection{convex domain}
 \begin{frame}
   \frametitle{Convex Domain}
+\only<1>{
 Linear Regression method is applicable only if nonlinear function is
 linear in terms of function parameters:
 $$\dis f(x; a) = \sum_{k=1}^m a_kh_k(x)$$
@@ -16,7 +20,69 @@ f_1(x) & = \frac{x^2}{a_1 + (x - a_2)}\\
 f_2(x, y, z) & = \frac{x^2}{a_1 + x^2} + \frac{y^2}{a_2 + y^2} + \frac{z^2}{a_3 + z^2}
   \end{split}
 \end{equation*}
+}
+
+\only<2>{
+
+There should be pic here;
+
+
+To minimize the error, we need iterative optimization.
+
+
+}
+
+
+
 \end{frame}
+
+
+\subsection{limitations}
+\begin{frame}
+\frametitle{Advantages -- Disadvantages -- Limitations}
+
+
+\only<1>{
+If step length is appropriate, f always decreases: converge. (well
+condition)
+
+pic here,
+}
+
+\only<2>{
+If step length is too large, f can increase: diverge. (ill condition)
+
+
+}
+
+\only<3>{
+If parameters of f affect error equally,
+
+
+
+}
+
+
+\only<4>{
+If parameters of f affect error unequally,
+
+
+Pic here.
+}
+
+
+\only<5>{
+If parameters of f affect error very unequally,
+
+Pic here.
+
+
+Small step length can also cause divergence. (ill condition)
+}
+
+
+\end{frame}
+
 
 \begin{frame}
 \frametitle{Condition Number}
@@ -31,4 +97,153 @@ f_2(x, y, z) & = \frac{x^2}{a_1 + x^2} + \frac{y^2}{a_2 + y^2} + \frac{z^2}{a_3 
 \item $cond(f) = \frac{\lambda_{max}(f)}{\lambda_{min}(f)}$
 \item $\lambda_{max}$ and $\lambda_{min}$ describes minimum and maximum eigenvalues in 2D.
 \end{itemize}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Example Quadratic Problem in $R^2$}
+
+{
+\tiny
+
+$$f(x) = \frac{1}{2}(x_1^2 + \gamma \xkk{2}^2) ~~~ \gamma > 0$$
+
+with exact line search, starting at $x^{(0)} = (\gamma, 1)$
+$$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
+\xkk{2}^{(k)} = \gamma (-\frac{\gamma - 1}{\gamma + 1})^k$$
+}
+\vspace{-8mm}
+
+{
+\tiny
+\begin{itemize}
+\item Hessian of f has eigenvalues 1 and $\gamma$. And, m = $\min{1,
+    \gamma}$,and $M = \max{1, \gamma}$
+\item In particular,$f(\xkk{k})$ converges to $p^*$, optimal value, at
+  least as fast as a geometric series with an exponent that depends
+  (at least in part) on the condition number bound $\frac{M}{m}$.
+
+\end{itemize}
+
+
+}
+\begin{columns}
+
+  \begin{column}{0.6\textwidth}
+
+
+\begin{itemize}
+\item Very slow if $\gamma > 1 or \gamma < 1$
+\item Useless if $\gamma > 20$.
+\item Example for $\gamma = 10$.
+\end{itemize}
+\end{column}
+
+\begin{column}{0.5\textwidth}
+Should be a pic beside itemize.
+\end{column}
+
+
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Advantages -- Disadvantages -- Limitations}
+  {\bf Left} Number of iterations of the gradient method as a
+    function of $\gamma$ which can be thought of as amount of diagonal
+    scaling.
+  {\bf Right} Condition number of the Hessian of the function at its
+    minimum as a function of $\gamma$.
+
+We see that the condition number has a very strong influence on
+convergence rate.
+
+Pics here but strongly recommend you guys draw pictures yourself next
+time.
+\end{frame}
+
+\begin{frame}
+  \frametitle{Exact Line Search VS.  Backtracking Line Search with
+    Non-Quadratic Example}
+$$f(x_1, x_2) = e^{x_1+3x_2-0.1} + e^{x_1-3x_2-0.1} + e^{-x_1-0.1}$$
+
+Pics here
+\begin{columns}
+  \begin{column}{0.5\textwidth}
+{\footnotesize
+    \begin{itemize}
+    \item With exact line search, the error is reduced about $10^{-8}$
+      in 20 iterations, i.e., a reduction by a factor of
+20 about $10^{-\frac{8}{20}} \approx 0.4$ per iteration.
+\item With backtracking line search, the error is reduced
+about $10^{-8}$ in 15 iterations, i.e., a reduction by a factor of
+15 about $10^{-\frac{11}{15}} \approx 0.2$ per iteration.
+    \end{itemize}
+}
+  \end{column}
+
+\begin{column}{0.5\textwidth}
+Should be a pic right side at the itemize
+
+\end{column}
+
+\end{columns}
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Exact Line Search VS.  Backtracking Line Search with
+    a Problem in $R^{100}$}
+
+\only<1>{
+
+$$f(x) = c^Tx - \sum_{i=1}^{500}\log(b_i - a_i^Tx)$$
+
+A larger example, of the form with $m = 500$ terms and $n=100$
+variables.
+
+pics here.
+
+
+‘linear’ convergence, i.e., a straight line on a semilog plot
+}
+
+\only<2>{
+The progress of the gradient method with backtracking line search,
+with parameters $\alpha = 0.1, \beta = 0.5$.
+
+{\bf Average error reduction} is $10^{-\frac{6}{175}} \approx 0.92$
+per iteration.
+
+\begin{columns}
+  \begin{column}{0.6\textwidth }
+In the convergence of the gradient method with exact line search,
+6 {\bf average error reduction} is $10^{-\frac{6}{140}} \approx 0.91$ per iteration. A bit
+faster than the gradient method with backtracking line search.
+  \end{column}
+
+  \begin{column}{0.5\textwidth}
+    Here is some pic
+  \end{column}
+\end{columns}
+
+}
+
+\only<3>{
+\begin{itemize}
+\item  These experiments, done by the book authors, show that the
+  effect of the {\bf backtracking parameters} on the convergence is
+  {\bf not large}.
+\item {\bf Experiment 1}: (effect of the choice of $\alpha$): Fix
+  $\beta = 0.5$, and vary $\alpha$. This experiment suggests that the
+  gradient method works better with fairly large $\alpha$, in the
+  range $(0.2, 0.5)$.
+\item {\bf Experiment 2}: (effect of the choice of  $\beta$): Fix
+  $\alpha = 0.1$, and vary $\beta$. This experiment suggests that
+  $\beta \approx 0.5$ is a good choice.
+\item
+
+\end{itemize}
+}
+
 \end{frame}
