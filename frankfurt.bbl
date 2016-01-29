@@ -1,0 +1,28 @@
+\begin{thebibliography}{1}
+
+\bibitem{jacobian}
+Samuel~R Buss.
+\newblock Introduction to inverse kinematics with jacobian transpose,
+  pseudoinverse and damped least squares methods.
+\newblock {\em IEEE Journal of Robotics and Automation}, 17(1-19):16, 2004.
+
+\bibitem{notes}
+Leow~Wee Kheng.
+\newblock Nus - soc - cs 5240 lecture notes.
+\newblock \url{http://www.comp.nus.edu.sg/~cs5240/index.html}.
+\newblock Accessed: 2016-01-15.
+
+\bibitem{lucas}
+Bruce~D Lucas, Takeo Kanade, et~al.
+\newblock An iterative image registration technique with an application to
+  stereo vision.
+\newblock In {\em IJCAI}, volume~81, pages 674--679, 1981.
+
+\bibitem{delta}
+Gregory~O Stone.
+\newblock An analysis of the delta rule and the learning of statistical
+  associations.
+\newblock {\em Parallel distributed processing: Explorations in the
+  microstructure of cognition}, 1:444--459, 1986.
+
+\end{thebibliography}

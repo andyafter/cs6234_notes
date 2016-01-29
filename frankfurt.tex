@@ -13,9 +13,13 @@
 \usepackage[]{algorithm2e}
 \usepackage{pxfonts}
 \usepackage{eulervm}
+\usepackage[miktex]{gnuplottex} % for MiKTeX,`pdflatex -shell-escape`
+                                % enabled
+\usepackage[export]{adjustbox}
+\usepackage{cite}
+%\usepackage{gnuplottex} I have used this line to compile on TeXLive 2013
 %\usepackage[pdftex,dvipsnames]{xcolor}
 %\usepackage[colorinlistoftodos,prependcaption,textsize=tiny]{todonotes}
-
 \usepackage{mathtools}
 \DeclareMathOperator*{\argmin}{argmin}
 \DeclareMathOperator*{\argmax}{argmax}
@@ -30,10 +34,13 @@
 %\renewcommand{\theequation}{\thechapter--\arabic{equation}} % for
                                 % equation number style
 
+
+
 \DeclareMathOperator{\dom}{dom}
 \def\gdw{\mathrel{{>}\mkern-13mu{<}}}
 
 \setbeamertemplate{itemize items}[square]
+
 
 \usetheme{Frankfurt}
 \setbeamercolor{section in head/foot}{fg=white, bg=blue!20!black!90}
@@ -106,6 +113,7 @@
 
 
 
+
 % \title{Convex Optimization}
 % \author{Hu SiXing, Hakki Can Karaimer, Pan An, Philipp Keck}
 % \date{\today}
@@ -127,14 +135,30 @@
 \section{Linear Regression}
 \input{linear.tex}
 
+
+
 \section{Unconstrained Optimization}
 \input{unconstrained.tex}
+
 
 \section{Convex Domain}
 \input{convexdom.tex}
 
 \section{Applications}
 \input{app.tex}
+
+\section{References}
+\begin{frame}
+  \frametitle{References}
+\tiny
+\bibliographystyle{plain}
+\bibliography{references}
+
+
+\end{frame}
+
+
+
 
 % \section{Section no. 2}
 % \subsection{Lists I}

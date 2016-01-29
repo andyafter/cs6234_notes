@@ -3,6 +3,8 @@
  (lambda ()
    (TeX-add-to-alist 'LaTeX-provided-class-options
                      '(("beamer" "serif" "mathserif" "professionalfont" "hyperref={pdfpagelabels=false}")))
+   (TeX-add-to-alist 'LaTeX-provided-package-options
+                     '(("gnuplottex" "miktex") ("adjustbox" "export")))
    (add-to-list 'LaTeX-verbatim-environments-local "semiverbatim")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "path")
    (add-to-list 'LaTeX-verbatim-macros-with-braces-local "url")
@@ -32,10 +34,15 @@
     "algorithm2e"
     "pxfonts"
     "eulervm"
+    "gnuplottex"
+    "adjustbox"
+    "cite"
     "mathtools")
    (TeX-add-symbols
     '("norm" 1)
     "localtextbulletone"
     "mynew"
-    "gdw")))
+    "gdw")
+   (LaTeX-add-bibliographies
+    "references")))
 

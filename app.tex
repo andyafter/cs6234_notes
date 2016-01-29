@@ -19,7 +19,6 @@
 %   \begin{block}#2{#1}}{\end{block}}
 
 
-\section{Applications}
 
 \subsection{Image Processing}
 
@@ -93,7 +92,7 @@ $$V = (A^TA)^{-1}A^Tb$$
   \end{greyblock}
 \end{frame}
 
-
+\subsection{}
 \begin{frame}
 \frametitle{Lucas-Kanade}
   \begin{blueblock}{Goal of Lucas-Kanade Method:}
@@ -138,20 +137,20 @@ assumption of optical flow described in the slides before.
 
 
 
-
+\subsection{}
 \end{frame}
 
 \begin{frame}
 \frametitle{Lucas-Kanade}
   \begin{blueblock}{Some Explainations:}
     \begin{itemize}
-\item Gradient image $\nabla I$
-\item Image error $I_E = T(x, y) - I(W[x, y]; P)$
-\item Jacobian matrix $ \frac{\partial W}{\partial P} $
-\item Steepest image  $ I_S =  \nabla I \frac{\partial W}{\partial P}$
-\item Hessian Matrix $\Sigma (\nabla I \frac{\partial W}{\partial
-    P})^T(\nabla I \frac{\partial W}{\partial P})$
-\item Iteration step $ \Delta P =  \Sigma I_S^T I_E$
+    \item Gradient image $\nabla I$
+    \item Image error $I_E = T(x, y) - I(W[x, y]; P)$
+    \item Jacobian matrix $ \frac{\partial W}{\partial P} $
+    \item Steepest image  $ I_S =  \nabla I \frac{\partial W}{\partial P}$
+    \item Hessian Matrix $\Sigma (\nabla I \frac{\partial W}{\partial
+        P})^T(\nabla I \frac{\partial W}{\partial P})$
+    \item Iteration step $ \Delta P =  \Sigma I_S^T I_E$
     \end{itemize}
 
 \end{blueblock}

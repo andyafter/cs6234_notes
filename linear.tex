@@ -13,7 +13,7 @@
 \subsection{}
 \begin{frame}
   \frametitle{Linear Regression Example}
-  There should be a picture here.
+  \includegraphics[scale=0.32]{pics/linear.png}
 
 \end{frame}
 
@@ -53,6 +53,8 @@
 \subsection{}
 \begin{frame}
 \frametitle{Convex Optimization Problems}
+
+
 \begin{itemize}
 \item OrdinaryLinearRegression: $\dis \min_{\vec{w}}\sum_i(y_i -
   \vec{w} \cdot \vec{x_i})^2$
@@ -61,12 +63,30 @@
   \le 1: tx +(1 - t)y \in C$
 \item Function $f : \mathbb{R}^n \rightarrow \mathbb{R}$ is convex if
   $\dom f$ is convex and $\exists x, y \in \dom f, 0\le t \le 1:$
-$$f(tx + (1 - t)y) \le tf(x) + (1 - t)f(y)$$
+
 \end{itemize}
+
+\vspace{-4mm}
+
+{\small
+$$f(tx + (1 - t)y) \le tf(x) + (1 - t)f(y)$$
+}
+
+\vspace{-4mm}
+
+\begin{columns}
+  \begin{column}{0.5\textwidth}
 
 \begin{itemize}
 \item Unconstrained.
 \end{itemize}
+
+  \end{column}
+
+  \begin{column}{0.5\textwidth}
+\includegraphics[scale=0.2]{pics/uncons.png}
+  \end{column}
+\end{columns}
 
 \end{frame}
 
@@ -74,22 +94,27 @@ $$f(tx + (1 - t)y) \le tf(x) + (1 - t)f(y)$$
 
 \begin{frame}
   \frametitle{Outliers}
+  \includegraphics[scale=0.32]{pics/lpo.png}
 
-Supposed to be a picture here.
 \end{frame}
 
 \subsection{}
 \begin{frame}
+
+
   \frametitle{Outlier Penalty}
-pic
+
+  \includegraphics[scale=0.32]{pics/pen1.png}
+
+
 \end{frame}
 
 \begin{frame}
   \frametitle{Capped Penalty}
-pic
+  \includegraphics[scale=0.32]{pics/pen2.png}
 \end{frame}
 
 \begin{frame}
-Huber Penalty Function
-pic
+\frametitle{Huber Penalty Function}
+  \includegraphics[scale=0.32]{pics/pen3.png}
 \end{frame}

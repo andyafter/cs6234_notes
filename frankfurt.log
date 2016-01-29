@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  29 JAN 2016 19:31
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  30 JAN 2016 05:41
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1005,20 +1005,90 @@ LaTeX Info: Redefining \openbox on input line 1018.
 (/usr/local/texlive/2015/texmf-dist/tex/latex/eulervm/eulervm.sty
 Package: eulervm 2005/01/11 v4.0 (WaS)
 )
+(/usr/local/texlive/2015/texmf-dist/tex/latex/gnuplottex/gnuplottex.sty
+Package: gnuplottex 2013/11/24 v0.8 gnuplot graphs in LaTeX
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/latexsym.sty
+Package: latexsym 1998/08/17 v2.2e Standard LaTeX package (lasy symbols)
+\symlasy=\mathgroup10
+LaTeX Font Info:    Overwriting symbol font `lasy' in version `bold'
+(Font)                  U/lasy/m/n --> U/lasy/b/n on input line 52.
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/moreverb/moreverb.sty
+Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
+\tab@position=\count170
+\tab@size=\count171
+\listing@line=\count172
+)
+\verbatim@out=\write7
+runsystem(echo t > "w18-test-2016130341.tex")...disabled (restricted).
+
+runsystem(del "w18-test-2016130341.tex")...disabled (restricted).
+
+
+
+Package gnuplottex Warning: Shell escape not enabled.
+(gnuplottex)                You'll need to convert the graphs yourself..
+
+\c@fignum=\count173
+) (/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/adjustbox.sty
+Package: adjustbox 2012/05/21 v1.0 Adjusting TeX boxes (trim, clip, ...)
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/adjcalc.sty
+Package: adjcalc 2012/05/16 v1.1 Provides advanced setlength with multiple back
+-ends (calc, etex, pgfmath)
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/trimclip.sty
+Package: trimclip 2012/05/16 v1.0 Trim and clip general TeX material
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/collectbox/collectbox.sty
+Package: collectbox 2012/05/17 v0.4b Collect macro arguments as boxes
+\collectedbox=\box75
+)
+\tc@llx=\dimen212
+\tc@lly=\dimen213
+\tc@urx=\dimen214
+\tc@ury=\dimen215
+Package trimclip Info: Using driver 'tc-pdftex.def'.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/adjustbox/tc-pdftex.def
+File: tc-pdftex.def 2012/05/13 v1.0 Clipping driver for pdftex
+))
+\adjbox@Width=\dimen216
+\adjbox@Height=\dimen217
+\adjbox@Depth=\dimen218
+\adjbox@Totalheight=\dimen219
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2011/09/13 v1.0 Conditionals for odd/even page detection
+\c@checkoddpage=\count174
+)
+(/usr/local/texlive/2015/texmf-dist/tex/latex/varwidth/varwidth.sty
+Package: varwidth 2009/03/30 ver 0.92;  Variable-width minipages
+\@vwid@box=\box76
+\sift@deathcycles=\count175
+\@vwid@loff=\dimen220
+\@vwid@roff=\dimen221
+))
+(/usr/local/texlive/2015/texmf-dist/tex/latex/cite/cite.sty
+LaTeX Info: Redefining \cite on input line 302.
+LaTeX Info: Redefining \nocite on input line 332.
+Package: cite 2015/02/27  v 5.5
+)
 (/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mathtools.sty
 Package: mathtools 2015/05/11 v1.16 mathematical typesetting tools
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2014/10/28 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count170
-\calc@Bcount=\count171
-\calc@Adimen=\dimen212
-\calc@Bdimen=\dimen213
+\calc@Acount=\count176
+\calc@Bcount=\count177
+\calc@Adimen=\dimen222
+\calc@Bdimen=\dimen223
 \calc@Askip=\skip73
 \calc@Bskip=\skip74
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count172
+\calc@Ccount=\count178
 \calc@Cskip=\skip75
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/mathtools/mhsetup.sty
@@ -1028,15 +1098,15 @@ LaTeX Info: Thecontrolsequence`\('isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\)'isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\['isalreadyrobust on input line 129.
 LaTeX Info: Thecontrolsequence`\]'isalreadyrobust on input line 129.
-\g_MT_multlinerow_int=\count173
-\l_MT_multwidth_dim=\dimen214
+\g_MT_multlinerow_int=\count179
+\l_MT_multwidth_dim=\dimen224
 \origjot=\skip76
-\l_MT_shortvdotswithinadjustabove_dim=\dimen215
-\l_MT_shortvdotswithinadjustbelow_dim=\dimen216
-\l_MT_above_intertext_sep=\dimen217
-\l_MT_below_intertext_sep=\dimen218
-\l_MT_above_shortintertext_sep=\dimen219
-\l_MT_below_shortintertext_sep=\dimen220
+\l_MT_shortvdotswithinadjustabove_dim=\dimen225
+\l_MT_shortvdotswithinadjustbelow_dim=\dimen226
+\l_MT_above_intertext_sep=\dimen227
+\l_MT_below_intertext_sep=\dimen228
+\l_MT_above_shortintertext_sep=\dimen229
+\l_MT_below_shortintertext_sep=\dimen230
 )
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/themes/theme/beamerthemeFr
 ankfurt.sty
@@ -1060,51 +1130,51 @@ Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )) (./frankfurt.aux)
 \openout1 = `frankfurt.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 112.
-LaTeX Font Info:    Try loading font information for OML+pxmi on input line 112
+LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 120.
+LaTeX Font Info:    Try loading font information for OML+pxmi on input line 120
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
 File: omlpxmi.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 112.
-LaTeX Font Info:    Try loading font information for OMS+pxsy on input line 112
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 120.
+LaTeX Font Info:    Try loading font information for OMS+pxsy on input line 120
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/omspxsy.fd
 File: omspxsy.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 112.
-LaTeX Font Info:    Try loading font information for OMX+pxex on input line 112
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 120.
+LaTeX Font Info:    Try loading font information for OMX+pxex on input line 120
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/omxpxex.fd
 File: omxpxex.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 112.
-LaTeX Font Info:    Try loading font information for U+pxexa on input line 112.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 120.
+LaTeX Font Info:    Try loading font information for U+pxexa on input line 120.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxexa.fd
 File: upxexa.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 112.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
-LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
+LaTeX Font Info:    ... okay on input line 120.
 LaTeX Font Info:    Try loading font information for OT1+helvetica on input lin
-e 112.
-LaTeX Font Info:    No file OT1helvetica.fd. on input line 112.
+e 120.
+LaTeX Font Info:    No file OT1helvetica.fd. on input line 120.
 
 
 LaTeX Font Warning: Font shape `OT1/helvetica/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 112.
+(Font)              using `OT1/cmr/m/n' instead on input line 120.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1142,16 +1212,16 @@ LaTeX Font Warning: Font shape `OT1/helvetica/m/n' undefined
 
 (/usr/local/texlive/2015/texmf-dist/tex/context/base/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count174
-\scratchdimen=\dimen221
-\scratchbox=\box75
-\nofMPsegments=\count175
-\nofMParguments=\count176
+\scratchcounter=\count180
+\scratchdimen=\dimen231
+\scratchbox=\box77
+\nofMPsegments=\count181
+\nofMParguments=\count182
 \everyMPshowfont=\toks52
-\MPscratchCnt=\count177
-\MPscratchDim=\dimen222
-\MPnumerator=\count178
-\makeMPintoPDFobject=\count179
+\MPscratchCnt=\count183
+\MPscratchDim=\dimen232
+\MPnumerator=\count184
+\makeMPintoPDFobject=\count185
 \everyMPtoPDFconversion=\toks53
 ) (/usr/local/texlive/2015/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
 Package: epstopdf-base 2010/02/09 v2.5 Base part for package epstopdf
@@ -1169,8 +1239,8 @@ File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
 ABD: EveryShipout initializing macros
-\AtBeginShipoutBox=\box76
-Package hyperref Info: Link coloring OFF on input line 112.
+\AtBeginShipoutBox=\box78
+Package hyperref Info: Link coloring OFF on input line 120.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1178,15 +1248,15 @@ Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 (/usr/local/texlive/2015/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
 Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
-\c@section@level=\count180
+\c@section@level=\count186
 )
-LaTeX Info: Redefining \ref on input line 112.
-LaTeX Info: Redefining \pageref on input line 112.
-LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 120.
+LaTeX Info: Redefining \pageref on input line 120.
+LaTeX Info: Redefining \nameref on input line 120.
 
 (./frankfurt.out) (./frankfurt.out)
-\@outlinefile=\write7
-\openout7 = `frankfurt.out'.
+\@outlinefile=\write8
+\openout8 = `frankfurt.out'.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/beamer/translator/dicts/translato
@@ -1213,77 +1283,128 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 112.
+LaTeX Info: Redefining \includegraphics on input line 120.
 
 (./frankfurt.nav)
-LaTeX Font Info:    Try loading font information for OT1+pxr on input line 112.
+LaTeX Font Info:    Try loading font information for OT1+pxr on input line 120.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/ot1pxr.fd
 File: ot1pxr.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+zeur on input line 112.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 120.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 112.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 120.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 112.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 120.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+pxsya on input line 112.
+LaTeX Font Info:    Try loading font information for U+pxsya on input line 120.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxsya.fd
 File: upxsya.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxsyb on input line 112.
+LaTeX Font Info:    Try loading font information for U+pxsyb on input line 120.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxsyb.fd
 File: utxsyb.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxmia on input line 112.
+LaTeX Font Info:    Try loading font information for U+pxmia on input line 120.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxmia.fd
 File: upxmia.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxsyc on input line 112.
+LaTeX Font Info:    Try loading font information for U+pxsyc on input line 120.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxsyc.fd
 File: upxsyc.fd 2000/12/14 v1.0
 )
+LaTeX Font Info:    Try loading font information for U+lasy on input line 120.
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
+File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
+)
 
 LaTeX Font Warning: Font shape `OT1/helvetica/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 116.
+(Font)              size <5> substituted on input line 124.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 ]
-(./linear.tex [2
+(./linear.tex <pics/linear.png, id=100, 975.645pt x 529.98pt>
+File: pics/linear.png Graphic file (type png)
 
-] [3
+<use pics/linear.png>
+Package pdftex.def Info: pics/linear.png used on input line 18.
+(pdftex.def)             Requested size: 312.21278pt x 169.59705pt.
 
-] [4
+Overfull \hbox (4.92291pt too wide) in paragraph at lines 18--18
+[][]  
+ []
 
-] [5
+[2
 
-] [6
+ <./pics/linear.png>] [3
 
-] [7
+] <pics/uncons.png, id=191, 706.64pt x 220.825pt>
+File: pics/uncons.png Graphic file (type png)
 
-] [8
+<use pics/uncons.png>
+Package pdftex.def Info: pics/uncons.png used on input line 91.
+(pdftex.def)             Requested size: 141.32549pt x 44.16422pt.
+ [4
 
-]) (./unconstrained.tex [9
+ <./pics/uncons.png>]
+<pics/lpo.png, id=233, 961.5925pt x 530.98375pt>
+File: pics/lpo.png Graphic file (type png)
+ <use pics/lpo.png>
+Package pdftex.def Info: pics/lpo.png used on input line 99.
+(pdftex.def)             Requested size: 307.71588pt x 169.91826pt.
+
+Overfull \hbox (0.42601pt too wide) in paragraph at lines 99--99
+[][]  
+ []
+
+[5
+
+ <./pics/lpo.png>] <pics/pen1.png, id=274, 923.45pt x 494.84875pt>
+File: pics/pen1.png Graphic file (type png)
+
+<use pics/pen1.png>
+Package pdftex.def Info: pics/pen1.png used on input line 110.
+(pdftex.def)             Requested size: 295.51003pt x 158.35483pt.
+ [6
+
+ <./pics/pen1.png>]
+<pics/pen2.png, id=314, 923.45pt x 495.8525pt>
+File: pics/pen2.png Graphic file (type png)
+ <use pics/pen2.png>
+Package pdftex.def Info: pics/pen2.png used on input line 115.
+(pdftex.def)             Requested size: 295.51003pt x 158.67604pt.
+ [7
+
+ <./pics/pen2.png>] <pics/pen3.png, id=354, 923.45pt x 494.84875pt>
+File: pics/pen3.png Graphic file (type png)
+ <use pics/pen3.png>
+Package pdftex.def Info: pics/pen3.png used on input line 120.
+(pdftex.def)             Requested size: 295.51003pt x 158.35483pt.
+
+[8
+
+ <./pics/pen3.png>]) (./unconstrained.tex [9
 
 ]
 LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <10.95> not available
@@ -1336,9 +1457,34 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 10
 
 [13
 
-] [14
+] <pics/sa.png, id=597, 563.10374pt x 493.845pt>
+File: pics/sa.png Graphic file (type png)
+ <use pics/sa.png>
+Package pdftex.def Info: pics/sa.png used on input line 179.
+(pdftex.def)             Requested size: 84.46191pt x 74.07355pt.
 
-] [15
+<pics/si.png, id=598, 570.13pt x 501.875pt>
+File: pics/si.png Graphic file (type png)
+ <use pics/si.png>
+Package pdftex.def Info: pics/si.png used on input line 179.
+(pdftex.def)             Requested size: 85.51581pt x 75.278pt.
+
+<pics/issue1.png, id=599, 739.76375pt x 421.575pt>
+File: pics/issue1.png Graphic file (type png)
+ <use pics/issue1.png>
+Package pdftex.def Info: pics/issue1.png used on input line 179.
+(pdftex.def)             Requested size: 133.15172pt x 75.88022pt.
+
+<pics/issue2.png, id=600, 677.53125pt x 410.53375pt>
+File: pics/issue2.png Graphic file (type png)
+ <use pics/issue2.png>
+Package pdftex.def Info: pics/issue2.png used on input line 179.
+(pdftex.def)             Requested size: 121.95036pt x 73.89288pt.
+
+[14
+
+ <./pics/sa.png> <./pics/si.png> <./pics/issue1.png> <./pics/issue2.png>]
+[15
 
 ] [16
 
@@ -1348,14 +1494,14 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 10
 
 ]
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 282.
+LaTeX Font Warning: Command \small invalid in math mode on input line 304.
 
 [19
 
 ] [20
 
 ]
-Overfull \hbox (3.59674pt too wide) in paragraph at lines 282--282
+Overfull \hbox (3.59674pt too wide) in paragraph at lines 304--304
 []  
  []
 
@@ -1369,109 +1515,292 @@ Overfull \hbox (3.59674pt too wide) in paragraph at lines 282--282
 
 ]) (./convexdom.tex [25
 
-] [26
-
-] [27
-
-] [28
-
-] [29
-
-] [30
-
-] [31
-
 ]
-[32
+<pics/funcs.png, id=1077, 831.105pt x 481.8pt>
+File: pics/funcs.png Graphic file (type png)
+ <use pics/funcs.png>
+Package pdftex.def Info: pics/funcs.png used on input line 31.
+(pdftex.def)             Requested size: 265.95903pt x 154.17914pt.
+ [26
 
-]
-LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <14.4> not available
-(Font)              Font shape `OT1/pxr/bx/n' tried instead on input line 147.
- [33
+ <./pics/funcs.png>]
+File: pics/sa.png Graphic file (type png)
+ <use pics/sa.png>
+Package pdftex.def Info: pics/sa.png used on input line 102.
+(pdftex.def)             Requested size: 180.19687pt x 158.03362pt.
 
-] [34
-
-]
-Overfull \vbox (14.23245pt too high) detected at line 189
+Overfull \vbox (12.71872pt too high) detected at line 102
  []
 
-[35
+[27
 
 ]
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ò in font cmr10!
-Missing character: There is no ‚ in font cmr10!
-Missing character: There is no Ä in font cmr10!
-Missing character: There is no ô in font cmr10!
- [36
+File: pics/si.png Graphic file (type png)
+ <use pics/si.png>
+Package pdftex.def Info: pics/si.png used on input line 102.
+(pdftex.def)             Requested size: 182.44533pt x 160.60327pt.
 
-] [37
+Overfull \vbox (1.68837pt too high) detected at line 102
+ []
+
+[28
+
+] <pics/topview.png, id=1195, 532.99126pt x 482.80376pt>
+File: pics/topview.png Graphic file (type png)
+
+<use pics/topview.png>
+Package pdftex.def Info: pics/topview.png used on input line 102.
+(pdftex.def)             Requested size: 170.56068pt x 154.50035pt.
+ [29
+
+ <./pics/topview.png>]
+<pics/topview2.png, id=1236, 920.43875pt x 465.74pt>
+File: pics/topview2.png Graphic file (type png)
+ <use pics/topview2.png>
+Package pdftex.def Info: pics/topview2.png used on input line 102.
+(pdftex.def)             Requested size: 257.72108pt x 130.40631pt.
+
+[30
+
+ <./pics/topview2.png>]
+<pics/unequal.png, id=1276, 559.08875pt x 509.905pt>
+File: pics/unequal.png Graphic file (type png)
+ <use pics/unequal.png>
+Package pdftex.def Info: pics/unequal.png used on input line 102.
+(pdftex.def)             Requested size: 178.91205pt x 163.17293pt.
+
+Overfull \vbox (4.20526pt too high) detected at line 102
+ []
+
+[31
+
+ <./pics/unequal.png>]
+<pics/example.png, id=1317, 1243.64626pt x 588.1975pt>
+File: pics/example.png Graphic file (type png)
+ <use pics/example.png>
+Package pdftex.def Info: pics/example.png used on input line 120.
+(pdftex.def)             Requested size: 99.49373pt x 47.05675pt.
+
+[32
+
+ <./pics/example.png>]
+File: pics/example.png Graphic file (type png)
+ <use pics/example.png>
+Package pdftex.def Info: pics/example.png used on input line 167.
+(pdftex.def)             Requested size: 149.23111pt x 70.58064pt.
+LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <14.4> not available
+(Font)              Font shape `OT1/pxr/bx/n' tried instead on input line 167.
+ [33
+
+]
+<pics/ga1.png, id=1397, 780.9175pt x 579.16376pt>
+File: pics/ga1.png Graphic file (type png)
+ <use pics/ga1.png>
+Package pdftex.def Info: pics/ga1.png used on input line 206.
+(pdftex.def)             Requested size: 117.13257pt x 86.8708pt.
+
+<pics/ga2.png, id=1398, 763.85374pt x 592.2125pt>
+File: pics/ga2.png Graphic file (type png)
+ <use pics/ga2.png>
+Package pdftex.def Info: pics/ga2.png used on input line 206.
+(pdftex.def)             Requested size: 114.5731pt x 88.82803pt.
+
+Overfull \vbox (2.70087pt too high) detected at line 206
+ []
+
+[34
+
+ <./pics/ga1.png> <./pics/ga2.png>]
+<pics/btes.png, id=1439, 826.08624pt x 318.18875pt>
+File: pics/btes.png Graphic file (type png)
+ <use pics/btes.png>
+Package pdftex.def Info: pics/btes.png used on input line 240.
+(pdftex.def)             Requested size: 206.52104pt x 79.54698pt.
+
+<pics/els.png, id=1440, 858.20625pt x 611.28375pt>
+File: pics/els.png Graphic file (type png)
+ <use pics/els.png>
+Package pdftex.def Info: pics/els.png used on input line 240.
+(pdftex.def)             Requested size: 102.9803pt x 73.35088pt.
+ [35
+
+ <./pics/btes.png> <./pics/els.png>]
+<pics/error.png, id=1482, 923.45pt x 601.24625pt>
+File: pics/error.png Graphic file (type png)
+ <use pics/error.png>
+Package pdftex.def Info: pics/error.png used on input line 301.
+(pdftex.def)             Requested size: 184.68672pt x 120.24712pt.
+Missing character: There is no ‚ in font cmr6!
+Missing character: There is no Ä in font cmr6!
+Missing character: There is no ò in font cmr6!
+Missing character: There is no ‚ in font cmr6!
+Missing character: There is no Ä in font cmr6!
+Missing character: There is no ô in font cmr6!
+
+Overfull \vbox (35.67319pt too high) detected at line 301
+ []
+
+[36
+
+ <./pics/error.png>]
+File: pics/error.png Graphic file (type png)
+ <use pics/error.png>
+Package pdftex.def Info: pics/error.png used on input line 301.
+(pdftex.def)             Requested size: 138.51152pt x 90.18304pt.
+ [37
 
 ] [38
 
-]) (./app.tex
-<right2.png, id=2825, 1800.7275pt x 1009.7725pt>
-File: right2.png Graphic file (type png)
- <use right2.png>
-Package pdftex.def Info: right2.png used on input line 36.
-(pdftex.def)             Requested size: 270.09747pt x 151.45934pt.
- [39
+] [39
 
- <./right2.png>] [40
+]
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ú in font cmr10!
+Missing character: There is no ‚ in font cmr10!
+Missing character: There is no Ä in font cmr10!
+Missing character: There is no ù in font cmr10!
+ [40
 
-] [41
+]
+<pics/nc.png, id=1678, 651.43375pt x 472.76625pt>
+File: pics/nc.png Graphic file (type png)
+ <use pics/nc.png>
+Package pdftex.def Info: pics/nc.png used on input line 495.
+(pdftex.def)             Requested size: 195.43163pt x 141.83096pt.
+ [41
 
-] [42
+ <./pics/nc.png>]
+File: pics/nc.png Graphic file (type png)
+ <use pics/nc.png>
+Package pdftex.def Info: pics/nc.png used on input line 495.
+(pdftex.def)             Requested size: 65.14719pt x 47.27939pt.
+File: pics/topview.png Graphic file (type png)
+ <use pics/topview.png>
+Package pdftex.def Info: pics/topview.png used on input line 495.
+(pdftex.def)             Requested size: 53.30225pt x 48.2832pt.
+ [42
 
 ] [43
 
-] [44
+]
+<pics/911.png, id=1797, 604.2575pt x 355.3275pt>
+File: pics/911.png Graphic file (type png)
+ <use pics/911.png>
+Package pdftex.def Info: pics/911.png used on input line 495.
+(pdftex.def)             Requested size: 90.6347pt x 53.29681pt.
 
-] [45
+<pics/912.png, id=1798, 785.93625pt x 540.0175pt>
+File: pics/912.png Graphic file (type png)
+ <use pics/912.png>
+Package pdftex.def Info: pics/912.png used on input line 495.
+(pdftex.def)             Requested size: 94.30827pt x 64.7993pt.
+ [44
 
-] [46
+ <./pics/911.png> <./pics/912.png>]
+<pics/913.png, id=1840, 1042.89626pt x 727.71875pt>
+File: pics/913.png Graphic file (type png)
+ <use pics/913.png>
+Package pdftex.def Info: pics/913.png used on input line 495.
+(pdftex.def)             Requested size: 135.58127pt x 94.60675pt.
+ [45
 
-] [47
+ <./pics/913.png>] <pics/914.png, id=1880, 544.0325pt x 591.20876pt>
+File: pics/914.png Graphic file (type png)
 
-] [48
+<use pics/914.png>
+Package pdftex.def Info: pics/914.png used on input line 495.
+(pdftex.def)             Requested size: 87.04697pt x 94.59532pt.
+ <pics/915.png, id=1881, 769.87625pt x 276.03125pt>
+File: pics/915.png Graphic file (type png)
+
+<use pics/915.png>
+Package pdftex.def Info: pics/915.png used on input line 495.
+(pdftex.def)             Requested size: 123.18271pt x 44.1659pt.
+
+Overfull \vbox (5.96101pt too high) detected at line 495
+ []
+
+[46
+
+ <./pics/914.png> <./pics/915.png>]) (./app.tex
+<right2.png, id=1923, 1800.7275pt x 1009.7725pt>
+File: right2.png Graphic file (type png)
+ <use right2.png>
+Package pdftex.def Info: right2.png used on input line 35.
+(pdftex.def)             Requested size: 270.09747pt x 151.45934pt.
+ [47
+
+ <./right2.png>] [48
 
 ] [49
 
 ] [50
 
-]
-<jcob.png, id=3657, 306.64563pt x 311.66437pt>
-File: jcob.png Graphic file (type png)
- <use jcob.png>
-Package pdftex.def Info: jcob.png used on input line 216.
-(pdftex.def)             Requested size: 183.98878pt x 187.00006pt.
- [51
+] [51
 
- <./jcob.png>] [52
+] [52
 
 ] [53
 
 ] [54
 
-])
-\tf@nav=\write8
-\openout8 = `frankfurt.nav'.
+] [55
 
-\tf@toc=\write9
-\openout9 = `frankfurt.toc'.
+] [56
 
-\tf@snm=\write10
-\openout10 = `frankfurt.snm'.
+] [57
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 251.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 251.
- (./frankfurt.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 251.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 251.
-Package rerunfilecheck Info: File `frankfurt.out' has not changed.
-(rerunfilecheck)             Checksum: 44E79BB0DE63645A4B148C2DC7261E37;570.
+] [58
 
+]
+<jcob.png, id=2396, 306.64563pt x 311.66437pt>
+File: jcob.png Graphic file (type png)
+ <use jcob.png>
+Package pdftex.def Info: jcob.png used on input line 215.
+(pdftex.def)             Requested size: 183.98878pt x 187.00006pt.
+ [59
+
+ <./jcob.png>] [60
+
+] [61
+
+] [62
+
+]) (./frankfurt.bbl
+LaTeX Font Info:    Try loading font information for OT1+pxtt on input line 12.
+
+
+(/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/ot1pxtt.fd
+File: ot1pxtt.fd 2000/12/14 v1.0
+)) [63
+
+ </usr/local/texlive/2015/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf
+>]
+\tf@nav=\write9
+\openout9 = `frankfurt.nav'.
+
+\tf@toc=\write10
+\openout10 = `frankfurt.toc'.
+
+\tf@snm=\write11
+\openout11 = `frankfurt.snm'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 275.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 275.
+
+(./frankfurt.aux)
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 275.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 275.
+
+
+Package rerunfilecheck Warning: File `frankfurt.out' has changed.
+(rerunfilecheck)                Rerun to get outlines right
+(rerunfilecheck)                or use package `bookmark'.
+
+Package rerunfilecheck Info: Checksums for `frankfurt.out':
+(rerunfilecheck)             Before: 8A935186CA1ADC6606FB29F76E36FF88;113
+(rerunfilecheck)             After:  B8B46D565F251BF080C60045223369A0;568.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1479,45 +1808,48 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 251.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 275.
  ) 
 Here is how much of TeX's memory you used:
- 24443 strings out of 493089
- 476437 string characters out of 6134841
- 621560 words of memory out of 5000000
- 27168 multiletter control sequences out of 15000+600000
- 54916 words of font info for 179 fonts, out of 8000000 for 9000
+ 25374 strings out of 493089
+ 493352 string characters out of 6134841
+ 619412 words of memory out of 5000000
+ 27992 multiletter control sequences out of 15000+600000
+ 56442 words of font info for 190 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,23n,73p,955b,1089s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/te
-xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texl
-ive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texliv
-e/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/
-2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/20
-15/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/
-texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/
-fonts/type1/public/amsfonts/euler/euex10.pfb></usr/local/texlive/2015/texmf-dis
-t/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2015/texmf-d
-ist/fonts/type1/public/amsfonts/euler/eufm5.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2015/tex
-mf-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb></usr/local/texlive/2015/te
-xmf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/local/texlive/2015/t
-exmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/2015
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
+/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb></usr/local/texlive/201
+5/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr/local/texlive/2015/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/cm/cmr9.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/cm/cmsy5.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmsy7.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/public/amsfonts/euler/euex10.pfb></usr/local/texlive/2015/texmf-dist
+/fonts/type1/public/amsfonts/euler/eufm10.pfb></usr/local/texlive/2015/texmf-di
+st/fonts/type1/public/amsfonts/euler/eufm5.pfb></usr/local/texlive/2015/texmf-d
+ist/fonts/type1/public/amsfonts/euler/eufm7.pfb></usr/local/texlive/2015/texmf-
+dist/fonts/type1/public/amsfonts/euler/eurm10.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/public/amsfonts/euler/eurm5.pfb></usr/local/texlive/2015/tex
+mf-dist/fonts/type1/public/amsfonts/euler/eurm7.pfb></usr/local/texlive/2015/te
+xmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/2015/
+texmf-dist/fonts/type1/public/amsfonts/euler/eusm7.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (54 pages, 2141059 bytes).
+5/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/urw/palatino/uplr8a.pfb>
+Output written on frankfurt.pdf (63 pages, 4968659 bytes).
 PDF statistics:
- 4043 PDF objects out of 4296 (max. 8388607)
- 3856 compressed objects within 39 object streams
- 127 named destinations out of 1000 (max. 500000)
- 223 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2729 PDF objects out of 2984 (max. 8388607)
+ 2519 compressed objects within 26 object streams
+ 152 named destinations out of 1000 (max. 500000)
+ 289 words of extra memory for PDF output out of 10000 (max. 10000000)
 

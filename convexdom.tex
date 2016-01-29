@@ -24,16 +24,10 @@ f_2(x, y, z) & = \frac{x^2}{a_1 + x^2} + \frac{y^2}{a_2 + y^2} + \frac{z^2}{a_3 
 
 \only<2>{
 
-There should be pic here;
-
+\includegraphics[scale=0.32]{pics/funcs.png}
 
 To minimize the error, we need iterative optimization.
-
-
 }
-
-
-
 \end{frame}
 
 
@@ -43,14 +37,27 @@ To minimize the error, we need iterative optimization.
 
 
 \only<1>{
-If step length is appropriate, f always decreases: converge. (well
-condition)
+If step length is appropriate, $f$ always decreases: converge. {\bf (well
+condition)}
 
-pic here,
+\begin{figure}[t]
+  \centering
+\includegraphics[scale=0.32]{pics/sa.png}
+  \caption{Well Conditioned}
+\end{figure}
+
+
 }
 
 \only<2>{
-If step length is too large, f can increase: diverge. (ill condition)
+If step length is too large, $f$ can increase: diverge. {\bf (ill
+  condition)}
+
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.32]{pics/si.png}
+\caption{Ill Conditioned.}
+\end{figure}
 
 
 }
@@ -58,6 +65,11 @@ If step length is too large, f can increase: diverge. (ill condition)
 \only<3>{
 If parameters of f affect error equally,
 
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.32]{pics/topview.png}
+\caption{Straight path, fast convergence. {\bf (well condition)}}
+\end{figure}
 
 
 }
@@ -65,21 +77,27 @@ If parameters of f affect error equally,
 
 \only<4>{
 If parameters of f affect error unequally,
+\begin{figure}[t]
+  \centering
+\includegraphics[scale=0.28]{pics/topview2.png}
+\caption{Jagged path, slow convergence. {\bf (ill condition)}}
+\end{figure}
 
 
-Pic here.
+
 }
 
 
 \only<5>{
 If parameters of f affect error very unequally,
 
-Pic here.
-
-
-Small step length can also cause divergence. (ill condition)
+\begin{figure}[t]
+  \centering
+\includegraphics[scale=0.32]{pics/unequal.png}
+  \caption{Small step length can also cause divergence. {\bf (ill
+      condition)}}
+\end{figure}
 }
-
 
 \end{frame}
 
@@ -97,6 +115,8 @@ Small step length can also cause divergence. (ill condition)
 \item $cond(f) = \frac{\lambda_{max}(f)}{\lambda_{min}(f)}$
 \item $\lambda_{max}$ and $\lambda_{min}$ describes minimum and maximum eigenvalues in 2D.
 \end{itemize}
+
+\includegraphics[scale=0.08, right]{pics/example.png}
 \end{frame}
 
 \begin{frame}
@@ -139,7 +159,7 @@ $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
 \end{column}
 
 \begin{column}{0.5\textwidth}
-Should be a pic beside itemize.
+\includegraphics[scale=0.12, center]{pics/example.png}
 \end{column}
 
 
@@ -149,17 +169,40 @@ Should be a pic beside itemize.
 
 \begin{frame}
   \frametitle{Advantages -- Disadvantages -- Limitations}
-  {\bf Left} Number of iterations of the gradient method as a
+
+  { \scriptsize   {\bf\it Left} Number of iterations of the gradient method as a
     function of $\gamma$ which can be thought of as amount of diagonal
     scaling.
-  {\bf Right} Condition number of the Hessian of the function at its
+
+  {\bf\it Right} Condition number of the Hessian of the function at its
     minimum as a function of $\gamma$.
+}
+{\scriptsize We see that the condition number has a very strong influence on
+convergence rate.}
 
-We see that the condition number has a very strong influence on
-convergence rate.
+\begin{columns}
+  \begin{column}{0.5\textwidth}
+    \begin{figure}[ht!]
+      \centering
+\includegraphics[scale=0.15]{pics/ga1.png}
+\caption{\tiny The
+  verticle axis shows the number of iterations required to obtain
+  $\overline{f}(\overline{x}^{(k)}) - \overline{p}^* < 10^{-5}$. The
+  horizontal axis shows $\gamma$, which is the  parameter that controls the amount of diagonal scaling. We use a
+backtracking line search with $\alpha = 0.3, \beta = 0.7$.}
+    \end{figure}
+  \end{column}
 
-Pics here but strongly recommend you guys draw pictures yourself next
-time.
+  \begin{column}{0.5\textwidth}
+    \begin{figure}[ht!]
+      \centering
+\includegraphics[scale=0.15]{pics/ga2.png}
+\caption{\tiny Condition number of the Hessian of the function at its
+  minimum, as a function of $\gamma$. By comparing this plot with the
+  one in the left figure, we see that the condition number has a very strong influence on convergence rate.}
+    \end{figure}
+  \end{column}
+\end{columns}
 \end{frame}
 
 \begin{frame}
@@ -167,10 +210,16 @@ time.
     Non-Quadratic Example}
 $$f(x_1, x_2) = e^{x_1+3x_2-0.1} + e^{x_1-3x_2-0.1} + e^{-x_1-0.1}$$
 
-Pics here
+\begin{figure}
+\centering
+\includegraphics[scale=0.25]{pics/btes.png}
+\end{figure}
+
+
+
 \begin{columns}
-  \begin{column}{0.5\textwidth}
-{\footnotesize
+  \begin{column}{0.6\textwidth}
+{\tiny
     \begin{itemize}
     \item With exact line search, the error is reduced about $10^{-8}$
       in 20 iterations, i.e., a reduction by a factor of
@@ -183,7 +232,7 @@ about $10^{-8}$ in 15 iterations, i.e., a reduction by a factor of
   \end{column}
 
 \begin{column}{0.5\textwidth}
-Should be a pic right side at the itemize
+\includegraphics[scale = 0.12]{pics/els.png}
 
 \end{column}
 
@@ -198,14 +247,16 @@ Should be a pic right side at the itemize
 \only<1>{
 
 $$f(x) = c^Tx - \sum_{i=1}^{500}\log(b_i - a_i^Tx)$$
-
 A larger example, of the form with $m = 500$ terms and $n=100$
 variables.
 
-pics here.
+\begin{figure}[t]
+  \centering
+\includegraphics[scale = 0.2]{pics/error.png}
+\caption{\tiny ‘linear’ convergence, i.e., a straight line on a semilog plot}
+\end{figure}
 
 
-‘linear’ convergence, i.e., a straight line on a semilog plot
 }
 
 \only<2>{
@@ -223,7 +274,8 @@ faster than the gradient method with backtracking line search.
   \end{column}
 
   \begin{column}{0.5\textwidth}
-    Here is some pic
+
+\includegraphics[scale = 0.15]{pics/error.png}
   \end{column}
 \end{columns}
 
@@ -241,9 +293,203 @@ faster than the gradient method with backtracking line search.
 \item {\bf Experiment 2}: (effect of the choice of  $\beta$): Fix
   $\alpha = 0.1$, and vary $\beta$. This experiment suggests that
   $\beta \approx 0.5$ is a good choice.
-\item
+
 
 \end{itemize}
 }
 
+\end{frame}
+
+\subsection{}
+\begin{frame}
+  \frametitle{Advantages -- Disadvantages -- Limitations (Gradient
+    Descent)}
+To summarize here:
+  \begin{itemize}
+  \item The gradient descent often shows linear convergence.,
+i.e. error converges to zero as a geometric series.
+\item Choice of the two parameters $\alpha, \beta$ (backtracking parameters) has
+  a noticeable effect on convergence, but not dramatic.
+\item Exact line search sometimes improves the convergence of the
+  gradient method, slightly. However implementation is troublesome.
+\item Convergence rate depends on the condition number of the Hessian,
+  and this is main disadvantage.
+\item The main advantage of gradient method is simplicity.
+  \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+  \frametitle{Advantages -- Disadvantages -- Limitations (Steepest
+    Descent)}
+
+\only<1>{
+  \begin{itemize}
+  \item For steepest descent, choice of norm is critical. When Euclidian norm
+is used the algorithm coincides with the gradient descent method.
+When $l_1$ norm is chosen, the algorithm is called “Coordinate
+Descent”.
+\item The idea is to descend along each coordinate direction
+  iteratively.
+
+  \end{itemize}
+
+ Let $e_1, ... ,e_m$ denote the unit vectors along coordinates
+  $1, ... ,m$.
+
+      \begin{algorithm}[H]
+        \small
+        Choose initial $x_0$\;
+        \Repeat{convergence}{
+          {\bf For $i = 1, ... , m$:} \;
+          ~~Find $x_{k+1}$ along $e_j$ that minimizes $f(x_k)$. Or find
+          $x_{k+1}$ along $e_j$ using line search to reduce $f(x_{k})$ sufficiently.
+        }
+        % \caption{Descent Method Algorithm}
+      \end{algorithm}
+}
+
+\only<2>{
+Coordinate descent can be slow. It can also iterate around the
+minimum, never approaching it.
+
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.3]{pics/nc.png}
+
+\end{figure}
+}
+
+\only<3>{
+Steepest descent method with the quadratic P-norm $\norm{\cdot}_P$ can
+be thought of as the gradient method applied to the problem after the
+change of coordinates $\overline{x} = P^{\frac{1}{2}}x$.
+
+In the case of steepest descent with {\bf quadratic P-norm}, {\bf
+  choice of P} is important.
+
+For example: $P = \bigl(\begin{smallmatrix}
+2&0 \\ 0&8
+\end{smallmatrix} \bigr)$
+Choice of $P$ helps to transform the problem:
+
+~~~~~~~~~~~~~~~~~from \includegraphics[scale=0.1]{pics/nc.png}
+to  \includegraphics[scale=0.1]{pics/topview.png}
+
+}
+
+\only<4>{
+Gradient method works well when the condition numbers are moderate,
+and works poorly when the condition numbers are large.
+
+\begin{itemize}
+\item When we change the coordinates, as $\overline{x} =
+  P^{\frac{1}{2}}x$, the function is moderately conditioned, the
+  steepest descent method will work well.
+\item $P$ should be chosen so that $f$, transformed by
+  $p^{-\frac{1}{2}}$ to $\tilde{f}$, is well conditioned.
+\item If approximation $\hat{H}$  of the Hessian at the optimal point
+  $\hat{H}(x^*)$ were known, $P = \hat{H}$ would be a good choice, since
+Hessian of at the optimum:
+$$\hat{H}^{-\frac{1}{2}}\nabla^2f(x^*)\hat{H}^{\frac{1}{2}}\approx I$$
+is likely to have a low condition number.
+\end{itemize}
+}
+
+\only<5>{
+{\scriptsize In summary, we can say that the steepest descent method works
+  well in cases where we can identify a matrix P for which the
+  transformed problem has moderate condition number.}
+
+{\scriptsize $\cdot $ Comparison of two P norms below with the previous
+  nonquadratic problem in
+$R^2$, using backtracking line search parameters $\alpha = 0.1$ and
+$\beta = 0.7$.
+}
+
+\vspace{-4mm}
+
+$$P_1 = \bigl(\begin{smallmatrix}
+2&0 \\ 0&8
+\end{smallmatrix} \bigr) ~~and~~ P_2 = \bigl(\begin{smallmatrix}
+8&0 \\ 0&2
+\end{smallmatrix} \bigr)$$
+
+\vspace{-4mm}
+
+\begin{columns}
+  \begin{column}{0.5\textwidth}
+    \begin{figure}[t]
+      \includegraphics[scale=0.15]{pics/911.png}
+      \caption{\tiny Steepest descent method, with quadratic norm
+        $\norm{\cdot}_{P_1}$. The ellipses are the boundaries of the
+        norm balls $\{x | \norm{x - x^{(k)}}_{P_1} \le 1\}$ at $\xk{0}
+        ~and~ \xk{1}$.}
+    \end{figure}
+  \end{column}
+
+
+  \begin{column}{0.5\textwidth}
+    \begin{figure}[t]
+      \includegraphics[scale=0.12]{pics/912.png}
+      \caption{\tiny Steepest descent method, with quadratic norm
+        $\norm{\cdot}_{P_2}$.}
+    \end{figure}
+  \end{column}
+\end{columns}
+}
+
+\only<6>{
+Figure shows the error vs. iteration differences of the two norms.
+
+\begin{columns}
+  \begin{column}{0.6\textwidth}
+With the norm $\norm{\cdot}_{P_1}$, convergence is a bit more rapid 1
+ than the gradient method, whereas with the norm $\norm{\cdot}_{P_2}$, convergence is far slower.
+
+  \end{column}
+  \begin{column}{0.5\textwidth}
+    \begin{figure}[t]
+      \centering
+      \includegraphics[scale=0.13]{pics/913.png}
+      \caption{\tiny Error $f(x^*) - p^*$versus iteration k, for the
+        steepest descent method with the quadratic norm
+        $\norm{\cdot}_{P_1}$ and the quadratic norm
+        $\norm{\cdot}_{P_2}$. Convergence is rapid for the norm $\norm{\cdot}_{P_1}$ and very slow for$\norm{\cdot}_{P_2}$.}
+    \end{figure}
+
+
+
+
+  \end{column}
+\end{columns}
+
+}
+
+\only<7>{
+If we change the coordinates $\overline{x} = P_1^{\frac{1}{2}}x$,
+
+ $\overline{x} = P_2^{\frac{1}{2}}x$ respectively we can get the following results in
+transformed coordinates.
+
+
+\begin{columns}
+  \begin{column}{0.5\textwidth}
+    \begin{figure}[bh!]
+      \centering
+      \includegraphics[scale=0.16]{pics/914.png}
+      \caption{\tiny The iterates of steepest descent with norm $\norm{\cdot}_{P_1}$, after the change of coordinates. This change of coordinates reduces the condition number of the sublevel sets, and so speeds up convergence.}
+    \end{figure}
+  \end{column}
+
+  \begin{column}{0.5\textwidth}
+    \begin{figure}[bh!]
+      \centering
+      \includegraphics[scale=0.16]{pics/915.png}
+      \caption{\tiny The iterates of steepest descent with norm $\norm{\cdot}_{P_1}$, after the change of coordinates. This change of coordinates increases the condition number of the sublevel sets, and so slows down convergence.}
+    \end{figure}
+  \end{column}
+\end{columns}
+}
 \end{frame}

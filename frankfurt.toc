@@ -4,8 +4,8 @@
 \beamer@sectionintoc {3}{Convex Domain}{25}{0}{3}
 \beamer@subsectionintoc {3}{1}{convex domain}{25}{0}{3}
 \beamer@subsectionintoc {3}{2}{limitations}{27}{0}{3}
-\beamer@sectionintoc {4}{Applications}{39}{0}{4}
-\beamer@sectionintoc {5}{Applications}{39}{0}{5}
-\beamer@subsectionintoc {5}{1}{Image Processing}{39}{0}{5}
-\beamer@subsectionintoc {5}{2}{MACHINE LEARNING}{49}{0}{5}
-\beamer@subsectionintoc {5}{3}{ROBOTICS}{51}{0}{5}
+\beamer@sectionintoc {4}{Applications}{47}{0}{4}
+\beamer@subsectionintoc {4}{1}{Image Processing}{47}{0}{4}
+\beamer@subsectionintoc {4}{4}{MACHINE LEARNING}{57}{0}{4}
+\beamer@subsectionintoc {4}{5}{ROBOTICS}{59}{0}{4}
+\beamer@sectionintoc {5}{References}{63}{0}{5}

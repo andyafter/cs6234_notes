@@ -114,8 +114,29 @@
 
   \only<1>{
     $\desmeth, f(\xk{k+1}) \leftarrow f(\xk{k})$
+    \begin{columns}
+      \begin{column}{0.5\textwidth}
+        \centering
+        \includegraphics[scale=0.15]{pics/sa.png}
 
-    Should be pics
+        {\tiny When Step Size t is Appropriate.}
+
+        \includegraphics[scale=0.15]{pics/si.png}
+
+        {\tiny When Step Size t is Inappropriate. }
+      \end{column}
+
+
+      \begin{column}{0.5\textwidth}
+        \centering
+        \includegraphics[scale=0.18]{pics/issue1.png}
+
+        \vspace{4mm}
+
+        \includegraphics[scale=0.18]{pics/issue2.png}
+
+      \end{column}
+    \end{columns}
   }
 
   \only<2>{
@@ -150,10 +171,11 @@
         % \caption{Descent Method Algorithm}
       \end{algorithm}
     \end{greenblock}
-  }
-
   {Exact Line Search Method:}
   $$\dis t = \argmin_{s\le 0}\{f(x + s\Delta x)\} $$
+  }
+
+
 \end{frame}
 
 \begin{frame}
