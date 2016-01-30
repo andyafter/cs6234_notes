@@ -9,11 +9,11 @@
 \begin{frame}
   \frametitle{Convex Domain}
 \only<1>{
-Linear Regression method is applicable only if nonlinear function is
+\textbullet Linear Regression method is applicable only if nonlinear function is
 linear in terms of function parameters:
 $$\dis f(x; a) = \sum_{k=1}^m a_kh_k(x)$$
 
-Many nonlinear functions are not like that, for example:
+\textbullet Many nonlinear functions are not like that, for example:
 \begin{equation*}
   \begin{split}
 f_1(x) & = \frac{x^2}{a_1 + (x - a_2)}\\
@@ -37,7 +37,7 @@ To minimize the error, we need iterative optimization.
 
 
 \only<1>{
-If step length is appropriate, $f$ always decreases: converge. {\bf (well
+\textbullet If step length is appropriate, $f$ always decreases: converge. {\bf (well
 condition)}
 
 \begin{figure}[t]
@@ -50,7 +50,7 @@ condition)}
 }
 
 \only<2>{
-If step length is too large, $f$ can increase: diverge. {\bf (ill
+\textbullet If step length is too large, $f$ can increase: diverge. {\bf (ill
   condition)}
 
 \begin{figure}[t]
@@ -63,7 +63,7 @@ If step length is too large, $f$ can increase: diverge. {\bf (ill
 }
 
 \only<3>{
-If parameters of f affect error equally,
+\textbullet If parameters of f affect error equally,
 
 \begin{figure}[t]
 \centering
@@ -76,7 +76,7 @@ If parameters of f affect error equally,
 
 
 \only<4>{
-If parameters of f affect error unequally,
+\textbullet If parameters of f affect error unequally,
 \begin{figure}[t]
   \centering
 \includegraphics[scale=0.28]{pics/topview2.png}
@@ -89,7 +89,7 @@ If parameters of f affect error unequally,
 
 
 \only<5>{
-If parameters of f affect error very unequally,
+\textbullet If parameters of f affect error very unequally,
 
 \begin{figure}[t]
   \centering
@@ -170,14 +170,15 @@ $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
 \begin{frame}
   \frametitle{Advantages -- Disadvantages -- Limitations}
 
-  { \scriptsize   {\bf\it Left} Number of iterations of the gradient method as a
+  \textbullet { \scriptsize   {\bf\it Left} Number of iterations of the gradient method as a
     function of $\gamma$ which can be thought of as amount of diagonal
     scaling.
 
-  {\bf\it Right} Condition number of the Hessian of the function at its
+  \textbullet{\bf\it Right} Condition number of the Hessian of the function at its
     minimum as a function of $\gamma$.
 }
-{\scriptsize We see that the condition number has a very strong influence on
+
+\textbullet{\scriptsize We see that the condition number has a very strong influence on
 convergence rate.}
 
 \begin{columns}
@@ -260,15 +261,15 @@ variables.
 }
 
 \only<2>{
-The progress of the gradient method with backtracking line search,
+\textbullet The progress of the gradient method with backtracking line search,
 with parameters $\alpha = 0.1, \beta = 0.5$.
 
-{\bf Average error reduction} is $10^{-\frac{6}{175}} \approx 0.92$
+\textbullet {\bf Average error reduction} is $10^{-\frac{6}{175}} \approx 0.92$
 per iteration.
 
 \begin{columns}
   \begin{column}{0.6\textwidth }
-In the convergence of the gradient method with exact line search,
+\textbullet In the convergence of the gradient method with exact line search,
 {\bf average error reduction} is $10^{-\frac{6}{140}} \approx 0.91$ per iteration. A bit
 faster than the gradient method with backtracking line search.
   \end{column}
@@ -282,20 +283,22 @@ faster than the gradient method with backtracking line search.
 }
 
 \only<3>{
-\begin{itemize}
-\item  These experiments, done by the book authors, show that the
+
+  \textbullet These experiments, done by the book authors, show that the
   effect of the {\bf backtracking parameters} on the convergence is
   {\bf not large}.
-\item {\bf Experiment 1}: (effect of the choice of $\alpha$): Fix
+
+ \textbullet {\bf Experiment 1}: (effect of the choice of $\alpha$): Fix
   $\beta = 0.5$, and vary $\alpha$. This experiment suggests that the
   gradient method works better with fairly large $\alpha$, in the
   range $(0.2, 0.5)$.
-\item {\bf Experiment 2}: (effect of the choice of  $\beta$): Fix
+
+ \textbullet {\bf Experiment 2}: (effect of the choice of  $\beta$): Fix
   $\alpha = 0.1$, and vary $\beta$. This experiment suggests that
   $\beta \approx 0.5$ is a good choice.
 
 
-\end{itemize}
+
 }
 
 \end{frame}
@@ -362,14 +365,14 @@ minimum, never approaching it.
 }
 
 \only<3>{
-Steepest descent method with the quadratic P-norm $\norm{\cdot}_P$ can
+\textbullet Steepest descent method with the quadratic P-norm $\norm{\cdot}_P$ can
 be thought of as the gradient method applied to the problem after the
 change of coordinates $\overline{x} = P^{\frac{1}{2}}x$.
 
-In the case of steepest descent with {\bf quadratic P-norm}, {\bf
+\textbullet In the case of steepest descent with {\bf quadratic P-norm}, {\bf
   choice of P} is important.
 
-For example: $P = \bigl(\begin{smallmatrix}
+\textbullet For example: $P = \bigl(\begin{smallmatrix}
 2&0 \\ 0&8
 \end{smallmatrix} \bigr)$
 Choice of $P$ helps to transform the problem:
@@ -398,11 +401,11 @@ is likely to have a low condition number.
 }
 
 \only<5>{
-{\scriptsize In summary, we can say that the steepest descent method works
+\textbullet {\scriptsize In summary, we can say that the steepest descent method works
   well in cases where we can identify a matrix P for which the
   transformed problem has moderate condition number.}
 
-{\scriptsize $\cdot $ Comparison of two P norms below with the previous
+\textbullet {\scriptsize $\cdot $ Comparison of two P norms below with the previous
   nonquadratic problem in
 $R^2$, using backtracking line search parameters $\alpha = 0.1$ and
 $\beta = 0.7$.
@@ -441,11 +444,11 @@ $$P_1 = \bigl(\begin{smallmatrix}
 }
 
 \only<6>{
-Figure shows the error vs. iteration differences of the two norms.
+\textbullet Figure shows the error vs. iteration differences of the two norms.
 
 \begin{columns}
   \begin{column}{0.6\textwidth}
-With the norm $\norm{\cdot}_{P_1}$, convergence is a bit more rapid
+\textbullet With the norm $\norm{\cdot}_{P_1}$, convergence is a bit more rapid
  than the gradient method, whereas with the norm $\norm{\cdot}_{P_2}$, convergence is far slower.
 
   \end{column}
@@ -468,8 +471,7 @@ With the norm $\norm{\cdot}_{P_1}$, convergence is a bit more rapid
 }
 
 \only<7>{
-If we change the coordinates $\overline{x} = P_1^{\frac{1}{2}}x$,
-
+\textbullet If we change the coordinates $\overline{x} = P_1^{\frac{1}{2}}x$,
  $\overline{x} = P_2^{\frac{1}{2}}x$ respectively we can get the following results in
 transformed coordinates.
 

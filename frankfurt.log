@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  30 JAN 2016 12:30
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  30 JAN 2016 13:31
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-2016130750.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-2016130811.tex")...disabled (restricted).
 
-runsystem(del "w18-test-2016130750.tex")...disabled (restricted).
+runsystem(del "w18-test-2016130811.tex")...disabled (restricted).
 
 
 
@@ -1493,6 +1493,15 @@ Package pdftex.def Info: pics/issue2.png used on input line 181.
 ] [18
 
 ]
+LaTeX Font Info:    Try loading font information for OMS+helvetica on input lin
+e 306.
+LaTeX Font Info:    No file OMShelvetica.fd. on input line 306.
+
+
+LaTeX Font Warning: Font shape `OMS/helvetica/m/n' undefined
+(Font)              using `OMS/pxsy/m/n' instead
+(Font)              for symbol `textbullet' on input line 306.
+
 
 LaTeX Font Warning: Command \small invalid in math mode on input line 306.
 
@@ -1516,7 +1525,7 @@ Overfull \hbox (3.59674pt too wide) in paragraph at lines 306--306
 ]) (./convexdom.tex [25
 
 ]
-<pics/funcs.png, id=1973, 831.105pt x 481.8pt>
+<pics/funcs.png, id=1974, 831.105pt x 481.8pt>
 File: pics/funcs.png Graphic file (type png)
  <use pics/funcs.png>
 Package pdftex.def Info: pics/funcs.png used on input line 31.
@@ -1540,12 +1549,12 @@ File: pics/si.png Graphic file (type png)
 Package pdftex.def Info: pics/si.png used on input line 102.
 (pdftex.def)             Requested size: 182.44533pt x 160.60327pt.
 
-Overfull \vbox (1.68837pt too high) detected at line 102
+Overfull \vbox (15.28838pt too high) detected at line 102
  []
 
 [28
 
-] <pics/topview.png, id=2188, 532.99126pt x 482.80376pt>
+] <pics/topview.png, id=2189, 532.99126pt x 482.80376pt>
 File: pics/topview.png Graphic file (type png)
 
 <use pics/topview.png>
@@ -1554,7 +1563,7 @@ Package pdftex.def Info: pics/topview.png used on input line 102.
  [29
 
  <./pics/topview.png>]
-<pics/topview2.png, id=2261, 920.43875pt x 465.74pt>
+<pics/topview2.png, id=2262, 920.43875pt x 465.74pt>
 File: pics/topview2.png Graphic file (type png)
  <use pics/topview2.png>
 Package pdftex.def Info: pics/topview2.png used on input line 102.
@@ -1563,7 +1572,7 @@ Package pdftex.def Info: pics/topview2.png used on input line 102.
 [30
 
  <./pics/topview2.png>]
-<pics/unequal.png, id=2333, 559.08875pt x 509.905pt>
+<pics/unequal.png, id=2334, 559.08875pt x 509.905pt>
 File: pics/unequal.png Graphic file (type png)
  <use pics/unequal.png>
 Package pdftex.def Info: pics/unequal.png used on input line 102.
@@ -1575,7 +1584,7 @@ Overfull \vbox (4.20526pt too high) detected at line 102
 [31
 
  <./pics/unequal.png>]
-<pics/example.png, id=2405, 1243.64626pt x 588.1975pt>
+<pics/example.png, id=2406, 1243.64626pt x 588.1975pt>
 File: pics/example.png Graphic file (type png)
  <use pics/example.png>
 Package pdftex.def Info: pics/example.png used on input line 120.
@@ -1593,13 +1602,13 @@ LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <14.4> not available
  [33
 
 ]
-<pics/ga1.png, id=2549, 780.9175pt x 579.16376pt>
+<pics/ga1.png, id=2550, 780.9175pt x 579.16376pt>
 File: pics/ga1.png Graphic file (type png)
  <use pics/ga1.png>
 Package pdftex.def Info: pics/ga1.png used on input line 206.
 (pdftex.def)             Requested size: 117.13257pt x 86.8708pt.
 
-<pics/ga2.png, id=2550, 763.85374pt x 592.2125pt>
+<pics/ga2.png, id=2551, 763.85374pt x 592.2125pt>
 File: pics/ga2.png Graphic file (type png)
  <use pics/ga2.png>
 Package pdftex.def Info: pics/ga2.png used on input line 206.
@@ -1611,13 +1620,13 @@ Overfull \vbox (2.70087pt too high) detected at line 206
 [34
 
  <./pics/ga1.png> <./pics/ga2.png>]
-<pics/btes.png, id=2622, 826.08624pt x 318.18875pt>
+<pics/btes.png, id=2623, 826.08624pt x 318.18875pt>
 File: pics/btes.png Graphic file (type png)
  <use pics/btes.png>
 Package pdftex.def Info: pics/btes.png used on input line 240.
 (pdftex.def)             Requested size: 206.52104pt x 79.54698pt.
 
-<pics/els.png, id=2623, 858.20625pt x 611.28375pt>
+<pics/els.png, id=2624, 858.20625pt x 611.28375pt>
 File: pics/els.png Graphic file (type png)
  <use pics/els.png>
 Package pdftex.def Info: pics/els.png used on input line 240.
@@ -1625,10 +1634,10 @@ Package pdftex.def Info: pics/els.png used on input line 240.
  [35
 
  <./pics/btes.png> <./pics/els.png>]
-<pics/error.png, id=2696, 923.45pt x 601.24625pt>
+<pics/error.png, id=2697, 923.45pt x 601.24625pt>
 File: pics/error.png Graphic file (type png)
  <use pics/error.png>
-Package pdftex.def Info: pics/error.png used on input line 301.
+Package pdftex.def Info: pics/error.png used on input line 303.
 (pdftex.def)             Requested size: 184.68672pt x 120.24712pt.
 Missing character: There is no ‚ in font cmr6!
 Missing character: There is no Ä in font cmr6!
@@ -1637,7 +1646,7 @@ Missing character: There is no ‚ in font cmr6!
 Missing character: There is no Ä in font cmr6!
 Missing character: There is no ô in font cmr6!
 
-Overfull \vbox (35.67319pt too high) detected at line 301
+Overfull \vbox (35.67319pt too high) detected at line 303
  []
 
 [36
@@ -1645,7 +1654,7 @@ Overfull \vbox (35.67319pt too high) detected at line 301
  <./pics/error.png>]
 File: pics/error.png Graphic file (type png)
  <use pics/error.png>
-Package pdftex.def Info: pics/error.png used on input line 301.
+Package pdftex.def Info: pics/error.png used on input line 303.
 (pdftex.def)             Requested size: 138.51152pt x 90.18304pt.
  [37
 
@@ -1663,68 +1672,64 @@ Missing character: There is no ù in font cmr10!
  [40
 
 ]
-<pics/nc.png, id=3051, 651.43375pt x 472.76625pt>
+<pics/nc.png, id=3052, 651.43375pt x 472.76625pt>
 File: pics/nc.png Graphic file (type png)
  <use pics/nc.png>
-Package pdftex.def Info: pics/nc.png used on input line 495.
+Package pdftex.def Info: pics/nc.png used on input line 496.
 (pdftex.def)             Requested size: 195.43163pt x 141.83096pt.
  [41
 
  <./pics/nc.png>]
 File: pics/nc.png Graphic file (type png)
  <use pics/nc.png>
-Package pdftex.def Info: pics/nc.png used on input line 495.
+Package pdftex.def Info: pics/nc.png used on input line 496.
 (pdftex.def)             Requested size: 65.14719pt x 47.27939pt.
 File: pics/topview.png Graphic file (type png)
  <use pics/topview.png>
-Package pdftex.def Info: pics/topview.png used on input line 495.
+Package pdftex.def Info: pics/topview.png used on input line 496.
 (pdftex.def)             Requested size: 53.30225pt x 48.2832pt.
  [42
 
 ] [43
 
 ]
-<pics/911.png, id=3267, 604.2575pt x 355.3275pt>
+<pics/911.png, id=3268, 604.2575pt x 355.3275pt>
 File: pics/911.png Graphic file (type png)
  <use pics/911.png>
-Package pdftex.def Info: pics/911.png used on input line 495.
+Package pdftex.def Info: pics/911.png used on input line 496.
 (pdftex.def)             Requested size: 90.6347pt x 53.29681pt.
 
-<pics/912.png, id=3268, 785.93625pt x 540.0175pt>
+<pics/912.png, id=3269, 785.93625pt x 540.0175pt>
 File: pics/912.png Graphic file (type png)
  <use pics/912.png>
-Package pdftex.def Info: pics/912.png used on input line 495.
+Package pdftex.def Info: pics/912.png used on input line 496.
 (pdftex.def)             Requested size: 94.30827pt x 64.7993pt.
  [44
 
  <./pics/911.png> <./pics/912.png>]
-<pics/913.png, id=3341, 1042.89626pt x 727.71875pt>
+<pics/913.png, id=3342, 1042.89626pt x 727.71875pt>
 File: pics/913.png Graphic file (type png)
  <use pics/913.png>
-Package pdftex.def Info: pics/913.png used on input line 495.
+Package pdftex.def Info: pics/913.png used on input line 496.
 (pdftex.def)             Requested size: 135.58127pt x 94.60675pt.
  [45
 
- <./pics/913.png>] <pics/914.png, id=3413, 544.0325pt x 591.20876pt>
+ <./pics/913.png>] <pics/914.png, id=3414, 544.0325pt x 591.20876pt>
 File: pics/914.png Graphic file (type png)
 
 <use pics/914.png>
-Package pdftex.def Info: pics/914.png used on input line 495.
+Package pdftex.def Info: pics/914.png used on input line 496.
 (pdftex.def)             Requested size: 87.04697pt x 94.59532pt.
- <pics/915.png, id=3414, 769.87625pt x 276.03125pt>
+ <pics/915.png, id=3415, 769.87625pt x 276.03125pt>
 File: pics/915.png Graphic file (type png)
 
 <use pics/915.png>
-Package pdftex.def Info: pics/915.png used on input line 495.
+Package pdftex.def Info: pics/915.png used on input line 496.
 (pdftex.def)             Requested size: 123.18271pt x 44.1659pt.
-
-Overfull \vbox (5.96101pt too high) detected at line 495
- []
-
-[46
+ [46
 
  <./pics/914.png> <./pics/915.png>]) (./app.tex
-<right2.png, id=3487, 1800.7275pt x 1009.7725pt>
+<right2.png, id=3488, 1800.7275pt x 1009.7725pt>
 File: right2.png Graphic file (type png)
  <use right2.png>
 Package pdftex.def Info: right2.png used on input line 35.
@@ -1754,7 +1759,7 @@ Package pdftex.def Info: right2.png used on input line 35.
 ] [58
 
 ]
-<jcob.png, id=4334, 306.64563pt x 311.66437pt>
+<jcob.png, id=4335, 306.64563pt x 311.66437pt>
 File: jcob.png Graphic file (type png)
  <use jcob.png>
 Package pdftex.def Info: jcob.png used on input line 215.
@@ -1805,11 +1810,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
  ) 
 Here is how much of TeX's memory you used:
- 25469 strings out of 493089
- 494202 string characters out of 6134841
- 653106 words of memory out of 5000000
- 28087 multiletter control sequences out of 15000+600000
- 56442 words of font info for 190 fonts, out of 8000000 for 9000
+ 25478 strings out of 493089
+ 494334 string characters out of 6134841
+ 653159 words of memory out of 5000000
+ 28093 multiletter control sequences out of 15000+600000
+ 56956 words of font info for 192 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,23n,73p,955b,1089s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1836,14 +1841,15 @@ xmf-dist/fonts/type1/public/amsfonts/euler/eusm10.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/euler/eusm7.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texli
-ve/2015/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/local/texlive/201
-5/texmf-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/urw/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (63 pages, 5043124 bytes).
+ve/2015/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2015
+/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2015/texmf-dist/f
+onts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
+pe1/urw/palatino/uplr8a.pfb>
+Output written on frankfurt.pdf (63 pages, 5045031 bytes).
 PDF statistics:
- 4821 PDF objects out of 5155 (max. 8388607)
- 4559 compressed objects within 46 object streams
+ 4825 PDF objects out of 5155 (max. 8388607)
+ 4562 compressed objects within 46 object streams
  152 named destinations out of 1000 (max. 500000)
  353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
