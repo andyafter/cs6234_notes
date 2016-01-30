@@ -58,7 +58,7 @@
       \begin{algorithm}[H]
         \small
         Given $\xk{0} \in \dom f$\;
-        \Repeat{$\Delta x$ is within an acceptable range and is stable;}{
+        \Repeat{$\Delta x$ is within an acceptable range and is stable}{
           Determine a descent direction $\Delta x$\;
           Choose a step size $t > 0$\;
           Update $\desmeth$\;
@@ -78,7 +78,7 @@
     \begin{greyblock}{Proof}
       \footnotesize
       $$f(\xk{k+1}) \ge f(\xk{k}) + f'(\xk{k})\Delta \xk{k} $$
-      $$\nabla f(\xk{k}) \le f(\xk(k+1)) - f(\xk{k}) < 0$$
+      $$\nabla f(\xk{k}) \le f(\xk{(k+1)} - f(\xk{k}) < 0$$
 
     \end{greyblock}
   }

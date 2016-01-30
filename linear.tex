@@ -43,7 +43,7 @@
 \end{columns}
 
 \begin{itemize}
-\item Easily Solved: $\vec{w}^*(X^TX)-1X^T\vec{y}$
+\item Easily Solved: $\vec{w}^*(X^TX)-X^T\vec{y}$
 \item But what if $\dim\vec{x} $ is large?
 \item What about other similar regressions?
 \end{itemize}
@@ -59,7 +59,7 @@
 \item OrdinaryLinearRegression: $\dis \min_{\vec{w}}\sum_i(y_i -
   \vec{w} \cdot \vec{x_i})^2$
 \item General: $\dis \min_xf(x)$ where $f(x)$ is convex
-\item Set $C$ is convex $\Longleftrightarrow \exists x, y\in C, 0\le t
+\item Set $C$ is convex $\Longleftrightarrow \forall x, y\in C, 0\le t
   \le 1: tx +(1 - t)y \in C$
 \item Function $f : \mathbb{R}^n \rightarrow \mathbb{R}$ is convex if
   $\dom f$ is convex and $\exists x, y \in \dom f, 0\le t \le 1:$
