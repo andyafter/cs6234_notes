@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  30 JAN 2016 21:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  30 JAN 2016 21:23
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-20161301277.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-20161301283.tex")...disabled (restricted).
 
-runsystem(del "w18-test-20161301277.tex")...disabled (restricted).
+runsystem(del "w18-test-20161301283.tex")...disabled (restricted).
 
 
 
@@ -1797,15 +1797,9 @@ Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
 (./frankfurt.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 274.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package rerunfilecheck Info: File `frankfurt.out' has not changed.
+(rerunfilecheck)             Checksum: 91E897D3D95B82A26B51DD152B2D937F;561.
 
-
-Package rerunfilecheck Warning: File `frankfurt.out' has changed.
-(rerunfilecheck)                Rerun to get outlines right
-(rerunfilecheck)                or use package `bookmark'.
-
-Package rerunfilecheck Info: Checksums for `frankfurt.out':
-(rerunfilecheck)             Before: B8B46D565F251BF080C60045223369A0;568
-(rerunfilecheck)             After:  91E897D3D95B82A26B51DD152B2D937F;561.
 
 LaTeX Font Warning: Size substitutions with differences
 (Font)              up to 1.0pt have occurred.
@@ -1818,7 +1812,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
 Here is how much of TeX's memory you used:
  25477 strings out of 493089
  494316 string characters out of 6134841
- 653159 words of memory out of 5000000
+ 653133 words of memory out of 5000000
  28092 multiletter control sequences out of 15000+600000
  56699 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1852,7 +1846,7 @@ ve/2015/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2015
 -dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (63 pages, 5045150 bytes).
+Output written on frankfurt.pdf (63 pages, 5044844 bytes).
 PDF statistics:
  4825 PDF objects out of 5155 (max. 8388607)
  4562 compressed objects within 46 object streams
