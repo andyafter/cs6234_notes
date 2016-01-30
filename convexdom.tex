@@ -136,8 +136,8 @@ $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
 {
 \tiny
 \begin{itemize}
-\item Hessian of f has eigenvalues 1 and $\gamma$. And, m = $\min{1,
-    \gamma}$,and $M = \max{1, \gamma}$
+\item Hessian of f has eigenvalues 1 and $\gamma$. And, m = $\min\{1,
+    \gamma\}$,and $M = \max\{1, \gamma\}$
 \item In particular,$f(\xkk{k})$ converges to $p^*$, optimal value, at
   least as fast as a geometric series with an exponent that depends
   (at least in part) on the condition number bound $\frac{M}{m}$.
@@ -225,7 +225,7 @@ $$f(x_1, x_2) = e^{x_1+3x_2-0.1} + e^{x_1-3x_2-0.1} + e^{-x_1-0.1}$$
       in 20 iterations, i.e., a reduction by a factor of
 20 about $10^{-\frac{8}{20}} \approx 0.4$ per iteration.
 \item With backtracking line search, the error is reduced
-about $10^{-8}$ in 15 iterations, i.e., a reduction by a factor of
+about $10^{-11}$ in 15 iterations, i.e., a reduction by a factor of
 15 about $10^{-\frac{11}{15}} \approx 0.2$ per iteration.
     \end{itemize}
 }
@@ -269,7 +269,7 @@ per iteration.
 \begin{columns}
   \begin{column}{0.6\textwidth }
 In the convergence of the gradient method with exact line search,
-6 {\bf average error reduction} is $10^{-\frac{6}{140}} \approx 0.91$ per iteration. A bit
+{\bf average error reduction} is $10^{-\frac{6}{140}} \approx 0.91$ per iteration. A bit
 faster than the gradient method with backtracking line search.
   \end{column}
 
@@ -445,7 +445,7 @@ Figure shows the error vs. iteration differences of the two norms.
 
 \begin{columns}
   \begin{column}{0.6\textwidth}
-With the norm $\norm{\cdot}_{P_1}$, convergence is a bit more rapid 1
+With the norm $\norm{\cdot}_{P_1}$, convergence is a bit more rapid
  than the gradient method, whereas with the norm $\norm{\cdot}_{P_2}$, convergence is far slower.
 
   \end{column}
