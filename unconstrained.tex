@@ -34,7 +34,7 @@
 
   \begin{block}{ Iterative Algorithm:}
     $$\xk{0}, \xk{1}, ... \in \dom f$$
-    $$k \rightarrow \infty, f(\xk{k}) < f(x^*) $$
+    $$k \rightarrow \infty, f(\xk{k}) \rightarrow f(x^*) $$
   \end{block}
 
   \begin{block}{Descent Method:}
@@ -72,13 +72,13 @@
     \begin{greenblock}{Theorem}
       \footnotesize
       For a continuously differentiable function $f$:
-      $$f~ is~ convex \Leftrightarrow f(x) \le f(y) + f'(y)(x - y)$$
+      $$f~ is~ convex \Leftrightarrow f(x) \ge f(y) + f'(y)(x - y)$$
     \end{greenblock}
     \vspace{-8pt}
     \begin{greyblock}{Proof}
       \footnotesize
       $$f(\xk{k+1}) \ge f(\xk{k}) + f'(\xk{k})\Delta \xk{k} $$
-      $$\nabla f(\xk{k}) \le f(\xk{(k+1)} - f(\xk{k}) < 0$$
+      $$\nabla f(\xk{k})^T\Delta \xk{k} \le f(\xk{k+1}) - f(\xk{k}) < 0$$
 
     \end{greyblock}
   }
@@ -100,7 +100,7 @@
   }
 
 
-  \begin{block}{Noticing that $f$ is convex:}
+  \begin{block}{Noticing that $f$ is convex, $\Delta x$ satisfies:}
     \begin{equation}
       \label{eq:xconv}
       \nabla f(\xk{k})^T\Delta \xk{k} < 0
@@ -144,10 +144,10 @@
   \only<2>{
     \begin{itemize}
     \item Armijo Condition:
-      $$f(\xk{k} + t\Delta \xk{k}) \le f(\xk{k}) + c_1\alpha\nabla
-      f(\xk{k})^T\Delta \xk{k}, c_1 > 0$$
+      $$f(\xk{k} + \alpha p^{(k)}) \le f(\xk{k}) + c_1\alpha\nabla
+      f(\xk{k})^T p^{(k)}, c_1 > 0$$
     \item Wolfe Conditions (Including Armijo Condition):
-      $$\nabla f(\xk{k} + t\Delta \xk{k})^Tp^{(k)} \ge c_2\nabla f(\xk{k})^Tp^{(k)}, 0< c_1 < c_2 < 1$$
+      $$\nabla f(\xk{k} + \alpha p^{(k)})^Tp^{(k)} \ge c_2\nabla f(\xk{k})^Tp^{(k)}, 0< c_1 < c_2 < 1$$
     \end{itemize}
     \begin{greenblock}{Theorem:}
       Gradient descent will find local minimum if step size $\alpha$ satisfies Wolfe conditions.
@@ -166,15 +166,15 @@
         \small
         Given a descent direction $\Delta x$ for $f$ at $x\in \dom f,
         \alpha \in (0, 0.5), \beta \in (0, 1), t = 1$\;
-        \Repeat{$f(\xk{k} + t\Delta \xk{k}) \le f(\xk{k}) + c_1\alpha\nabla
-          f(\xk{k})^T\Delta \xk{k}$;}{
+        \Repeat{$f(\xk{k} + t\Delta \xk{k}) \le f(\xk{k}) + \alpha t\nabla
+          f(\xk{k})^T\Delta \xk{k}$}{
           $t =\beta t$\;
         }
         % \caption{Descent Method Algorithm}
       \end{algorithm}
     \end{greenblock}
   {Exact Line Search Method:}
-  $$\dis t = \argmin_{s\le 0}\{f(x + s\Delta x)\} $$
+  $$\dis t = \argmin_{s\ge 0}\{f(x + s\Delta x)\} $$
   }
 
 
@@ -187,7 +187,7 @@
   \item Steepest Descent Method
   \end{itemize}
   $\Delta x$ satisfies:
-  $$\nabla f(\xk{k})^T\Delta x < 0$$
+  $$\nabla f(\xk{k})^T\Delta \xk{k} < 0$$
 
 \end{frame}
 
@@ -218,14 +218,14 @@
     \textbullet Taylor Series:
 
     $$f(\bx + \Delta \bx) = f(\bx) + \nabla f(\bx)^T\Delta \bx +
-    \frac{1}{2}\Delta\bx\nabla f(\bx)\Delta \bx$$
+    \frac{1}{2}\Delta\bx\nabla^2 f(\bx)\Delta \bx + ...$$
 
     $$f(\bx + {\bf v}) \approx \hat{f}(\bx + {\bf v}) = f(\bx) + \nabla
     f(\bx)^T{\bf v}$$
 
     $$\desmeth, \satis$$
 
-    Where ${\bf v} $ is a descent direction if $\nabla f(\bx)^T < 0$
+    Where ${\bf v} $ is a descent direction if $\nabla f(\bx)^T{\bf v} < 0$
   }
 
   \only<2>{
@@ -236,8 +236,8 @@
     \textbullet Normalized Steepest Descent Direction:
     \begin{equation}
       \begin{split}
-        \Delta \bx_{nsd} & = \argmin\{\nabla f(\bx)^T{\bf v} | \norm{\bf v} = 1\} \\
-        & =  \argmin\{\nabla f(\bx)^T{\bf v} | \norm{\bf v} \le 1\}
+        \Delta \bx_{nsd} & = \argmin\{\nabla f(\bx)^T{\bf v}  ~| \norm{\bf v} = 1\} \\
+        & =  \argmin\{\nabla f(\bx)^T{\bf v}  ~| \norm{\bf v} \le 1\}
       \end{split}
     \end{equation}
 
@@ -256,7 +256,7 @@
           \label{eq:some}
           \begin{split}
             \nabla f(\bx)^T{\bf v} & = \nabla f(\bx)^T\Delta\bx_{sd} \\
-            & =\norm{f(x)}_*\nabla f(\bx)^T\Delta\bx_{nsd} \\
+            & =\norm{\nabla f(x)}_*\nabla f(\bx)^T\Delta\bx_{nsd} \\
             & = -\norm{\nabla f{(x)}}^2_*
           \end{split}
         \end{equation*}
@@ -266,15 +266,15 @@
         \begin{greenblock}{Proof}
           \begin{equation*}
             \begin{split}
-              \Delta \bx_{nsd} & = \argmin\{\nabla f(\bx)^T{\bf v} | \norm{v} = 1\} \\
+              \Delta \bx_{nsd} & = \argmin\{\nabla f(\bx)^T{\bf v} | \norm{v} \le 1\} \\
               & = - \argmax\{\nabla f(\bx)^T{\bf v} | \norm{v} \le 1\}
             \end{split}
           \end{equation*}
           \begin{equation*}
             \begin{split}
-              \norm{\nabla f{(x)}}^2_* & = sup\{\nabla f(\bx)^T{\bf v} |
+              \norm{\nabla f{(x)}}_* & = sup\{\nabla f(\bx)^T{\bf v} |
               \norm{v} \le 1 \} \\
-              \Rightarrow \norm{\nabla f{(x)}}^2_* & = -\nabla f(\bx)^T\Delta x_{nsd}
+              \Rightarrow \norm{\nabla f{(x)}}_* & = -\nabla f(\bx)^T\Delta x_{nsd}
             \end{split}
           \end{equation*}
         \end{greenblock}
@@ -301,6 +301,8 @@
         % \caption{Descent Method Algorithm}
       \end{algorithm}
     \end{greenblock}
+
+When exact line search is used, scale factors in the descent direction have no effect.
   }
 
 \end{frame}

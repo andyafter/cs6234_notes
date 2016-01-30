@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  30 JAN 2016 21:23
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  30 JAN 2016 23:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-20161301283.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-20161301430.tex")...disabled (restricted).
 
-runsystem(del "w18-test-20161301283.tex")...disabled (restricted).
+runsystem(del "w18-test-20161301430.tex")...disabled (restricted).
 
 
 
@@ -1494,23 +1494,23 @@ Package pdftex.def Info: pics/issue2.png used on input line 181.
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+helvetica on input lin
-e 306.
-LaTeX Font Info:    No file OMShelvetica.fd. on input line 306.
+e 308.
+LaTeX Font Info:    No file OMShelvetica.fd. on input line 308.
 
 
 LaTeX Font Warning: Font shape `OMS/helvetica/m/n' undefined
 (Font)              using `OMS/pxsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 306.
+(Font)              for symbol `textbullet' on input line 308.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 306.
+LaTeX Font Warning: Command \small invalid in math mode on input line 308.
 
 [19
 
 ] [20
 
 ]
-Overfull \hbox (3.59674pt too wide) in paragraph at lines 306--306
+Overfull \hbox (11.09373pt too wide) in paragraph at lines 308--308
 []  
  []
 
@@ -1605,16 +1605,16 @@ LaTeX Font Info:    Font shape `OT1/pxr/b/n' in size <14.4> not available
 <pics/ga1.png, id=2550, 780.9175pt x 579.16376pt>
 File: pics/ga1.png Graphic file (type png)
  <use pics/ga1.png>
-Package pdftex.def Info: pics/ga1.png used on input line 206.
+Package pdftex.def Info: pics/ga1.png used on input line 209.
 (pdftex.def)             Requested size: 117.13257pt x 86.8708pt.
 
 <pics/ga2.png, id=2551, 763.85374pt x 592.2125pt>
 File: pics/ga2.png Graphic file (type png)
  <use pics/ga2.png>
-Package pdftex.def Info: pics/ga2.png used on input line 206.
+Package pdftex.def Info: pics/ga2.png used on input line 209.
 (pdftex.def)             Requested size: 114.5731pt x 88.82803pt.
 
-Overfull \vbox (22.94533pt too high) detected at line 206
+Overfull \vbox (11.56424pt too high) detected at line 209
  []
 
 [34
@@ -1623,13 +1623,13 @@ Overfull \vbox (22.94533pt too high) detected at line 206
 <pics/btes.png, id=2623, 826.08624pt x 318.18875pt>
 File: pics/btes.png Graphic file (type png)
  <use pics/btes.png>
-Package pdftex.def Info: pics/btes.png used on input line 240.
+Package pdftex.def Info: pics/btes.png used on input line 243.
 (pdftex.def)             Requested size: 206.52104pt x 79.54698pt.
 
 <pics/els.png, id=2624, 858.20625pt x 611.28375pt>
 File: pics/els.png Graphic file (type png)
  <use pics/els.png>
-Package pdftex.def Info: pics/els.png used on input line 240.
+Package pdftex.def Info: pics/els.png used on input line 243.
 (pdftex.def)             Requested size: 102.9803pt x 73.35088pt.
  [35
 
@@ -1637,7 +1637,7 @@ Package pdftex.def Info: pics/els.png used on input line 240.
 <pics/error.png, id=2697, 923.45pt x 601.24625pt>
 File: pics/error.png Graphic file (type png)
  <use pics/error.png>
-Package pdftex.def Info: pics/error.png used on input line 303.
+Package pdftex.def Info: pics/error.png used on input line 306.
 (pdftex.def)             Requested size: 184.68672pt x 120.24712pt.
 Missing character: There is no ‚ in font cmr6!
 Missing character: There is no Ä in font cmr6!
@@ -1646,7 +1646,7 @@ Missing character: There is no ‚ in font cmr6!
 Missing character: There is no Ä in font cmr6!
 Missing character: There is no ô in font cmr6!
 
-Overfull \vbox (35.67319pt too high) detected at line 303
+Overfull \vbox (35.67319pt too high) detected at line 306
  []
 
 [36
@@ -1654,7 +1654,7 @@ Overfull \vbox (35.67319pt too high) detected at line 303
  <./pics/error.png>]
 File: pics/error.png Graphic file (type png)
  <use pics/error.png>
-Package pdftex.def Info: pics/error.png used on input line 303.
+Package pdftex.def Info: pics/error.png used on input line 306.
 (pdftex.def)             Requested size: 138.51152pt x 90.18304pt.
  [37
 
@@ -1675,18 +1675,18 @@ Missing character: There is no ù in font cmr10!
 <pics/nc.png, id=3052, 651.43375pt x 472.76625pt>
 File: pics/nc.png Graphic file (type png)
  <use pics/nc.png>
-Package pdftex.def Info: pics/nc.png used on input line 496.
+Package pdftex.def Info: pics/nc.png used on input line 499.
 (pdftex.def)             Requested size: 195.43163pt x 141.83096pt.
  [41
 
  <./pics/nc.png>]
 File: pics/nc.png Graphic file (type png)
  <use pics/nc.png>
-Package pdftex.def Info: pics/nc.png used on input line 496.
+Package pdftex.def Info: pics/nc.png used on input line 499.
 (pdftex.def)             Requested size: 65.14719pt x 47.27939pt.
 File: pics/topview.png Graphic file (type png)
  <use pics/topview.png>
-Package pdftex.def Info: pics/topview.png used on input line 496.
+Package pdftex.def Info: pics/topview.png used on input line 499.
 (pdftex.def)             Requested size: 53.30225pt x 48.2832pt.
  [42
 
@@ -1696,13 +1696,13 @@ Package pdftex.def Info: pics/topview.png used on input line 496.
 <pics/911.png, id=3268, 604.2575pt x 355.3275pt>
 File: pics/911.png Graphic file (type png)
  <use pics/911.png>
-Package pdftex.def Info: pics/911.png used on input line 496.
+Package pdftex.def Info: pics/911.png used on input line 499.
 (pdftex.def)             Requested size: 90.6347pt x 53.29681pt.
 
 <pics/912.png, id=3269, 785.93625pt x 540.0175pt>
 File: pics/912.png Graphic file (type png)
  <use pics/912.png>
-Package pdftex.def Info: pics/912.png used on input line 496.
+Package pdftex.def Info: pics/912.png used on input line 499.
 (pdftex.def)             Requested size: 94.30827pt x 64.7993pt.
  [44
 
@@ -1710,7 +1710,7 @@ Package pdftex.def Info: pics/912.png used on input line 496.
 <pics/913.png, id=3342, 1042.89626pt x 727.71875pt>
 File: pics/913.png Graphic file (type png)
  <use pics/913.png>
-Package pdftex.def Info: pics/913.png used on input line 496.
+Package pdftex.def Info: pics/913.png used on input line 499.
 (pdftex.def)             Requested size: 135.58127pt x 94.60675pt.
  [45
 
@@ -1718,13 +1718,13 @@ Package pdftex.def Info: pics/913.png used on input line 496.
 File: pics/914.png Graphic file (type png)
 
 <use pics/914.png>
-Package pdftex.def Info: pics/914.png used on input line 496.
+Package pdftex.def Info: pics/914.png used on input line 499.
 (pdftex.def)             Requested size: 87.04697pt x 94.59532pt.
  <pics/915.png, id=3415, 769.87625pt x 276.03125pt>
 File: pics/915.png Graphic file (type png)
 
 <use pics/915.png>
-Package pdftex.def Info: pics/915.png used on input line 496.
+Package pdftex.def Info: pics/915.png used on input line 499.
 (pdftex.def)             Requested size: 123.18271pt x 44.1659pt.
  [46
 
@@ -1812,7 +1812,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
 Here is how much of TeX's memory you used:
  25477 strings out of 493089
  494316 string characters out of 6134841
- 653133 words of memory out of 5000000
+ 653152 words of memory out of 5000000
  28092 multiletter control sequences out of 15000+600000
  56699 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1846,7 +1846,7 @@ ve/2015/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2015
 -dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2015/texmf-dist/f
 onts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
 pe1/urw/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (63 pages, 5044844 bytes).
+Output written on frankfurt.pdf (63 pages, 5045059 bytes).
 PDF statistics:
  4825 PDF objects out of 5155 (max. 8388607)
  4562 compressed objects within 46 object streams

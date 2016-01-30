@@ -3,7 +3,7 @@
 %%% TeX-master: t
 %%% End:
 
-\newcommand\xkk[1]{x_{(#1)}}
+\newcommand\xkk[1]{x_{#1}}
 
 \subsection{convex domain}
 \begin{frame}
@@ -152,7 +152,7 @@ $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
 
 
 \begin{itemize}
-\item Very slow if $\gamma > 1 or \gamma < 1$
+\item Very slow if $\gamma > 1 or ~ \gamma < 1$
 \item Useless if $\gamma > 20$.
 \item Example for $\gamma = 10$.
 \end{itemize}
@@ -179,6 +179,9 @@ $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
 
 \textbullet{\scriptsize We see that the condition number has a very strong influence on
 convergence rate.}
+
+\vspace{-4mm}
+
 
 \begin{columns}
   \begin{column}{0.5\textwidth}
@@ -226,7 +229,7 @@ $$f(x_1, x_2) = e^{x_1+3x_2-0.1} + e^{x_1-3x_2-0.1} + e^{-x_1-0.1}$$
 20 about $10^{-\frac{8}{20}} \approx 0.4$ per iteration.
 \item With backtracking line search, the error is reduced
 about $10^{-11}$ in 15 iterations, i.e., a reduction by a factor of
-15 about $10^{-\frac{11}{15}} \approx 0.2$ per iteration.
+ about $10^{-\frac{11}{15}} \approx 0.2$ per iteration.
     \end{itemize}
 }
   \end{column}
@@ -346,7 +349,7 @@ Descent”.
         \Repeat{convergence}{
           {\bf For $i = 1, ... , m$:} \;
           ~~Find $x_{k+1}$ along $e_j$ that minimizes $f(x_k)$. Or find
-          $x_{k+1}$ along $e_j$ using line search to reduce $f(x_{k})$ sufficiently.
+          $x_{k+1}$ along $e_j$ ~~using line search to reduce $f(x_{k})$ sufficiently.
         }
         % \caption{Descent Method Algorithm}
       \end{algorithm}
@@ -394,7 +397,7 @@ and works poorly when the condition numbers are large.
 \item If approximation $\hat{H}$  of the Hessian at the optimal point
   $\hat{H}(x^*)$ were known, $P = \hat{H}$ would be a good choice, since
 Hessian of at the optimum:
-$$\hat{H}^{-\frac{1}{2}}\nabla^2f(x^*)\hat{H}^{\frac{1}{2}}\approx I$$
+$$\hat{H}^{-\frac{1}{2}}\nabla^2f(x^*)\hat{H}^{-\frac{1}{2}}\approx I$$
 is likely to have a low condition number.
 \end{itemize}
 }
