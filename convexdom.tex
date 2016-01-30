@@ -38,7 +38,7 @@ To minimize the error, we need iterative optimization.
 
 \only<1>{
 \textbullet If step length is appropriate, $f$ always decreases: converge. {\bf (well
-condition)}
+conditioned)}
 
 \begin{figure}[t]
   \centering
@@ -120,7 +120,7 @@ condition)}
 \end{frame}
 
 \begin{frame}
-  \frametitle{Example Quadratic Problem in $R^2$}
+  \frametitle{Example Quadratic Problem in $\mathbb{R}^2$}
 
 {
 \tiny
@@ -136,9 +136,9 @@ $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
 {
 \tiny
 \begin{itemize}
-\item Hessian of f has eigenvalues 1 and $\gamma$. And, m = $\min\{1,
+\item Hessian of f has eigenvalues 1 and $\gamma$. And m = $\min\{1,
     \gamma\}$,and $M = \max\{1, \gamma\}$
-\item In particular,$f(\xkk{k})$ converges to $p^*$, optimal value, at
+\item In particular,$f(\xkk{k})$ converges to optimal value $p^*$,  at
   least as fast as a geometric series with an exponent that depends
   (at least in part) on the condition number bound $\frac{M}{m}$.
 
@@ -170,11 +170,11 @@ $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
 \begin{frame}
   \frametitle{Advantages -- Disadvantages -- Limitations}
 
-  \textbullet { \scriptsize   {\bf\it Left} Number of iterations of the gradient method as a
+  \textbullet { \scriptsize   {\bf Left}: Number of iterations of the gradient method as a
     function of $\gamma$ which can be thought of as amount of diagonal
     scaling.}
 
-  \textbullet{\scriptsize {\bf\it Right} Condition number of the Hessian of the function at its
+  \textbullet{\scriptsize {\bf\it Right}: Condition number of the Hessian of the function at its
     minimum as a function of $\gamma$.}
 
 \textbullet{\scriptsize We see that the condition number has a very strong influence on
@@ -189,7 +189,7 @@ convergence rate.}
       \centering
 \includegraphics[scale=0.15]{pics/ga1.png}
 \caption{\tiny The
-  verticle axis shows the number of iterations required to obtain
+  vertical axis shows the number of iterations required to obtain
   $\overline{f}(\overline{x}^{(k)}) - \overline{p}^* < 10^{-5}$. The
   horizontal axis shows $\gamma$, which is the  parameter that controls the amount of diagonal scaling. We use a
 backtracking line search with $\alpha = 0.3, \beta = 0.7$.}
@@ -224,7 +224,7 @@ $$f(x_1, x_2) = e^{x_1+3x_2-0.1} + e^{x_1-3x_2-0.1} + e^{-x_1-0.1}$$
   \begin{column}{0.6\textwidth}
 {\tiny
     \begin{itemize}
-    \item With exact line search, the error is reduced about $10^{-8}$
+    \item With exact line search, the error is reduced by about $10^{-8}$
       in 20 iterations, i.e., a reduction by a factor of
 20 about $10^{-\frac{8}{20}} \approx 0.4$ per iteration.
 \item With backtracking line search, the error is reduced
@@ -250,7 +250,7 @@ about $10^{-11}$ in 15 iterations, i.e., a reduction by a factor of
 \only<1>{
 
 $$f(x) = c^Tx - \sum_{i=1}^{500}\log(b_i - a_i^Tx)$$
-A larger example, of the form with $m = 500$ terms and $n=100$
+A larger example of this form with $m = 500$ terms and $n=100$
 variables.
 
 \begin{figure}[t]
@@ -264,7 +264,7 @@ variables.
 
 \only<2>{
 \textbullet The progress of the gradient method with backtracking line search,
-with parameters $\alpha = 0.1, \beta = 0.5$.
+with parameters $\alpha = 0.1, \beta = 0.5$
 
 \textbullet {\bf Average error reduction} is $10^{-\frac{6}{175}} \approx 0.92$
 per iteration.
@@ -318,8 +318,8 @@ i.e. error converges to zero as a geometric series.
 \item Exact line search sometimes improves the convergence of the
   gradient method, slightly. However implementation is troublesome.
 \item Convergence rate depends on the condition number of the Hessian,
-  and this is main disadvantage.
-\item The main advantage of gradient method is simplicity.
+  and this is the main disadvantage.
+\item The main advantage of gradient method is its simplicity.
   \end{itemize}
 
 \end{frame}
@@ -393,10 +393,10 @@ and works poorly when the condition numbers are large.
   P^{\frac{1}{2}}x$, the function is moderately conditioned, the
   steepest descent method will work well.
 \item $P$ should be chosen so that $f$, transformed by
-  $p^{-\frac{1}{2}}$ to $\tilde{f}$, is well conditioned.
+  $P^{-\frac{1}{2}}$ to $\tilde{f}$, is well conditioned.
 \item If approximation $\hat{H}$  of the Hessian at the optimal point
   $\hat{H}(x^*)$ were known, $P = \hat{H}$ would be a good choice, since
-Hessian of at the optimum:
+Hessian at the optimum:
 $$\hat{H}^{-\frac{1}{2}}\nabla^2f(x^*)\hat{H}^{-\frac{1}{2}}\approx I$$
 is likely to have a low condition number.
 \end{itemize}
@@ -407,9 +407,9 @@ is likely to have a low condition number.
   well in cases where we can identify a matrix P for which the
   transformed problem has moderate condition number.}
 
-\textbullet {\scriptsize $\cdot $ Comparison of two P norms below with the previous
+\textbullet {\scriptsize Comparison of two P-norms below with the previous
   nonquadratic problem in
-$R^2$, using backtracking line search parameters $\alpha = 0.1$ and
+$\mathbb{R}^2$, using backtracking line search parameters $\alpha = 0.1$ and
 $\beta = 0.7$.
 }
 
@@ -429,7 +429,7 @@ $$P_1 = \bigl(\begin{smallmatrix}
       \includegraphics[scale=0.15]{pics/911.png}
       \caption{\tiny Steepest descent method, with quadratic norm
         $\norm{\cdot}_{P_1}$. The ellipses are the boundaries of the
-        norm balls $\{x | \norm{x - x^{(k)}}_{P_1} \le 1\}$ at $\xk{0}
+        norm balls $\{x ~ | \norm{x - x^{(k)}}_{P_1} \le 1\}$ at $\xk{0}
         ~and~ \xk{1}$.}
     \end{figure}
   \end{column}
@@ -461,7 +461,8 @@ $$P_1 = \bigl(\begin{smallmatrix}
       \caption{\tiny Error $f(x^*) - p^*$versus iteration k, for the
         steepest descent method with the quadratic norm
         $\norm{\cdot}_{P_1}$ and the quadratic norm
-        $\norm{\cdot}_{P_2}$. Convergence is rapid for the norm $\norm{\cdot}_{P_1}$ and very slow for$\norm{\cdot}_{P_2}$.}
+        $\norm{\cdot}_{P_2}$.
+Convergence is rapid for the norm $\norm{\cdot}_{P_1}$ and very slow for$\norm{\cdot}_{P_2}$.}
     \end{figure}
 
 
@@ -491,7 +492,7 @@ transformed coordinates.
     \begin{figure}[bh!]
       \centering
       \includegraphics[scale=0.16]{pics/915.png}
-      \caption{\tiny The iterates of steepest descent with norm $\norm{\cdot}_{P_1}$, after the change of coordinates. This change of coordinates increases the condition number of the sublevel sets, and so slows down convergence.}
+      \caption{\tiny The iterates of steepest descent with norm $\norm{\cdot}_{P_2}$, after the change of coordinates. This change of coordinates increases the condition number of the sublevel sets, and so slows down convergence.}
     \end{figure}
   \end{column}
 \end{columns}

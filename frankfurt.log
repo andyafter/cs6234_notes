@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  30 JAN 2016 23:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  31 JAN 2016 00:35
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-20161301430.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-201613135.tex")...disabled (restricted).
 
-runsystem(del "w18-test-20161301430.tex")...disabled (restricted).
+runsystem(del "w18-test-201613135.tex")...disabled (restricted).
 
 
 
@@ -1130,51 +1130,51 @@ Package: beamercolorthemewhale 2010/06/17  (rcs-revision d02a7cf4d8ae)
 )) (./frankfurt.aux)
 \openout1 = `frankfurt.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 120.
-LaTeX Font Info:    Try loading font information for OML+pxmi on input line 120
+LaTeX Font Info:    Checking defaults for OML/pxmi/m/it on input line 121.
+LaTeX Font Info:    Try loading font information for OML+pxmi on input line 121
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/omlpxmi.fd
 File: omlpxmi.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 120.
-LaTeX Font Info:    Try loading font information for OMS+pxsy on input line 120
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMS/pxsy/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for OMS+pxsy on input line 121
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/omspxsy.fd
 File: omspxsy.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 120.
-LaTeX Font Info:    Try loading font information for OMX+pxex on input line 120
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for OMX/pxex/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for OMX+pxex on input line 121
 .
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/omxpxex.fd
 File: omxpxex.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 120.
-LaTeX Font Info:    Try loading font information for U+pxexa on input line 120.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for U/pxexa/m/n on input line 121.
+LaTeX Font Info:    Try loading font information for U+pxexa on input line 121.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxexa.fd
 File: upxexa.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    ... okay on input line 120.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 120.
-LaTeX Font Info:    ... okay on input line 120.
+LaTeX Font Info:    ... okay on input line 121.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 121.
+LaTeX Font Info:    ... okay on input line 121.
 LaTeX Font Info:    Try loading font information for OT1+helvetica on input lin
-e 120.
-LaTeX Font Info:    No file OT1helvetica.fd. on input line 120.
+e 121.
+LaTeX Font Info:    No file OT1helvetica.fd. on input line 121.
 
 
 LaTeX Font Warning: Font shape `OT1/helvetica/m/n' undefined
-(Font)              using `OT1/cmr/m/n' instead on input line 120.
+(Font)              using `OT1/cmr/m/n' instead on input line 121.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1240,7 +1240,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box78
-Package hyperref Info: Link coloring OFF on input line 120.
+Package hyperref Info: Link coloring OFF on input line 121.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
@@ -1250,9 +1250,9 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count186
 )
-LaTeX Info: Redefining \ref on input line 120.
-LaTeX Info: Redefining \pageref on input line 120.
-LaTeX Info: Redefining \nameref on input line 120.
+LaTeX Info: Redefining \ref on input line 121.
+LaTeX Info: Redefining \pageref on input line 121.
+LaTeX Info: Redefining \nameref on input line 121.
 
 (./frankfurt.out) (./frankfurt.out)
 \@outlinefile=\write8
@@ -1283,63 +1283,63 @@ Dictionary: translator-numbers-dictionary, Language: English
 r-theorem-dictionary/translator-theorem-dictionary-English.dict
 Dictionary: translator-theorem-dictionary, Language: English 
 )
-LaTeX Info: Redefining \includegraphics on input line 120.
+LaTeX Info: Redefining \includegraphics on input line 121.
 
 (./frankfurt.nav)
-LaTeX Font Info:    Try loading font information for OT1+pxr on input line 120.
+LaTeX Font Info:    Try loading font information for OT1+pxr on input line 121.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/ot1pxr.fd
 File: ot1pxr.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+zeur on input line 120.
+LaTeX Font Info:    Try loading font information for U+zeur on input line 121.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/eulervm/uzeur.fd
 File: uzeur.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeus on input line 120.
+LaTeX Font Info:    Try loading font information for U+zeus on input line 121.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/eulervm/uzeus.fd
 File: uzeus.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+zeuex on input line 120.
+LaTeX Font Info:    Try loading font information for U+zeuex on input line 121.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/eulervm/uzeuex.fd
 File: uzeuex.fd 2005/01/11 v4.0 (WaS)
 )
-LaTeX Font Info:    Try loading font information for U+pxsya on input line 120.
+LaTeX Font Info:    Try loading font information for U+pxsya on input line 121.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxsya.fd
 File: upxsya.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxsyb on input line 120.
+LaTeX Font Info:    Try loading font information for U+pxsyb on input line 121.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxsyb.fd
 File: utxsyb.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxmia on input line 120.
+LaTeX Font Info:    Try loading font information for U+pxmia on input line 121.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxmia.fd
 File: upxmia.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+pxsyc on input line 120.
+LaTeX Font Info:    Try loading font information for U+pxsyc on input line 121.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/upxsyc.fd
 File: upxsyc.fd 2000/12/14 v1.0
 )
-LaTeX Font Info:    Try loading font information for U+lasy on input line 120.
+LaTeX Font Info:    Try loading font information for U+lasy on input line 121.
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
 
 LaTeX Font Warning: Font shape `OT1/helvetica/m/n' in size <4> not available
-(Font)              size <5> substituted on input line 124.
+(Font)              size <5> substituted on input line 125.
 
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
@@ -1675,18 +1675,18 @@ Missing character: There is no ù in font cmr10!
 <pics/nc.png, id=3052, 651.43375pt x 472.76625pt>
 File: pics/nc.png Graphic file (type png)
  <use pics/nc.png>
-Package pdftex.def Info: pics/nc.png used on input line 499.
+Package pdftex.def Info: pics/nc.png used on input line 500.
 (pdftex.def)             Requested size: 195.43163pt x 141.83096pt.
  [41
 
  <./pics/nc.png>]
 File: pics/nc.png Graphic file (type png)
  <use pics/nc.png>
-Package pdftex.def Info: pics/nc.png used on input line 499.
+Package pdftex.def Info: pics/nc.png used on input line 500.
 (pdftex.def)             Requested size: 65.14719pt x 47.27939pt.
 File: pics/topview.png Graphic file (type png)
  <use pics/topview.png>
-Package pdftex.def Info: pics/topview.png used on input line 499.
+Package pdftex.def Info: pics/topview.png used on input line 500.
 (pdftex.def)             Requested size: 53.30225pt x 48.2832pt.
  [42
 
@@ -1696,13 +1696,13 @@ Package pdftex.def Info: pics/topview.png used on input line 499.
 <pics/911.png, id=3268, 604.2575pt x 355.3275pt>
 File: pics/911.png Graphic file (type png)
  <use pics/911.png>
-Package pdftex.def Info: pics/911.png used on input line 499.
+Package pdftex.def Info: pics/911.png used on input line 500.
 (pdftex.def)             Requested size: 90.6347pt x 53.29681pt.
 
 <pics/912.png, id=3269, 785.93625pt x 540.0175pt>
 File: pics/912.png Graphic file (type png)
  <use pics/912.png>
-Package pdftex.def Info: pics/912.png used on input line 499.
+Package pdftex.def Info: pics/912.png used on input line 500.
 (pdftex.def)             Requested size: 94.30827pt x 64.7993pt.
  [44
 
@@ -1710,7 +1710,7 @@ Package pdftex.def Info: pics/912.png used on input line 499.
 <pics/913.png, id=3342, 1042.89626pt x 727.71875pt>
 File: pics/913.png Graphic file (type png)
  <use pics/913.png>
-Package pdftex.def Info: pics/913.png used on input line 499.
+Package pdftex.def Info: pics/913.png used on input line 500.
 (pdftex.def)             Requested size: 135.58127pt x 94.60675pt.
  [45
 
@@ -1718,13 +1718,13 @@ Package pdftex.def Info: pics/913.png used on input line 499.
 File: pics/914.png Graphic file (type png)
 
 <use pics/914.png>
-Package pdftex.def Info: pics/914.png used on input line 499.
+Package pdftex.def Info: pics/914.png used on input line 500.
 (pdftex.def)             Requested size: 87.04697pt x 94.59532pt.
  <pics/915.png, id=3415, 769.87625pt x 276.03125pt>
 File: pics/915.png Graphic file (type png)
 
 <use pics/915.png>
-Package pdftex.def Info: pics/915.png used on input line 499.
+Package pdftex.def Info: pics/915.png used on input line 500.
 (pdftex.def)             Requested size: 123.18271pt x 44.1659pt.
  [46
 
@@ -1773,15 +1773,14 @@ Package pdftex.def Info: jcob.png used on input line 215.
 ] [62
 
 ]) (./frankfurt.bbl
-LaTeX Font Info:    Try loading font information for OT1+pxtt on input line 12.
+LaTeX Font Info:    Try loading font information for OT1+pxtt on input line 17.
 
 
 (/usr/local/texlive/2015/texmf-dist/tex/latex/pxfonts/ot1pxtt.fd
 File: ot1pxtt.fd 2000/12/14 v1.0
 )) [63
 
- </usr/local/texlive/2015/texmf-dist/tex/latex/beamer/art/beamericonarticle.pdf
->]
+]
 \tf@nav=\write9
 \openout9 = `frankfurt.nav'.
 
@@ -1791,12 +1790,12 @@ File: ot1pxtt.fd 2000/12/14 v1.0
 \tf@snm=\write11
 \openout11 = `frankfurt.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 274.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 274.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 278.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 278.
 
 (./frankfurt.aux)
-Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 274.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 274.
+Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 278.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 278.
 Package rerunfilecheck Info: File `frankfurt.out' has not changed.
 (rerunfilecheck)             Checksum: 91E897D3D95B82A26B51DD152B2D937F;561.
 
@@ -1807,13 +1806,13 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
- 25477 strings out of 493089
- 494316 string characters out of 6134841
- 653152 words of memory out of 5000000
- 28092 multiletter control sequences out of 15000+600000
+ 25480 strings out of 493089
+ 494356 string characters out of 6134841
+ 653208 words of memory out of 5000000
+ 28094 multiletter control sequences out of 15000+600000
  56699 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,23n,73p,955b,1089s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1842,14 +1841,15 @@ texmf-dist/fonts/type1/public/amsfonts/euler/eusm7.pfb></usr/local/texlive/2015
 /texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/
 2015/texmf-dist/fonts/type1/public/amsfonts/symbols/msam7.pfb></usr/local/texli
 ve/2015/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2015
-/texmf-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/local/texlive/2015/texmf
--dist/fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2015/texmf-dist/f
-onts/type1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/ty
-pe1/urw/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (63 pages, 5045059 bytes).
+/texmf-dist/fonts/type1/public/pxfonts/pxsya.pfb></usr/local/texlive/2015/texmf
+-dist/fonts/type1/public/pxfonts/pxsyb.pfb></usr/local/texlive/2015/texmf-dist/
+fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
+ype1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
+w/palatino/uplr8a.pfb>
+Output written on frankfurt.pdf (63 pages, 5045064 bytes).
 PDF statistics:
- 4825 PDF objects out of 5155 (max. 8388607)
+ 4823 PDF objects out of 5155 (max. 8388607)
  4562 compressed objects within 46 object streams
- 152 named destinations out of 1000 (max. 500000)
+ 153 named destinations out of 1000 (max. 500000)
  353 words of extra memory for PDF output out of 10000 (max. 10000000)
 
