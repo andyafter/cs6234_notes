@@ -58,7 +58,7 @@
       \begin{algorithm}[H]
         \small
         Given $\xk{0} \in \dom f$\;
-        \Repeat{$\Delta x$ is within an acceptable range and is stable}{
+        \Repeat{stopping criterion is satisfied}{
           Determine a descent direction $\Delta x$\;
           Choose a step size $t > 0$\;
           Update $\desmeth$\;
@@ -88,7 +88,7 @@
       \begin{algorithm}[H]
         \small
         Given $\xk{0} \in \dom f$\;
-        \Repeat{$\Delta x$ is within an acceptable range and is stable;}{
+        \Repeat{stopping criterion is satisfied}{
           Determine a descent direction $\Delta x$ $\Rightarrow$
           {$\footnotesize Gradient/Steepest Descent$}\;
           Choose a step size $t > 0$ $\Rightarrow$~~~~~~~~~~~~ $Line Search Algo$ \;
@@ -144,13 +144,17 @@
   \only<2>{
     \begin{itemize}
     \item Armijo Condition:
-      $$f(\xk{k} + \alpha p^{(k)}) \le f(\xk{k}) + c_1\alpha\nabla
-      f(\xk{k})^T p^{(k)}, c_1 > 0$$
+      $$f(\xk{k} + \alpha {\bf p}^{(k)}) \le f(\xk{k}) + c_1\alpha\nabla
+      f(\xk{k})^T {\bf p}^{(k)}, c_1 > 0$$
     \item Wolfe Conditions (Including Armijo Condition):
-      $$\nabla f(\xk{k} + \alpha p^{(k)})^Tp^{(k)} \ge c_2\nabla f(\xk{k})^Tp^{(k)}, 0< c_1 < c_2 < 1$$
+      $$\nabla f(\xk{k} + \alpha {\bf p}^{(k)})^T{\bf p}^{(k)} \ge
+      c_2\nabla f(\xk{k})^T{\bf p}^{(k)}, 0< c_1 < c_2 < 1$$
     \end{itemize}
+
+Where ${\bf p}$ is the step direction.
+
     \begin{greenblock}{Theorem:}
-      Gradient descent will find local minimum if step size $\alpha$ satisfies Wolfe conditions.
+      Gradient descent will find local minimum if step size $t$ satisfies Wolfe conditions.
 
     \end{greenblock}
   }
@@ -166,7 +170,7 @@
         \small
         Given a descent direction $\Delta x$ for $f$ at $x\in \dom f,
         \alpha \in (0, 0.5), \beta \in (0, 1), t = 1$\;
-        \Repeat{$f(\xk{k} + t\Delta \xk{k}) \le f(\xk{k}) + \alpha t\nabla
+        \While{$f(\xk{k} + t\Delta \xk{k}) \le f(\xk{k}) + \alpha t\nabla
           f(\xk{k})^T\Delta \xk{k}$}{
           $t =\beta t$\;
         }
@@ -198,7 +202,7 @@
     \begin{algorithm}[H]
       \small
       Given $\xk{0} \in \dom f$\;
-      \Repeat{$\Delta x$ is within an acceptable range and is stable;}{
+      \Repeat{stopping criterion is satisfied}{
         $\Delta x = -\nabla f(\xk{k})$\;
         Choose a step size $t > 0, [Line Search]$\;
         Update $x^{(k+1)} = x^{(k)}+ t\Delta x$\;
@@ -293,7 +297,8 @@
       \begin{algorithm}[H]
         \small
         Given $\xk{0} \in \dom f$\;
-        \Repeat{$\Delta x$ is within an acceptable range and is stable}{
+        \Repeat{
+        stopping criterion is satisfied}{
           Compute steepest descent direction $\Delta x_{sd}$\;
           Choose a step size $t > 0, [Line Search]$\;
           Update $x^{(k+1)} = x^{(k)} + t^{(k)}\Delta x^{(k)}_{sd}$\;
@@ -317,7 +322,7 @@ When exact line search is used, scale factors in the descent direction have no e
     \begin{algorithm}[H]
       \tiny
       Given $\xk{0} \in \dom f$\;
-      \Repeat{$\Delta x$ is within an acceptable range and is stable}{
+      \Repeat{ stopping criterion is satisfied}{
         Determine a descent direction $\Delta x$\;
         Choose a step size $t > 0$\;
         Update $\desmeth$\;
@@ -348,7 +353,8 @@ When exact line search is used, scale factors in the descent direction have no e
         \begin{algorithm}[H]
           \tiny
           Given $\xk{0} \in \dom f$\;
-          \Repeat{$\Delta x$ is within an acceptable range and is stable}{
+          \Repeat{
+            stable  stopping criterion is satisfied}{
           $\Delta x = -\nabla f(\xk{k})$\;
           Choose a step size $t > 0, [Line Search]$\;
           Update $x^{(k+1)} = x^{(k)}+ t\Delta x$\;
@@ -364,7 +370,8 @@ When exact line search is used, scale factors in the descent direction have no e
         \begin{algorithm}[H]
           \tiny
           Given $\xk{0} \in \dom f$\;
-          \Repeat{$\Delta x$ is within an acceptable range and is stable}{
+          \Repeat{
+            stable stable  stopping criterion is satisfied}{
           Compute steepest descent direction $\Delta x_{sd}$\;
           Choose a step size $t > 0, [Line Search]$\;
           Update $x^{(k+1)} = x^{(k)} + t^{(k)}\Delta x^{(k)}_{sd}$\;

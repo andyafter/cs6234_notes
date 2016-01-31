@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  31 JAN 2016 00:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  1 FEB 2016 00:40
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-201613135.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-20162140.tex")...disabled (restricted).
 
-runsystem(del "w18-test-201613135.tex")...disabled (restricted).
+runsystem(del "w18-test-20162140.tex")...disabled (restricted).
 
 
 
@@ -1460,25 +1460,25 @@ LaTeX Font Warning: Command \footnotesize invalid in math mode on input line 10
 ] <pics/sa.png, id=1112, 563.10374pt x 493.845pt>
 File: pics/sa.png Graphic file (type png)
  <use pics/sa.png>
-Package pdftex.def Info: pics/sa.png used on input line 181.
+Package pdftex.def Info: pics/sa.png used on input line 185.
 (pdftex.def)             Requested size: 84.46191pt x 74.07355pt.
 
 <pics/si.png, id=1113, 570.13pt x 501.875pt>
 File: pics/si.png Graphic file (type png)
  <use pics/si.png>
-Package pdftex.def Info: pics/si.png used on input line 181.
+Package pdftex.def Info: pics/si.png used on input line 185.
 (pdftex.def)             Requested size: 85.51581pt x 75.278pt.
 
 <pics/issue1.png, id=1114, 739.76375pt x 421.575pt>
 File: pics/issue1.png Graphic file (type png)
  <use pics/issue1.png>
-Package pdftex.def Info: pics/issue1.png used on input line 181.
+Package pdftex.def Info: pics/issue1.png used on input line 185.
 (pdftex.def)             Requested size: 133.15172pt x 75.88022pt.
 
 <pics/issue2.png, id=1115, 677.53125pt x 410.53375pt>
 File: pics/issue2.png Graphic file (type png)
  <use pics/issue2.png>
-Package pdftex.def Info: pics/issue2.png used on input line 181.
+Package pdftex.def Info: pics/issue2.png used on input line 185.
 (pdftex.def)             Requested size: 121.95036pt x 73.89288pt.
 
 [14
@@ -1494,23 +1494,23 @@ Package pdftex.def Info: pics/issue2.png used on input line 181.
 
 ]
 LaTeX Font Info:    Try loading font information for OMS+helvetica on input lin
-e 308.
-LaTeX Font Info:    No file OMShelvetica.fd. on input line 308.
+e 313.
+LaTeX Font Info:    No file OMShelvetica.fd. on input line 313.
 
 
 LaTeX Font Warning: Font shape `OMS/helvetica/m/n' undefined
 (Font)              using `OMS/pxsy/m/n' instead
-(Font)              for symbol `textbullet' on input line 308.
+(Font)              for symbol `textbullet' on input line 313.
 
 
-LaTeX Font Warning: Command \small invalid in math mode on input line 308.
+LaTeX Font Warning: Command \small invalid in math mode on input line 313.
 
 [19
 
 ] [20
 
 ]
-Overfull \hbox (11.09373pt too wide) in paragraph at lines 308--308
+Overfull \hbox (11.09373pt too wide) in paragraph at lines 313--313
 []  
  []
 
@@ -1810,12 +1810,12 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 278.
  ) 
 Here is how much of TeX's memory you used:
  25480 strings out of 493089
- 494356 string characters out of 6134841
+ 494357 string characters out of 6134841
  653208 words of memory out of 5000000
  28094 multiletter control sequences out of 15000+600000
  56699 words of font info for 191 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 48i,23n,73p,955b,1089s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 48i,23n,73p,955b,1065s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
 exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
 xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
@@ -1846,7 +1846,7 @@ ve/2015/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2015
 fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (63 pages, 5045064 bytes).
+Output written on frankfurt.pdf (63 pages, 5045586 bytes).
 PDF statistics:
  4823 PDF objects out of 5155 (max. 8388607)
  4562 compressed objects within 46 object streams
