@@ -1,0 +1,48 @@
+This is BibTeX, Version 0.99d (TeX Live 2015)
+Capacity: max_strings=35307, hash_size=35307, hash_prime=30011
+The top-level auxiliary file: frankfurt.aux
+The style file: apalike.bst
+Database file #1: references.bib
+Warning--empty year in notes
+You've used 5 entries,
+            1935 wiz_defined-function locations,
+            502 strings with 4427 characters,
+and the built_in function-call counts, 1811 in all, are:
+= -- 182
+> -- 52
+< -- 6
++ -- 20
+- -- 16
+* -- 130
+:= -- 314
+add.period$ -- 16
+call.type$ -- 5
+change.case$ -- 31
+chr.to.int$ -- 5
+cite$ -- 6
+duplicate$ -- 79
+empty$ -- 135
+format.name$ -- 23
+if$ -- 361
+int.to.chr$ -- 1
+int.to.str$ -- 0
+missing$ -- 5
+newline$ -- 29
+num.names$ -- 15
+pop$ -- 29
+preamble$ -- 1
+purify$ -- 32
+quote$ -- 0
+skip$ -- 63
+stack$ -- 0
+substring$ -- 127
+swap$ -- 14
+text.length$ -- 2
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 28
+warning$ -- 1
+while$ -- 16
+width$ -- 0
+write$ -- 67
+(There was 1 warning)
