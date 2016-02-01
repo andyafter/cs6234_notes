@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  1 FEB 2016 16:46
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  1 FEB 2016 17:51
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-2016211006.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-2016211071.tex")...disabled (restricted).
 
-runsystem(del "w18-test-2016211006.tex")...disabled (restricted).
+runsystem(del "w18-test-2016211071.tex")...disabled (restricted).
 
 
 
@@ -1632,13 +1632,13 @@ Overfull \vbox (10.4269pt too high) detected at line 213
 <pics/btes.png, id=2623, 826.08624pt x 318.18875pt>
 File: pics/btes.png Graphic file (type png)
  <use pics/btes.png>
-Package pdftex.def Info: pics/btes.png used on input line 247.
+Package pdftex.def Info: pics/btes.png used on input line 248.
 (pdftex.def)             Requested size: 206.52104pt x 79.54698pt.
 
 <pics/els.png, id=2624, 858.20625pt x 611.28375pt>
 File: pics/els.png Graphic file (type png)
  <use pics/els.png>
-Package pdftex.def Info: pics/els.png used on input line 247.
+Package pdftex.def Info: pics/els.png used on input line 248.
 (pdftex.def)             Requested size: 102.9803pt x 73.35088pt.
  [35
 
@@ -1646,7 +1646,7 @@ Package pdftex.def Info: pics/els.png used on input line 247.
 <pics/error.png, id=2697, 923.45pt x 601.24625pt>
 File: pics/error.png Graphic file (type png)
  <use pics/error.png>
-Package pdftex.def Info: pics/error.png used on input line 310.
+Package pdftex.def Info: pics/error.png used on input line 311.
 (pdftex.def)             Requested size: 184.68672pt x 120.24712pt.
 Missing character: There is no ‚ in font cmr6!
 Missing character: There is no Ä in font cmr6!
@@ -1655,7 +1655,7 @@ Missing character: There is no ‚ in font cmr6!
 Missing character: There is no Ä in font cmr6!
 Missing character: There is no ô in font cmr6!
 
-Overfull \vbox (35.67319pt too high) detected at line 310
+Overfull \vbox (35.67319pt too high) detected at line 311
  []
 
 [36
@@ -1663,7 +1663,7 @@ Overfull \vbox (35.67319pt too high) detected at line 310
  <./pics/error.png>]
 File: pics/error.png Graphic file (type png)
  <use pics/error.png>
-Package pdftex.def Info: pics/error.png used on input line 310.
+Package pdftex.def Info: pics/error.png used on input line 311.
 (pdftex.def)             Requested size: 138.51152pt x 90.18304pt.
  [37
 
@@ -1684,18 +1684,18 @@ Missing character: There is no ù in font cmr10!
 <pics/nc.png, id=3052, 651.43375pt x 472.76625pt>
 File: pics/nc.png Graphic file (type png)
  <use pics/nc.png>
-Package pdftex.def Info: pics/nc.png used on input line 508.
+Package pdftex.def Info: pics/nc.png used on input line 509.
 (pdftex.def)             Requested size: 195.43163pt x 141.83096pt.
  [41
 
  <./pics/nc.png>]
 File: pics/nc.png Graphic file (type png)
  <use pics/nc.png>
-Package pdftex.def Info: pics/nc.png used on input line 508.
+Package pdftex.def Info: pics/nc.png used on input line 509.
 (pdftex.def)             Requested size: 65.14719pt x 47.27939pt.
 File: pics/topview.png Graphic file (type png)
  <use pics/topview.png>
-Package pdftex.def Info: pics/topview.png used on input line 508.
+Package pdftex.def Info: pics/topview.png used on input line 509.
 (pdftex.def)             Requested size: 53.30225pt x 48.2832pt.
  [42
 
@@ -1705,13 +1705,13 @@ Package pdftex.def Info: pics/topview.png used on input line 508.
 <pics/911.png, id=3268, 604.2575pt x 355.3275pt>
 File: pics/911.png Graphic file (type png)
  <use pics/911.png>
-Package pdftex.def Info: pics/911.png used on input line 508.
+Package pdftex.def Info: pics/911.png used on input line 509.
 (pdftex.def)             Requested size: 90.6347pt x 53.29681pt.
 
 <pics/912.png, id=3269, 785.93625pt x 540.0175pt>
 File: pics/912.png Graphic file (type png)
  <use pics/912.png>
-Package pdftex.def Info: pics/912.png used on input line 508.
+Package pdftex.def Info: pics/912.png used on input line 509.
 (pdftex.def)             Requested size: 94.30827pt x 64.7993pt.
  [44
 
@@ -1719,7 +1719,7 @@ Package pdftex.def Info: pics/912.png used on input line 508.
 <pics/913.png, id=3342, 1042.89626pt x 727.71875pt>
 File: pics/913.png Graphic file (type png)
  <use pics/913.png>
-Package pdftex.def Info: pics/913.png used on input line 508.
+Package pdftex.def Info: pics/913.png used on input line 509.
 (pdftex.def)             Requested size: 135.58127pt x 94.60675pt.
  [45
 
@@ -1727,13 +1727,13 @@ Package pdftex.def Info: pics/913.png used on input line 508.
 File: pics/914.png Graphic file (type png)
 
 <use pics/914.png>
-Package pdftex.def Info: pics/914.png used on input line 508.
+Package pdftex.def Info: pics/914.png used on input line 509.
 (pdftex.def)             Requested size: 87.04697pt x 94.59532pt.
  <pics/915.png, id=3415, 769.87625pt x 276.03125pt>
 File: pics/915.png Graphic file (type png)
 
 <use pics/915.png>
-Package pdftex.def Info: pics/915.png used on input line 508.
+Package pdftex.def Info: pics/915.png used on input line 509.
 (pdftex.def)             Requested size: 123.18271pt x 44.1659pt.
  [46
 
@@ -1855,7 +1855,7 @@ ve/2015/texmf-dist/fonts/type1/public/pxfonts/pxsy.pfb></usr/local/texlive/2015
 fonts/type1/public/txfonts/txtt.pfb></usr/local/texlive/2015/texmf-dist/fonts/t
 ype1/urw/palatino/uplb8a.pfb></usr/local/texlive/2015/texmf-dist/fonts/type1/ur
 w/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (63 pages, 5043363 bytes).
+Output written on frankfurt.pdf (63 pages, 5043189 bytes).
 PDF statistics:
  4823 PDF objects out of 5155 (max. 8388607)
  4562 compressed objects within 46 object streams

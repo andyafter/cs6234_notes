@@ -61,7 +61,7 @@
         \Repeat{stopping criterion is satisfied}{
           Determine a descent direction $\Delta x$\;
           Choose a step size $t > 0$\;
-          Update $\desmeth$\;
+          Update $x := x + t \Delta x$\;
         }
         % \caption{Descent Method Algorithm}
       \end{algorithm}
@@ -75,9 +75,9 @@
       $$f~ is~ convex \Leftrightarrow f(x) \ge f(y) + f'(y)(x - y)$$
     \end{greenblock}
     \vspace{-8pt}
-    \begin{greyblock}{Proof}
+    \begin{greyblock}{Based on the Theorem and Equation (1):}
       \footnotesize
-      $$f(\xk{k+1}) \ge f(\xk{k}) + f'(\xk{k})\Delta \xk{k} $$
+      $$ f(\xk{k}) + \nabla f(\xk{k})^T\Delta \xk{k} \le f(\xk{k+1}) $$
       $$\nabla f(\xk{k})^T\Delta \xk{k} \le f(\xk{k+1}) - f(\xk{k}) < 0$$
 
     \end{greyblock}
@@ -92,7 +92,7 @@
           Determine a descent direction $\Delta x$ $\Rightarrow$
           {$\footnotesize Gradient/Steepest Descent$}\;
           Choose a step size $t > 0$ $\Rightarrow$~~~~~~~~~~~~ $Line Search Algo$ \;
-          Update $\desmeth$\;
+          Update $x := x + t \Delta x$\;
         }
         % \caption{Descent Method Algorithm}
       \end{algorithm}
@@ -100,7 +100,7 @@
   }
 
 
-  \begin{block}{Noticing that $f$ is convex, $\Delta x$ satisfies:}
+  \begin{block}{Therefore, $\Delta x$ must satisfy:}
     \begin{equation}
       \label{eq:xconv}
       \nabla f(\xk{k})^T\Delta \xk{k} < 0
@@ -144,7 +144,7 @@
   \only<2>{
     \begin{itemize}
     \item Armijo
-      $$f(\xk{k} + \alpha_1 \Delta x^{(k)}) \le f(\xk{k}) + \alpha_1 t\nabla
+      $$f(\xk{k} + t \Delta x^{(k)}) \le f(\xk{k}) + \alpha_1 t\nabla
       f(\xk{k})^T \Delta x^{(k)}, \alpha_1 > 0$$
     \item Wolfe Conditions (Including Armijo Condition):
       $$\nabla f(\xk{k} + t \Delta x^{(k)})^T\Delta x^{(k)} \ge
@@ -203,9 +203,9 @@ Where $\Delta x$ is the step direction.
       \small
       Given $\xk{0} \in \dom f$\;
       \Repeat{stopping criterion is satisfied}{
-        $\Delta x = -\nabla f(\xk{k})$\;
+        $\Delta x = -\nabla f(x)$\;
         Choose a step size $t > 0, [Line Search]$\;
-        Update $x^{(k+1)} = x^{(k)}+ t\Delta x$\;
+        Update $x := x + t\Delta x$\;
       }
       % \caption{Descent Method Algorithm}
     \end{algorithm}
