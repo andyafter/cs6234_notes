@@ -125,7 +125,11 @@ conditioned)}
 {
 \tiny
 
-$$f(x) = \frac{1}{2}(x_1^2 + \gamma \xkk{2}^2) ~~~ \gamma > 0$$
+\begin{equation}
+f(x) = \frac{1}{2}(x_1^2 + \gamma \xkk{2}^2) ~~~ \gamma > 0
+\end{equation}
+
+%\vspace{-4mm}
 
 with exact line search, starting at $x^{(0)} = (\gamma, 1)$
 $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
@@ -152,7 +156,7 @@ $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
 
 
 \begin{itemize}
-\item Very slow if $\gamma > 1 or ~ \gamma < 1$
+\item Very slow if $\gamma > 1~ or ~ \gamma < 1$
 \item Useless if $\gamma > 20$.
 \item Example for $\gamma = 10$.
 \end{itemize}
@@ -170,11 +174,11 @@ $$\xkk{1}^{(k)} = \gamma (\frac{\gamma - 1}{\gamma + 1})^k, ~~
 \begin{frame}
   \frametitle{Advantages -- Disadvantages -- Limitations}
 
-  \textbullet { \scriptsize   {\bf Left}: Number of iterations of the gradient method as a
+  \textbullet{\scriptsize{\bf Left}: Number of iterations of the gradient method as a
     function of $\gamma$ which can be thought of as amount of diagonal
     scaling.}
 
-  \textbullet{\scriptsize {\bf\it Right}: Condition number of the Hessian of the function at its
+  \textbullet{\scriptsize{\bf\it Right}: Condition number of the Hessian of the function at its
     minimum as a function of $\gamma$.}
 
 \textbullet{\scriptsize We see that the condition number has a very strong influence on
@@ -189,8 +193,8 @@ convergence rate.}
       \centering
 \includegraphics[scale=0.15]{pics/ga1.png}
 \caption{\tiny The
-  vertical axis shows the number of iterations required to obtain
-  $\overline{f}(\overline{x}^{(k)}) - \overline{p}^* < 10^{-5}$. The
+  vertical axis shows the number of iterations required to find the
+  optimum. The
   horizontal axis shows $\gamma$, which is the  parameter that controls the amount of diagonal scaling. We use a
 backtracking line search with $\alpha = 0.3, \beta = 0.7$.}
     \end{figure}
@@ -226,7 +230,7 @@ $$f(x_1, x_2) = e^{x_1+3x_2-0.1} + e^{x_1-3x_2-0.1} + e^{-x_1-0.1}$$
     \begin{itemize}
     \item With exact line search, the error is reduced by about $10^{-8}$
       in 20 iterations, i.e., a reduction by a factor of
-20 about $10^{-\frac{8}{20}} \approx 0.4$ per iteration.
+ about $10^{-\frac{8}{20}} \approx 0.4$ per iteration.
 \item With backtracking line search, the error is reduced
 about $10^{-11}$ in 15 iterations, i.e., a reduction by a factor of
  about $10^{-\frac{11}{15}} \approx 0.2$ per iteration.
@@ -271,7 +275,7 @@ per iteration.
 
 \begin{columns}
   \begin{column}{0.6\textwidth }
-\textbullet In the convergence of the gradient method with exact line search,
+\textbullet In the case of the gradient method with exact line search,
 {\bf average error reduction} is $10^{-\frac{6}{140}} \approx 0.91$ per iteration. A bit
 faster than the gradient method with backtracking line search.
   \end{column}
@@ -429,7 +433,7 @@ $$P_1 = \bigl(\begin{smallmatrix}
       \includegraphics[scale=0.15]{pics/911.png}
       \caption{\tiny Steepest descent method, with quadratic norm
         $\norm{\cdot}_{P_1}$. The ellipses are the boundaries of the
-        norm balls $\{x ~ | \norm{x - x^{(k)}}_{P_1} \le 1\}$ at $\xk{0}
+        norm balls $\{x ~ |~ ||x - x^{(k)}||_{P_1} \le 1\}$ at $\xk{0}
         ~and~ \xk{1}$.}
     \end{figure}
   \end{column}
@@ -446,10 +450,13 @@ $$P_1 = \bigl(\begin{smallmatrix}
 }
 
 \only<6>{
-\textbullet Figure shows the error vs. iteration differences of the two norms.
+
 
 \begin{columns}
   \begin{column}{0.6\textwidth}
+\textbullet Figure shows the error vs. iteration differences of the
+two norms.
+
 \textbullet With the norm $\norm{\cdot}_{P_1}$, convergence is a bit more rapid
  than the gradient method, whereas with the norm $\norm{\cdot}_{P_2}$, convergence is far slower.
 
@@ -458,12 +465,13 @@ $$P_1 = \bigl(\begin{smallmatrix}
     \begin{figure}[t]
       \centering
       \includegraphics[scale=0.13]{pics/913.png}
-      \caption{\tiny Error $f(x^*) - p^*$versus iteration k, for the
-        steepest descent method with the quadratic norm
-        $\norm{\cdot}_{P_1}$ and the quadratic norm
-        $\norm{\cdot}_{P_2}$.
-Convergence is rapid for the norm $\norm{\cdot}_{P_1}$ and very slow for$\norm{\cdot}_{P_2}$.}
-    \end{figure}
+%       \caption{\tiny Error $f(x^*) - p^*$versus iteration k. for the
+%         steepest descent method with the quadratic norm
+%         $\norm{\cdot}_{P_1}$ and the quadratic norm
+%         $\norm{\cdot}_{P_2}$.
+% Convergence is rapid for the norm $\norm{\cdot}_{P_1}$ and very slow for$\norm{\cdot}_{P_2}$.}
+
+ \end{figure}
 
 
 

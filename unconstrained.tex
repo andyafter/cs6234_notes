@@ -143,15 +143,15 @@
 
   \only<2>{
     \begin{itemize}
-    \item Armijo Condition:
-      $$f(\xk{k} + \alpha {\bf p}^{(k)}) \le f(\xk{k}) + c_1\alpha\nabla
-      f(\xk{k})^T {\bf p}^{(k)}, c_1 > 0$$
+    \item Armijo
+      $$f(\xk{k} + \alpha_1 \Delta x^{(k)}) \le f(\xk{k}) + \alpha_1 t\nabla
+      f(\xk{k})^T \Delta x^{(k)}, \alpha_1 > 0$$
     \item Wolfe Conditions (Including Armijo Condition):
-      $$\nabla f(\xk{k} + \alpha {\bf p}^{(k)})^T{\bf p}^{(k)} \ge
-      c_2\nabla f(\xk{k})^T{\bf p}^{(k)}, 0< c_1 < c_2 < 1$$
+      $$\nabla f(\xk{k} + t \Delta x^{(k)})^T\Delta x^{(k)} \ge
+      \alpha_2\nabla f(\xk{k})^T\Delta x^{(k)}, 0< \alpha_1 < \alpha_2 < 1$$
     \end{itemize}
 
-Where ${\bf p}$ is the step direction.
+Where $\Delta x$ is the step direction.
 
     \begin{greenblock}{Theorem:}
       Gradient descent will find local minimum if step size $t$ satisfies Wolfe conditions.
@@ -165,14 +165,14 @@ Where ${\bf p}$ is the step direction.
       $$f(\xk{k} + t\Delta \xk{k}) \le f(\xk{k}) + c_1\alpha\nabla
       f(\xk{k})^T\Delta \xk{k}, c_1 > 0$$
     \end{itemize}
-    \begin{greenblock}{Algorithm:}
+    \begin{greenblock}{Backtracking Line Search:}
       \begin{algorithm}[H]
         \small
         Given a descent direction $\Delta x$ for $f$ at $x\in \dom f,
-        \alpha \in (0, 0.5), \beta \in (0, 1), t = 1$\;
-        \While{$f(\xk{k} + t\Delta \xk{k}) \le f(\xk{k}) + \alpha t\nabla
-          f(\xk{k})^T\Delta \xk{k}$}{
-          $t =\beta t$\;
+        \alpha \in (0, 0.5), \beta \in (0, 1), t := 1$\;
+        \While{$f(x + t\Delta x) > f(x) + \alpha t\nabla
+          f(x)^T\Delta x$}{
+          $t :=\beta t$\;
         }
         % \caption{Descent Method Algorithm}
       \end{algorithm}
@@ -270,13 +270,13 @@ Where ${\bf p}$ is the step direction.
         \begin{greenblock}{Proof}
           \begin{equation*}
             \begin{split}
-              \Delta \bx_{nsd} & = \argmin\{\nabla f(\bx)^T{\bf v} | \norm{v} \le 1\} \\
-              & = - \argmax\{\nabla f(\bx)^T{\bf v} | \norm{v} \le 1\}
+              \Delta \bx_{nsd} & = \argmin\{\nabla f(\bx)^T{\bf v} ~| \norm{v} \le 1\} \\
+              & = - \argmax\{\nabla f(\bx)^T{\bf v} ~| \norm{v} \le 1\}
             \end{split}
           \end{equation*}
           \begin{equation*}
             \begin{split}
-              \norm{\nabla f{(x)}}_* & = sup\{\nabla f(\bx)^T{\bf v} |
+              \norm{\nabla f{(x)}}_* & = sup\{\nabla f(\bx)^T{\bf v}~ |
               \norm{v} \le 1 \} \\
               \Rightarrow \norm{\nabla f{(x)}}_* & = -\nabla f(\bx)^T\Delta x_{nsd}
             \end{split}
@@ -288,7 +288,7 @@ Where ${\bf p}$ is the step direction.
   }
 
   \only<4>{
-    $\Delta \bx_{nsd}  = \argmin\{\nabla f(\bx)^T{\bf v} | \norm{\bf v} \le
+    $\Delta \bx_{nsd}  = \argmin\{\nabla f(\bx)^T{\bf v}~ | \norm{\bf v} \le
     1\}$
 
     $\Delta \bx_{sd} = \norm{\nabla f(\bx)}_*\Delta \bx_{nsd}$
@@ -296,12 +296,12 @@ Where ${\bf p}$ is the step direction.
     \begin{greenblock}{Steepest Descent Method}
       \begin{algorithm}[H]
         \small
-        Given $\xk{0} \in \dom f$\;
+        Given $x \in \dom f$\;
         \Repeat{
         stopping criterion is satisfied}{
           Compute steepest descent direction $\Delta x_{sd}$\;
           Choose a step size $t > 0, [Line Search]$\;
-          Update $x^{(k+1)} = x^{(k)} + t^{(k)}\Delta x^{(k)}_{sd}$\;
+          Update $x := x + t\Delta x_{sd}$\;
         }
         % \caption{Descent Method Algorithm}
       \end{algorithm}
@@ -321,11 +321,11 @@ When exact line search is used, scale factors in the descent direction have no e
   \begin{blueblock}{General}
     \begin{algorithm}[H]
       \tiny
-      Given $\xk{0} \in \dom f$\;
+      Given $x \in \dom f$\;
       \Repeat{ stopping criterion is satisfied}{
         Determine a descent direction $\Delta x$\;
         Choose a step size $t > 0$\;
-        Update $\desmeth$\;
+        Update $x := x + t\Delta x$\;
       }
       % \caption{Descent Method Algorithm}
     \end{algorithm}
@@ -335,11 +335,12 @@ When exact line search is used, scale factors in the descent direction have no e
 \only<2>{
   \begin{blueblock}{General}
   \begin{itemize}
-  \item $\Delta \bx_{nsd}  = \argmin\{\nabla f(\bx)^T{\bf v} | \norm{\bf v} \le
+  \item $\Delta \bx_{nsd}  = \argmin\{\nabla f(\bx)^T{\bf v} ~| \norm{\bf v} \le
     1\} $
   \item $\Delta\bx_{sd} = \norm{\nabla f(x)}_*\cdot \Delta \bx_{nsd}$
   \item If the norm $\norm{\cdot}$ is Euclidean norm, $\Delta \bx =
-    -\nabla f(\bx)$
+    -\nabla f(\bx)$, which means that Gradient Descent and Steepest
+    Descent become the same.
   \end{itemize}
   \end{blueblock}
 \vspace{2mm}
@@ -352,12 +353,12 @@ When exact line search is used, scale factors in the descent direction have no e
       \begin{greenblock}{Gradient Descent}
         \begin{algorithm}[H]
           \tiny
-          Given $\xk{0} \in \dom f$\;
+          Given $x \in \dom f$\;
           \Repeat{
             stable  stopping criterion is satisfied}{
-          $\Delta x = -\nabla f(\xk{k})$\;
+          $\Delta x = -\nabla f(x)$\;
           Choose a step size $t > 0, [Line Search]$\;
-          Update $x^{(k+1)} = x^{(k)}+ t\Delta x$\;
+          Update $x := x+ t\Delta x$\;
         }
 
         \end{algorithm}
@@ -369,12 +370,12 @@ When exact line search is used, scale factors in the descent direction have no e
       \begin{greenblock}{Steepest Descent}
         \begin{algorithm}[H]
           \tiny
-          Given $\xk{0} \in \dom f$\;
+          Given $x \in \dom f$\;
           \Repeat{
             stable stable  stopping criterion is satisfied}{
           Compute steepest descent direction $\Delta x_{sd}$\;
           Choose a step size $t > 0, [Line Search]$\;
-          Update $x^{(k+1)} = x^{(k)} + t^{(k)}\Delta x^{(k)}_{sd}$\;
+          Update $x := x + t\Delta x_{sd}$\;
         }
 
 
