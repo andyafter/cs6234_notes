@@ -1357,40 +1357,39 @@ Overfull \hbox (4.92291pt too wide) in paragraph at lines 18--18
 
 [2
 
- <./pics/linear.png>] [3
-
-] <pics/uncons.png, id=381, 706.64pt x 220.825pt>
-File: pics/uncons.png Graphic file (type png)
-
-<use pics/uncons.png>
-Package pdftex.def Info: pics/uncons.png used on input line 91.
-(pdftex.def)             Requested size: 141.32549pt x 44.16422pt.
- [4
-
- <./pics/uncons.png>]
-<pics/lpo.png, id=456, 961.5925pt x 530.98375pt>
-File: pics/lpo.png Graphic file (type png)
- <use pics/lpo.png>
-Package pdftex.def Info: pics/lpo.png used on input line 99.
-(pdftex.def)             Requested size: 307.71588pt x 169.91826pt.
-
-Overfull \hbox (0.42601pt too wide) in paragraph at lines 99--99
+ <./p \hbox (4.92291pt too wide) in paragraph at lines 18--18
 [][]  
  []
 
-[5
+[2
 
- <./pics/lpo.png>] <pics/pen1.png, id=528, 923.45pt x 494.84875pt>
-File: pics/pen1.png Graphic file (type png)
+ <./pics/linear.png>] [3
 
-<use pics/pen1.png>
-Package pdftex.def Info: pics/pen1.png used on input line 110.
-(pdftex.def)             Requested size: 295.51003pt x 158.35483pt.
- [6
+]
+./linear.tex:80: Undefined control sequence.
+\beamer@sort #1#2->\long \def \beamer@todo 
+                                           {#1}\def \beamer@ospec {}\beamer@...
+l.80 \end{frame}
+                
+? 
+./linear.tex:80: Emergency stop.
+\beamer@sort #1#2->\long \def \beamer@todo 
+                                           {#1}\def \beamer@ospec {}\beamer@...
+l.80 \end{frame}
+                
+End of file on the terminal!
 
- <./pics/pen1.png>]
-<pics/pen2.png, id=601, 923.45pt x 495.8525pt>
-File: pics/pen2.png Graphic file (type png)
+ 
+Here is how much of TeX's memory you used:
+ 24924 strings out of 493089
+ 484699 string characters out of 6134841
+ 615116 words of memory out of 5000000
+ 27739 multiletter control sequences out of 15000+600000
+ 23427 words of font info for 83 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 48i,20n,73p,948b,796s stack positions out of 5000i,500n,10000p,200000b,80000s
+./linear.tex:80:  ==> Fatal error occurred, no output PDF file produced!
+ng)
  <use pics/pen2.png>
 Package pdftex.def Info: pics/pen2.png used on input line 115.
 (pdftex.def)             Requested size: 295.51003pt x 158.67604pt.
