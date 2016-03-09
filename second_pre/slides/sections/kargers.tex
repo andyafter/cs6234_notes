@@ -39,17 +39,38 @@ Derivation will be given in the later part.
 \begin{greenblock}{Karger's Algorithm:}
       \begin{algorithm}[H]
         \small
-        Given $\xk{0} \in \dom f$\;
-        \Repeat{stopping criterion is satisfied}{
-          Determine a descent direction $\Delta x$ $\Rightarrow$
-          {$\footnotesize Gradient/Steepest Descent$}\;
-          Choose a step size $t > 0$ $\Rightarrow$~~~~~~~~~~~~ $Line Search Algo$ \;
-          Update $x := x + t \Delta x$\;
+        \Repeat{G has 2 vertices}{
+          {\bf choose} an edge $(v, w)$ uniformly at random from G\;
+          {\bf let} $G\leftarrow \frac{G}{(v,w)}$
         }
         % \caption{Descent Method Algorithm}
       \end{algorithm}
     \end{greenblock}
 
+}
+
+\only<2>{
+\hspace*{1.8cm}\includegraphics[scale=1.7]{img/examplegraph_modified.pdf}
+
+}
+\only<3>{
+\hspace*{1.8cm}\includegraphics[scale=0.2]{img/1.png}
+
+}
+\only<4>{
+\hspace*{1.8cm}\includegraphics[scale=0.2]{img/2.png}
+
+}
+\only<5>{
+\hspace*{1.8cm}\includegraphics[scale=0.2]{img/3.png}
+
+}
+\only<6>{
+\hspace*{1.8cm}\includegraphics[scale=0.2]{img/4.png}
+
+}
+\only<7>{
+\hspace*{1.8cm}\includegraphics[scale=0.2]{img/5.png}
 
 }
 \end{frame}
