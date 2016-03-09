@@ -18,6 +18,7 @@
     "latex2e"
     "sections/introduction"
     "sections/kargers"
+    "sections/fourfacts"
     "beamer"
     "beamer10"
     "exscale"
