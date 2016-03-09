@@ -16,6 +16,7 @@
    (add-to-list 'LaTeX-verbatim-macros-with-delims-local "path")
    (TeX-run-style-hooks
     "latex2e"
+    "sections/introduction"
     "beamer"
     "beamer10"
     "exscale"
