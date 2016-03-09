@@ -17,6 +17,7 @@
    (TeX-run-style-hooks
     "latex2e"
     "sections/introduction"
+    "sections/kargers"
     "beamer"
     "beamer10"
     "exscale"
