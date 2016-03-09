@@ -1,21 +1,19 @@
 \begin{frame}
-  \frametitle{Sum of Node Degree}
+  \frametitle{Sum of Degrees}
   
   \textbf{Fact 1}
-  %TODO We could reformulate this and replace the long if sentence by the simple statement.
-  If $degree(u)$ denotes the number of edges touching node $u$, then
+
   \[
-    \sum_{u\in V} degree(u) &= 2|E|
+    \sum_{u\in V} degree(u) = 2|E|
   \]
-  because every edge contributes exactly once to the degree of exactly two nodes.
+  
+  Every edge contributes exactly once to the degree of exactly two nodes.
 \end{frame}
 
 \begin{frame}
-  \frametitle{Average Graph Degree}
+  \frametitle{Average Degree}
   
   \textbf{Fact 2}
-  
-  If there are $n$ nodes, then the average degree of a node is 2|E|/n.
   
   \[
     E(degree(X)) = \sum_{u\in V} Pr(X=u)\cdot degree(u) = \frac{1}{n} \sum_u degree(u) = \frac{2|E|}{n}
