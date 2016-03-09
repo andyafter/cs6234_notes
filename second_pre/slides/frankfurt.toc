@@ -1,4 +1,5 @@
 \beamer@endinputifotherversion {3.36pt}
 \beamer@sectionintoc {1}{Introduction}{2}{0}{1}
 \beamer@sectionintoc {2}{Method}{6}{0}{2}
-\beamer@sectionintoc {3}{References}{9}{0}{3}
+\beamer@sectionintoc {3}{Analysis}{11}{0}{3}
+\beamer@sectionintoc {4}{References}{13}{0}{4}

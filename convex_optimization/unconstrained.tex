@@ -87,12 +87,9 @@
     \begin{greenblock}{Algorithm:}
       \begin{algorithm}[H]
         \small
-        Given $\xk{0} \in \dom f$\;
-        \Repeat{stopping criterion is satisfied}{
-          Determine a descent direction $\Delta x$ $\Rightarrow$
-          {$\footnotesize Gradient/Steepest Descent$}\;
-          Choose a step size $t > 0$ $\Rightarrow$~~~~~~~~~~~~ $Line Search Algo$ \;
-          Update $x := x + t \Delta x$\;
+        \Repeat{G has 2 vertices}{
+          {\bf choose} an edge $(v, w)$ uniformly at random from G\;
+          {\bf let} $G\leftarrow \frac{G}{(v,w)}$
         }
         % \caption{Descent Method Algorithm}
       \end{algorithm}

@@ -36,6 +36,27 @@ Derivation will be given in the later part.
   \frametitle{Algorithm}
 \only<1>{
 
+\begin{greenblock}{Karger's Algorithm:}
+      \begin{algorithm}[H]
+        \small
+        Given $\xk{0} \in \dom f$\;
+        \Repeat{stopping criterion is satisfied}{
+          Determine a descent direction $\Delta x$ $\Rightarrow$
+          {$\footnotesize Gradient/Steepest Descent$}\;
+          Choose a step size $t > 0$ $\Rightarrow$~~~~~~~~~~~~ $Line Search Algo$ \;
+          Update $x := x + t \Delta x$\;
+        }
+        % \caption{Descent Method Algorithm}
+      \end{algorithm}
+    \end{greenblock}
+
 
 }
+\end{frame}
+
+\begin{frame}
+  \frametitle{Results}
+
+\vspace*{-1.5cm}
+  \hspace*{2cm}\includegraphics[scale=0.25]{img/kargers.pdf}
 \end{frame}
