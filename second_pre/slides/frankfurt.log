@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  9 MAR 2016 15:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  9 MAR 2016 17:05
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-201639950.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-2016391025.tex")...disabled (restricted).
 
-runsystem(del "w18-test-201639950.tex")...disabled (restricted).
+runsystem(del "w18-test-2016391025.tex")...disabled (restricted).
 
 
 
@@ -1399,8 +1399,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 274.
  ) 
 Here is how much of TeX's memory you used:
  24677 strings out of 493089
- 481542 string characters out of 6134841
- 576930 words of memory out of 5000000
+ 481543 string characters out of 6134841
+ 576934 words of memory out of 5000000
  27549 multiletter control sequences out of 15000+600000
  11318 words of font info for 41 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1409,7 +1409,7 @@ Here is how much of TeX's memory you used:
 </usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></
 usr/local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb></usr
 /local/texlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
-Output written on frankfurt.pdf (6 pages, 65626 bytes).
+Output written on frankfurt.pdf (6 pages, 65621 bytes).
 PDF statistics:
  254 PDF objects out of 1000 (max. 8388607)
  221 compressed objects within 3 object streams
