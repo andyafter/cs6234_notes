@@ -87,9 +87,12 @@
     \begin{greenblock}{Algorithm:}
       \begin{algorithm}[H]
         \small
-        \Repeat{G has 2 vertices}{
-          {\bf choose} an edge $(v, w)$ uniformly at random from G\;
-          {\bf let} $G\leftarrow \frac{G}{(v,w)}$
+        Given $\xk{0} \in \dom f$\;
+        \Repeat{stopping criterion is satisfied}{
+          Determine a descent direction $\Delta x$ $\Rightarrow$
+          {$\footnotesize Gradient/Steepest Descent$}\;
+          Choose a step size $t > 0$ $\Rightarrow$~~~~~~~~~~~~ $Line Search Algo$ \;
+          Update $x := x + t \Delta x$\;
         }
         % \caption{Descent Method Algorithm}
       \end{algorithm}
@@ -442,8 +445,3 @@ When exact line search is used, scale factors in the descent direction have no e
 %   \end{columns}
 
 % \end{frame}
-
-%%% Local Variables:
-%%% mode: latex
-%%% TeX-master: t
-%%% End:
