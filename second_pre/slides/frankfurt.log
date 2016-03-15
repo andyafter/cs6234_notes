@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  15 MAR 2016 16:59
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  15 MAR 2016 21:24
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-20163151019.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-20163151284.tex")...disabled (restricted).
 
-runsystem(del "w18-test-20163151019.tex")...disabled (restricted).
+runsystem(del "w18-test-20163151284.tex")...disabled (restricted).
 
 
 
@@ -1562,12 +1562,12 @@ Package pdftex.def Info: img/pp1.png used on input line 108.
 (pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
  [41
 
- <./img/p1.png> <./img/pp1.png>] <img/p2.png, id=1859, 283.0575pt x 112.42pt>
+ <./img/p1.png> <./img/pp1.png>] <img/p2.png, id=1859, 283.0575pt x 114.4275pt>
 File: img/p2.png Graphic file (type png)
 
 <use img/p2.png>
 Package pdftex.def Info: img/p2.png used on input line 108.
-(pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
+(pdftex.def)             Requested size: 169.8358pt x 68.65701pt.
  <img/pp2.png, id=1860, 337.26pt x 27.10126pt>
 File: img/pp2.png Graphic file (type png)
 
@@ -1604,7 +1604,90 @@ Package pdftex.def Info: img/pp4.png used on input line 108.
 (pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
  [44
 
- <./img/p4.png> <./img/pp4.png>]) [45
+ <./img/p4.png> <./img/pp4.png>] [45
+
+] [46
+
+] [47
+
+]
+
+./sections/parallel.tex:160: LaTeX Error: Lonely \item--perhaps a missing list 
+environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 160
+[][]
+ []
+
+
+./sections/parallel.tex:160: LaTeX Error: Lonely \item--perhaps a missing list 
+environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 160
+[][]
+ []
+
+
+./sections/parallel.tex:160: LaTeX Error: Lonely \item--perhaps a missing list 
+environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 160
+[][]
+ []
+
+
+./sections/parallel.tex:160: LaTeX Error: Lonely \item--perhaps a missing list 
+environment.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.160 \end{frame}
+                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+
+Underfull \hbox (badness 10000) detected at line 160
+[][]
+ []
+
+[48
+
+] [49
+
+]) [50
 
 ]
 \tf@nav=\write9
@@ -1634,11 +1717,11 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 25181 strings out of 493089
- 489665 string characters out of 6134841
- 590474 words of memory out of 5000000
- 27875 multiletter control sequences out of 15000+600000
- 51969 words of font info for 182 fonts, out of 8000000 for 9000
+ 25212 strings out of 493089
+ 489993 string characters out of 6134841
+ 590602 words of memory out of 5000000
+ 27886 multiletter control sequences out of 15000+600000
+ 58117 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,20n,73p,955b,1220s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
@@ -1665,10 +1748,10 @@ exmf-dist/fonts/type1/public/amsfonts/euler/eusm7.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/pxfonts/pxsyc.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (45 pages, 1517777 bytes).
+Output written on frankfurt.pdf (50 pages, 1541785 bytes).
 PDF statistics:
- 2109 PDF objects out of 2487 (max. 8388607)
- 1927 compressed objects within 20 object streams
- 99 named destinations out of 1000 (max. 500000)
+ 2310 PDF objects out of 2487 (max. 8388607)
+ 2121 compressed objects within 22 object streams
+ 109 named destinations out of 1000 (max. 500000)
  288 words of extra memory for PDF output out of 10000 (max. 10000000)
 

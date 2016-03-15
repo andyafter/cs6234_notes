@@ -1,0 +1,15 @@
+graph {
+	graph [bgcolor="#333333" fontcolor=white fontsize=16 label="A Fancy Graph" rankdir=BT]
+	node [color=white fillcolor="#006699" fontcolor=white fontname=Helvetica shape=hexagon style=filled]
+	edge [arrowhead=open color=white fontcolor=white fontname=Courier fontsize=12 style=dashed]
+			1 -- 2
+			1 -- 3
+			2 -- 4
+			3 -- 4
+			3 -- 5
+			4 -- 6
+			6 -- 8
+			5 -- 7
+			7 -- 8
+			5 -- 6
+}

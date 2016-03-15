@@ -10,7 +10,7 @@
 
 \only<2>{
 
-\begin{greenblock}{Karger's Algorithm:}
+\begin{greenblock}{Parallel Algorithm:}
       \begin{algorithm}[H]
         \small
         COMPACT(G, L, $k$)\\
@@ -104,5 +104,57 @@ return G
 
 \includegraphics[scale=0.7]{img/pp4.png}
 }
+
+\end{frame}
+
+\begin{frame}
+  \frametitle{Getting Random Number at $O(1)$}
+\only<1>{
+There will be multi edges, and suppose we give multiedges at random
+edge a score chosen randomly from
+interval [0, k]. The probability distribution for the minimum score X
+among $wk$ edges:
+$$Pr[X > t] = (1 - t/k)^{wk}$$
+
+and when $k$ grows bigger:
+$$Pr[x > t] = E^{-wt}$$
+
+}
+
+\only<2>{
+
+  \begin{itemize}
+  \item Contraction algorithms can be implemented RNC using $m$
+    processors on an m edge.
+  \item $$O(n^2)$$ Processors for minimum cut problems.
+  \end{itemize}
+
+}
+
+\only<3>{
+In $\log^{O(1)}{m}$ time per edge, it is possible to assign each edge
+an exponentially distributed score that, with high probability, yields
+the same result as COMPACT.
+}
+
+
+\only<4>{
+  \begin{block}{Permutation(A little bit about the engineeringd
+      detail)}
+\item Setting $X = -(\ln{U})/w$
+\item Selecting an integer $M = n^{O(1)}$
+\item Uniformly select integers from $[1, M]$ using $O(\log{n})$ bits
+\item Devide selected integer by $M$, which is uniform in $U$.
+  \end{block}
+}
+\only<5>{
+  \begin{block}{Logrithm}
+Using the first  $O(\log{n})$ terms of Taylor expansian of natural
+logarithm to compute an approximation to $\ln{U}$
+  \end{block}
+}
+
+
+
 
 \end{frame}
