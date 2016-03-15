@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  15 MAR 2016 15:42
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  15 MAR 2016 16:59
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-2016315942.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-20163151019.tex")...disabled (restricted).
 
-runsystem(del "w18-test-2016315942.tex")...disabled (restricted).
+runsystem(del "w18-test-20163151019.tex")...disabled (restricted).
 
 
 
@@ -1532,7 +1532,79 @@ Package pdftex.def Info: img/fact3_2.pdf used on input line 40.
 
 ] [38
 
-]) [39
+]
+<img/paral.png, id=1733, 283.0575pt x 114.4275pt>
+File: img/paral.png Graphic file (type png)
+ <use img/paral.png>
+Package pdftex.def Info: img/paral.png used on input line 108.
+(pdftex.def)             Requested size: 198.13889pt x 80.0987pt.
+ [39
+
+ <./img/paral.png>] <img/paral1.png, id=1774, 283.0575pt x 112.42pt>
+File: img/paral1.png Graphic file (type png)
+
+<use img/paral1.png>
+Package pdftex.def Info: img/paral1.png used on input line 108.
+(pdftex.def)             Requested size: 198.13889pt x 78.69345pt.
+ [40
+
+ <./img/paral1.png>]
+<img/p1.png, id=1816, 283.0575pt x 112.42pt>
+File: img/p1.png Graphic file (type png)
+ <use img/p1.png>
+Package pdftex.def Info: img/p1.png used on input line 108.
+(pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
+
+<img/pp1.png, id=1817, 337.26pt x 27.10126pt>
+File: img/pp1.png Graphic file (type png)
+ <use img/pp1.png>
+Package pdftex.def Info: img/pp1.png used on input line 108.
+(pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
+ [41
+
+ <./img/p1.png> <./img/pp1.png>] <img/p2.png, id=1859, 283.0575pt x 112.42pt>
+File: img/p2.png Graphic file (type png)
+
+<use img/p2.png>
+Package pdftex.def Info: img/p2.png used on input line 108.
+(pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
+ <img/pp2.png, id=1860, 337.26pt x 27.10126pt>
+File: img/pp2.png Graphic file (type png)
+
+<use img/pp2.png>
+Package pdftex.def Info: img/pp2.png used on input line 108.
+(pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
+ [42
+
+ <./img/p2.png> <./img/pp2.png>]
+<img/p3.png, id=1902, 283.0575pt x 112.42pt>
+File: img/p3.png Graphic file (type png)
+ <use img/p3.png>
+Package pdftex.def Info: img/p3.png used on input line 108.
+(pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
+
+<img/pp3.png, id=1903, 337.26pt x 27.10126pt>
+File: img/pp3.png Graphic file (type png)
+ <use img/pp3.png>
+Package pdftex.def Info: img/pp3.png used on input line 108.
+(pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
+ [43
+
+ <./img/p3.png> <./img/pp3.png>] <img/p4.png, id=1946, 283.0575pt x 112.42pt>
+File: img/p4.png Graphic file (type png)
+
+<use img/p4.png>
+Package pdftex.def Info: img/p4.png used on input line 108.
+(pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
+ <img/pp4.png, id=1947, 337.26pt x 27.10126pt>
+File: img/pp4.png Graphic file (type png)
+
+<use img/pp4.png>
+Package pdftex.def Info: img/pp4.png used on input line 108.
+(pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
+ [44
+
+ <./img/p4.png> <./img/pp4.png>]) [45
 
 ]
 \tf@nav=\write9
@@ -1546,8 +1618,7 @@ Package pdftex.def Info: img/fact3_2.pdf used on input line 40.
 
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 283.
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 283.
-
-(./frankfurt.aux)
+ (./frankfurt.aux)
 Package atveryend Info: Empty hook `AtVeryEndDocument' on input line 283.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 283.
 Package rerunfilecheck Info: File `frankfurt.out' has not changed.
@@ -1563,10 +1634,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 25119 strings out of 493089
- 488845 string characters out of 6134841
- 590435 words of memory out of 5000000
- 27835 multiletter control sequences out of 15000+600000
+ 25181 strings out of 493089
+ 489665 string characters out of 6134841
+ 590474 words of memory out of 5000000
+ 27875 multiletter control sequences out of 15000+600000
  51969 words of font info for 182 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,20n,73p,955b,1220s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1594,10 +1665,10 @@ exmf-dist/fonts/type1/public/amsfonts/euler/eusm7.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/pxfonts/pxsyc.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (39 pages, 1470518 bytes).
+Output written on frankfurt.pdf (45 pages, 1517777 bytes).
 PDF statistics:
- 1849 PDF objects out of 2073 (max. 8388607)
- 1696 compressed objects within 17 object streams
- 87 named destinations out of 1000 (max. 500000)
- 238 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2109 PDF objects out of 2487 (max. 8388607)
+ 1927 compressed objects within 20 object streams
+ 99 named destinations out of 1000 (max. 500000)
+ 288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
