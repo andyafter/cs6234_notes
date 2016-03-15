@@ -69,7 +69,7 @@ E(degree(X)) & = \sum_{u\in V} Pr(X=u)\cdot degree(u)\\
   \begin{itemize}
   \item Fix a certain min-cut
   \item We can never contract an edge from that cut
-  \item $Pr[first edge is not in min cut] = 1 - \frac{2}{n}$
+  \item $Pr[first~edge~is~not~in~min~cut] = 1 - \frac{2}{n}$
   \item Now $n - 1$ edges remaining, so $Pr[second edge is not in min
     cut] = (1 - \frac{2}{n-1})$
   \end{itemize}
@@ -79,7 +79,7 @@ E(degree(X)) & = \sum_{u\in V} Pr(X=u)\cdot degree(u)\\
   \begin{block}{First Cut is not Fixed Cut }
  \begin{equation*}
     \begin{aligned}
-Pr[fi&\left(nal cut is not the fixed cut]\right)\\
+Pr[fi&\left(nal~cut~is~not~the~fixed~cut]\right)\\
    =  &\left(    Pr[no contracted edge is in minimun cut] \right)\\
  \le  & \left(   (1 - \frac{2}{n})(1 - \frac{2}{n-1})(1 - \frac{2}{n-2})...(1 -
    \frac{2}{4})(1 - \frac{2}{3}) \right)\\
@@ -158,10 +158,10 @@ One run succeeds with $\Omega(\frac{1}{\log{n}})$. If we run the
 algorithm$k = \log^2{n}$ times:
 \begin{equation*}
   \begin{aligned}
-Pr[at least one run succeeds] & =1 - (1 - \frac{1}{log{n}})^{\log^2{n}}\\
+Pr[at~least~one~run~succeeds] & =1 - (1 - \frac{1}{log{n}})^{\log^2{n}}\\
 & = 1 - (1 + \frac{1}{-log{n}})^{-\log{n}\cdot-\log{n}}\\
-& =1 -e^{-\log{n}} = 1 - \frac{1}{n}
-& \Rightarrow Error Probability O(\frac{1}{n})
+& =1 -e^{-\log{n}} = 1 - \frac{1}{n} \\
+& \Rightarrow Pr[error] O(\frac{1}{n})
   \end{aligned}
 \end{equation*}
 \end{frame}

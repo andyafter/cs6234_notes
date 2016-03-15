@@ -19,6 +19,7 @@
     "sections/introductions"
     "sections/kargers"
     "sections/fourfacts"
+    "sections/parallel"
     "beamer"
     "beamer10"
     "exscale"
