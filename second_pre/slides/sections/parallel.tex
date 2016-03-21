@@ -19,8 +19,8 @@
 return G
    }{
      Let $L_1$ and $L_2$ be the first and second half of $L$\\
-     \eIf{$H$ has fewer connected components in graph $H = (V, L_1)$}{
-       return COMPACT($G$, $L$, $k$)
+     \eIf{$H$ has fewer connected components than $k$ in graph $H = (V, L_1)$}{
+       return COMPACT($G$, $L_1$, $k$)
      }{
        return COMPACT($G\backslash L_1$, $L_2\backslash L_1$, $k$).
      }
@@ -153,8 +153,6 @@ Using the first  $O(\log{n})$ terms of Taylor expansian of natural
 logarithm to compute an approximation to $\ln{U}$
   \end{block}
 }
-
-
 
 
 \end{frame}

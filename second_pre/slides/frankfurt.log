@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  15 MAR 2016 21:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  21 MAR 2016 16:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-20163151284.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-20163211010.tex")...disabled (restricted).
 
-runsystem(del "w18-test-20163151284.tex")...disabled (restricted).
+runsystem(del "w18-test-20163211010.tex")...disabled (restricted).
 
 
 
@@ -1361,7 +1361,7 @@ LaTeX Font Warning: Font shape `OT1/helvetica/m/n' in size <4> not available
 
 pdfTeX warning: pdflatex (file ./img/foodprefs1.pdf): PDF inclusion: found PDF 
 version <1.6>, but at most version <1.5> allowed
-<img/foodprefs1.pdf, id=192, 722.7pt x 542.025pt>
+<img/foodprefs1.pdf, id=197, 722.7pt x 542.025pt>
 File: img/foodprefs1.pdf Graphic file (type pdf)
  <use img/foodprefs1.pdf>
 Package pdftex.def Info: img/foodprefs1.pdf used on input line 38.
@@ -1373,7 +1373,7 @@ Package pdftex.def Info: img/foodprefs1.pdf used on input line 38.
 
 pdfTeX warning: pdflatex (file ./img/foodprefs2.pdf): PDF inclusion: found PDF 
 version <1.6>, but at most version <1.5> allowed
-<img/foodprefs2.pdf, id=241, 722.7pt x 542.025pt>
+<img/foodprefs2.pdf, id=247, 722.7pt x 542.025pt>
 File: img/foodprefs2.pdf Graphic file (type pdf)
  <use img/foodprefs2.pdf>
 Package pdftex.def Info: img/foodprefs2.pdf used on input line 38.
@@ -1385,7 +1385,7 @@ Package pdftex.def Info: img/foodprefs2.pdf used on input line 38.
 
 pdfTeX warning: pdflatex (file ./img/foodprefs3.pdf): PDF inclusion: found PDF 
 version <1.6>, but at most version <1.5> allowed
-<img/foodprefs3.pdf, id=289, 722.7pt x 542.025pt>
+<img/foodprefs3.pdf, id=296, 722.7pt x 542.025pt>
 File: img/foodprefs3.pdf Graphic file (type pdf)
  <use img/foodprefs3.pdf>
 Package pdftex.def Info: img/foodprefs3.pdf used on input line 38.
@@ -1419,7 +1419,7 @@ LaTeX Font Warning: Font shape `OT1/helvetica/m/it' undefined
 
 pdfTeX warning: pdflatex (file ./img/examplegraph_modified.pdf): PDF inclusion:
  found PDF version <1.6>, but at most version <1.5> allowed
-<img/examplegraph_modified.pdf, id=679, 115.9793pt x 63.36975pt>
+<img/examplegraph_modified.pdf, id=695, 115.9793pt x 63.36975pt>
 File: img/examplegraph_modified.pdf Graphic file (type pdf)
 
 <use img/examplegraph_modified.pdf>
@@ -1428,7 +1428,7 @@ Package pdftex.def Info: img/examplegraph_modified.pdf used on input line 103.
  [15
 
  <./img/examplegraph_modified.pdf>]
-<img/2.png, id=779, 678.535pt x 357.335pt>
+<img/2.png, id=796, 678.535pt x 357.335pt>
 File: img/2.png Graphic file (type png)
  <use img/2.png>
 Package pdftex.def Info: img/2.png used on input line 103.
@@ -1436,35 +1436,35 @@ Package pdftex.def Info: img/2.png used on input line 103.
  [16
 
  <./img/2.png>]
-<img/3.png, id=821, 672.5125pt x 355.3275pt>
+<img/3.png, id=840, 672.5125pt x 355.3275pt>
 File: img/3.png Graphic file (type png)
  <use img/3.png>
 Package pdftex.def Info: img/3.png used on input line 103.
 (pdftex.def)             Requested size: 134.5001pt x 71.06422pt.
  [17
 
- <./img/3.png>] <img/4.png, id=863, 648.4225pt x 389.455pt>
+ <./img/3.png>] <img/4.png, id=882, 648.4225pt x 389.455pt>
 File: img/4.png Graphic file (type png)
  <use img/4.png>
 Package pdftex.def Info: img/4.png used on input line 103.
 (pdftex.def)             Requested size: 129.68219pt x 77.88962pt.
  [18
 
- <./img/4.png>] <img/5.png, id=904, 689.57625pt x 373.395pt>
+ <./img/4.png>] <img/5.png, id=924, 689.57625pt x 373.395pt>
 File: img/5.png Graphic file (type png)
  <use img/5.png>
 Package pdftex.def Info: img/5.png used on input line 103.
 (pdftex.def)             Requested size: 137.9128pt x 74.67767pt.
  [19
 
- <./img/5.png>] <img/6.png, id=947, 672.5125pt x 383.4325pt>
+ <./img/5.png>] <img/6.png, id=968, 672.5125pt x 383.4325pt>
 File: img/6.png Graphic file (type png)
  <use img/6.png>
 Package pdftex.def Info: img/6.png used on input line 103.
 (pdftex.def)             Requested size: 134.5001pt x 76.68513pt.
  [20
 
- <./img/6.png>] <img/7.png, id=987, 681.54625pt x 81.30376pt>
+ <./img/6.png>] <img/7.png, id=1009, 681.54625pt x 81.30376pt>
 File: img/7.png Graphic file (type png)
  <use img/7.png>
 Package pdftex.def Info: img/7.png used on input line 103.
@@ -1475,7 +1475,7 @@ Package pdftex.def Info: img/7.png used on input line 103.
 
 pdfTeX warning: pdflatex (file ./img/kargers.pdf): PDF inclusion: found PDF ver
 sion <1.7>, but at most version <1.5> allowed
-<img/kargers.pdf, id=1027, 758.835pt x 1192.455pt>
+<img/kargers.pdf, id=1051, 758.835pt x 1192.455pt>
 File: img/kargers.pdf Graphic file (type pdf)
  <use img/kargers.pdf>
 Package pdftex.def Info: img/kargers.pdf used on input line 110.
@@ -1491,7 +1491,7 @@ Overfull \vbox (38.63705pt too high) detected at line 110
 ] [24
 
 ]
-<img/fact3_1.pdf, id=1149, 614.295pt x 285.065pt>
+<img/fact3_1.pdf, id=1176, 614.295pt x 285.065pt>
 File: img/fact3_1.pdf Graphic file (type pdf)
  <use img/fact3_1.pdf>
 Package pdftex.def Info: img/fact3_1.pdf used on input line 40.
@@ -1499,7 +1499,7 @@ Package pdftex.def Info: img/fact3_1.pdf used on input line 40.
 
 [25
 
- <./img/fact3_1.pdf>] <img/fact3_2.pdf, id=1205, 614.295pt x 281.05pt>
+ <./img/fact3_1.pdf>] <img/fact3_2.pdf, id=1232, 614.295pt x 281.05pt>
 File: img/fact3_2.pdf Graphic file (type pdf)
 
 <use img/fact3_2.pdf>
@@ -1533,14 +1533,14 @@ Package pdftex.def Info: img/fact3_2.pdf used on input line 40.
 ] [38
 
 ]
-<img/paral.png, id=1733, 283.0575pt x 114.4275pt>
+<img/paral.png, id=1774, 283.0575pt x 114.4275pt>
 File: img/paral.png Graphic file (type png)
  <use img/paral.png>
 Package pdftex.def Info: img/paral.png used on input line 108.
 (pdftex.def)             Requested size: 198.13889pt x 80.0987pt.
  [39
 
- <./img/paral.png>] <img/paral1.png, id=1774, 283.0575pt x 112.42pt>
+ <./img/paral.png>] <img/paral1.png, id=1817, 283.0575pt x 112.42pt>
 File: img/paral1.png Graphic file (type png)
 
 <use img/paral1.png>
@@ -1549,26 +1549,26 @@ Package pdftex.def Info: img/paral1.png used on input line 108.
  [40
 
  <./img/paral1.png>]
-<img/p1.png, id=1816, 283.0575pt x 112.42pt>
+<img/p1.png, id=1859, 283.0575pt x 112.42pt>
 File: img/p1.png Graphic file (type png)
  <use img/p1.png>
 Package pdftex.def Info: img/p1.png used on input line 108.
 (pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
 
-<img/pp1.png, id=1817, 337.26pt x 27.10126pt>
+<img/pp1.png, id=1860, 337.26pt x 27.10126pt>
 File: img/pp1.png Graphic file (type png)
  <use img/pp1.png>
 Package pdftex.def Info: img/pp1.png used on input line 108.
 (pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
  [41
 
- <./img/p1.png> <./img/pp1.png>] <img/p2.png, id=1859, 283.0575pt x 114.4275pt>
+ <./img/p1.png> <./img/pp1.png>] <img/p2.png, id=1904, 283.0575pt x 114.4275pt>
 File: img/p2.png Graphic file (type png)
 
 <use img/p2.png>
 Package pdftex.def Info: img/p2.png used on input line 108.
 (pdftex.def)             Requested size: 169.8358pt x 68.65701pt.
- <img/pp2.png, id=1860, 337.26pt x 27.10126pt>
+ <img/pp2.png, id=1905, 337.26pt x 27.10126pt>
 File: img/pp2.png Graphic file (type png)
 
 <use img/pp2.png>
@@ -1577,26 +1577,26 @@ Package pdftex.def Info: img/pp2.png used on input line 108.
  [42
 
  <./img/p2.png> <./img/pp2.png>]
-<img/p3.png, id=1902, 283.0575pt x 112.42pt>
+<img/p3.png, id=1948, 283.0575pt x 112.42pt>
 File: img/p3.png Graphic file (type png)
  <use img/p3.png>
 Package pdftex.def Info: img/p3.png used on input line 108.
 (pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
 
-<img/pp3.png, id=1903, 337.26pt x 27.10126pt>
+<img/pp3.png, id=1949, 337.26pt x 27.10126pt>
 File: img/pp3.png Graphic file (type png)
  <use img/pp3.png>
 Package pdftex.def Info: img/pp3.png used on input line 108.
 (pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
  [43
 
- <./img/p3.png> <./img/pp3.png>] <img/p4.png, id=1946, 283.0575pt x 112.42pt>
+ <./img/p3.png> <./img/pp3.png>] <img/p4.png, id=1992, 283.0575pt x 112.42pt>
 File: img/p4.png Graphic file (type png)
 
 <use img/p4.png>
 Package pdftex.def Info: img/p4.png used on input line 108.
 (pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
- <img/pp4.png, id=1947, 337.26pt x 27.10126pt>
+ <img/pp4.png, id=1993, 337.26pt x 27.10126pt>
 File: img/pp4.png Graphic file (type png)
 
 <use img/pp4.png>
@@ -1612,74 +1612,74 @@ Package pdftex.def Info: img/pp4.png used on input line 108.
 
 ]
 
-./sections/parallel.tex:160: LaTeX Error: Lonely \item--perhaps a missing list 
+./sections/parallel.tex:158: LaTeX Error: Lonely \item--perhaps a missing list 
 environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \end{frame}
+l.158 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 160
+Underfull \hbox (badness 10000) detected at line 158
 [][]
  []
 
 
-./sections/parallel.tex:160: LaTeX Error: Lonely \item--perhaps a missing list 
+./sections/parallel.tex:158: LaTeX Error: Lonely \item--perhaps a missing list 
 environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \end{frame}
+l.158 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 160
+Underfull \hbox (badness 10000) detected at line 158
 [][]
  []
 
 
-./sections/parallel.tex:160: LaTeX Error: Lonely \item--perhaps a missing list 
+./sections/parallel.tex:158: LaTeX Error: Lonely \item--perhaps a missing list 
 environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \end{frame}
+l.158 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 160
+Underfull \hbox (badness 10000) detected at line 158
 [][]
  []
 
 
-./sections/parallel.tex:160: LaTeX Error: Lonely \item--perhaps a missing list 
+./sections/parallel.tex:158: LaTeX Error: Lonely \item--perhaps a missing list 
 environment.
 
 See the LaTeX manual or LaTeX Companion for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.160 \end{frame}
+l.158 \end{frame}
                  
 Try typing  <return>  to proceed.
 If that doesn't work, type  X <return>  to quit.
 
 
-Underfull \hbox (badness 10000) detected at line 160
+Underfull \hbox (badness 10000) detected at line 158
 [][]
  []
 
@@ -1717,10 +1717,10 @@ LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
  ) 
 Here is how much of TeX's memory you used:
- 25212 strings out of 493089
- 489993 string characters out of 6134841
- 590602 words of memory out of 5000000
- 27886 multiletter control sequences out of 15000+600000
+ 25214 strings out of 493089
+ 490009 string characters out of 6134841
+ 591236 words of memory out of 5000000
+ 27888 multiletter control sequences out of 15000+600000
  58117 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  48i,20n,73p,955b,1220s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1748,10 +1748,10 @@ exmf-dist/fonts/type1/public/amsfonts/euler/eusm7.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/pxfonts/pxsyc.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (50 pages, 1541785 bytes).
+Output written on frankfurt.pdf (50 pages, 1529212 bytes).
 PDF statistics:
- 2310 PDF objects out of 2487 (max. 8388607)
- 2121 compressed objects within 22 object streams
+ 2361 PDF objects out of 2487 (max. 8388607)
+ 2171 compressed objects within 22 object streams
  109 named destinations out of 1000 (max. 500000)
  288 words of extra memory for PDF output out of 10000 (max. 10000000)
 
