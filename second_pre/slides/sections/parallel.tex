@@ -40,7 +40,6 @@ return G
 %    \item Contraction algorithm can be implemented at
    %   $O(m\log^{\sigma}{m})$
 
-    \item
     \end{itemize}
 
 
@@ -141,10 +140,15 @@ the same result as COMPACT.
 \only<4>{
   \begin{block}{Permutation(A little bit about the engineeringd
       detail)}
+
+    \begin{itemize}
+
+
 \item Setting $X = -(\ln{U})/w$
 \item Selecting an integer $M = n^{O(1)}$
 \item Uniformly select integers from $[1, M]$ using $O(\log{n})$ bits
 \item Devide selected integer by $M$, which is uniform in $U$.
+    \end{itemize}
   \end{block}
 }
 \only<5>{

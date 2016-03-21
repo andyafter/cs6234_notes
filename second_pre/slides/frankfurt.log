@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  21 MAR 2016 16:50
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.10.30)  21 MAR 2016 17:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1021,9 +1021,9 @@ Package: moreverb 2008/06/03 v2.3a `more' verbatim facilities
 \listing@line=\count172
 )
 \verbatim@out=\write7
-runsystem(echo t > "w18-test-20163211010.tex")...disabled (restricted).
+runsystem(echo t > "w18-test-20163211066.tex")...disabled (restricted).
 
-runsystem(del "w18-test-20163211010.tex")...disabled (restricted).
+runsystem(del "w18-test-20163211066.tex")...disabled (restricted).
 
 
 
@@ -1536,7 +1536,7 @@ Package pdftex.def Info: img/fact3_2.pdf used on input line 40.
 <img/paral.png, id=1774, 283.0575pt x 114.4275pt>
 File: img/paral.png Graphic file (type png)
  <use img/paral.png>
-Package pdftex.def Info: img/paral.png used on input line 108.
+Package pdftex.def Info: img/paral.png used on input line 107.
 (pdftex.def)             Requested size: 198.13889pt x 80.0987pt.
  [39
 
@@ -1544,7 +1544,7 @@ Package pdftex.def Info: img/paral.png used on input line 108.
 File: img/paral1.png Graphic file (type png)
 
 <use img/paral1.png>
-Package pdftex.def Info: img/paral1.png used on input line 108.
+Package pdftex.def Info: img/paral1.png used on input line 107.
 (pdftex.def)             Requested size: 198.13889pt x 78.69345pt.
  [40
 
@@ -1552,13 +1552,13 @@ Package pdftex.def Info: img/paral1.png used on input line 108.
 <img/p1.png, id=1859, 283.0575pt x 112.42pt>
 File: img/p1.png Graphic file (type png)
  <use img/p1.png>
-Package pdftex.def Info: img/p1.png used on input line 108.
+Package pdftex.def Info: img/p1.png used on input line 107.
 (pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
 
 <img/pp1.png, id=1860, 337.26pt x 27.10126pt>
 File: img/pp1.png Graphic file (type png)
  <use img/pp1.png>
-Package pdftex.def Info: img/pp1.png used on input line 108.
+Package pdftex.def Info: img/pp1.png used on input line 107.
 (pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
  [41
 
@@ -1566,13 +1566,13 @@ Package pdftex.def Info: img/pp1.png used on input line 108.
 File: img/p2.png Graphic file (type png)
 
 <use img/p2.png>
-Package pdftex.def Info: img/p2.png used on input line 108.
+Package pdftex.def Info: img/p2.png used on input line 107.
 (pdftex.def)             Requested size: 169.8358pt x 68.65701pt.
  <img/pp2.png, id=1905, 337.26pt x 27.10126pt>
 File: img/pp2.png Graphic file (type png)
 
 <use img/pp2.png>
-Package pdftex.def Info: img/pp2.png used on input line 108.
+Package pdftex.def Info: img/pp2.png used on input line 107.
 (pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
  [42
 
@@ -1580,13 +1580,13 @@ Package pdftex.def Info: img/pp2.png used on input line 108.
 <img/p3.png, id=1948, 283.0575pt x 112.42pt>
 File: img/p3.png Graphic file (type png)
  <use img/p3.png>
-Package pdftex.def Info: img/p3.png used on input line 108.
+Package pdftex.def Info: img/p3.png used on input line 107.
 (pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
 
 <img/pp3.png, id=1949, 337.26pt x 27.10126pt>
 File: img/pp3.png Graphic file (type png)
  <use img/pp3.png>
-Package pdftex.def Info: img/pp3.png used on input line 108.
+Package pdftex.def Info: img/pp3.png used on input line 107.
 (pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
  [43
 
@@ -1594,13 +1594,13 @@ Package pdftex.def Info: img/pp3.png used on input line 108.
 File: img/p4.png Graphic file (type png)
 
 <use img/p4.png>
-Package pdftex.def Info: img/p4.png used on input line 108.
+Package pdftex.def Info: img/p4.png used on input line 107.
 (pdftex.def)             Requested size: 169.8358pt x 67.45251pt.
  <img/pp4.png, id=1993, 337.26pt x 27.10126pt>
 File: img/pp4.png Graphic file (type png)
 
 <use img/pp4.png>
-Package pdftex.def Info: img/pp4.png used on input line 108.
+Package pdftex.def Info: img/pp4.png used on input line 107.
 (pdftex.def)             Requested size: 236.08038pt x 18.97073pt.
  [44
 
@@ -1610,82 +1610,10 @@ Package pdftex.def Info: img/pp4.png used on input line 108.
 
 ] [47
 
+] [48
+
 ]
-
-./sections/parallel.tex:158: LaTeX Error: Lonely \item--perhaps a missing list 
-environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 158
-[][]
- []
-
-
-./sections/parallel.tex:158: LaTeX Error: Lonely \item--perhaps a missing list 
-environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 158
-[][]
- []
-
-
-./sections/parallel.tex:158: LaTeX Error: Lonely \item--perhaps a missing list 
-environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 158
-[][]
- []
-
-
-./sections/parallel.tex:158: LaTeX Error: Lonely \item--perhaps a missing list 
-environment.
-
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.158 \end{frame}
-                 
-Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
-
-
-Underfull \hbox (badness 10000) detected at line 158
-[][]
- []
-
-[48
-
-] [49
+[49
 
 ]) [50
 
@@ -1719,7 +1647,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 283.
 Here is how much of TeX's memory you used:
  25214 strings out of 493089
  490009 string characters out of 6134841
- 591236 words of memory out of 5000000
+ 591547 words of memory out of 5000000
  27888 multiletter control sequences out of 15000+600000
  58117 words of font info for 203 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -1748,7 +1676,7 @@ exmf-dist/fonts/type1/public/amsfonts/euler/eusm7.pfb></usr/local/texlive/2015/
 texmf-dist/fonts/type1/public/amsfonts/symbols/msam10.pfb></usr/local/texlive/2
 015/texmf-dist/fonts/type1/public/pxfonts/pxsyc.pfb></usr/local/texlive/2015/te
 xmf-dist/fonts/type1/urw/palatino/uplr8a.pfb>
-Output written on frankfurt.pdf (50 pages, 1529212 bytes).
+Output written on frankfurt.pdf (50 pages, 1527505 bytes).
 PDF statistics:
  2361 PDF objects out of 2487 (max. 8388607)
  2171 compressed objects within 22 object streams
